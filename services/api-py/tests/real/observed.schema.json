@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ankana real-chart verification case",
+  "description": "Birth input, the settings used in the other software, and values typed in by hand from JHora, AstroSage or similar. Longitudes accept a number of degrees, or text such as \"Sc 14°58'\", \"14:58:12 Sco\", \"14.9667\" (absolute when no sign is given). Dates accept YYYY-MM-DD or DD-MM-YYYY.",
+  "type": "object",
+  "required": ["id", "consent", "source", "input", "settings", "observed"],
+  "properties": {
+    "id": {"type": "string"},
+    "consent": {"enum": ["public-domain", "anonymised", "consented", "private-owner"],
+                "description": "Only public-domain, anonymised or consented cases may live in tests/real/public."},
+    "label": {"type": "string"},
+    "source": {
+      "type": "object",
+      "properties": {
+        "software": {"type": "string", "description": "e.g. JHora 8.0, AstroSage web"},
+        "version": {"type": "string"},
+        "exportedOn": {"type": "string"},
+        "rodden": {"type": "string"},
+        "citation": {"type": "string"},
+        "note": {"type": "string"}
+      }
+    },
+    "input": {
+      "type": "object",
+      "required": ["birthDate", "birthTime", "latitude", "longitude"],
+      "properties": {
+        "birthDate": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+        "birthTime": {"type": "string", "pattern": "^\\d{2}:\\d{2}$"},
+        "timezoneName": {"type": "string"},
+        "utcOffset": {"type": "string", "description": "optional +HH:MM[:SS]; overrides timezoneName (local mean time births)"},
+        "latitude": {"type": "number"},
+        "longitude": {"type": "number"},
+        "placeLabel": {"type": "string"}
+      }
+    },
+    "settings": {
+      "type": "object",
+      "required": ["ayanamsa", "node"],
+      "properties": {
+        "ayanamsa": {"enum": ["lahiri", "raman", "kp", "true_chitra"]},
+        "ayanamsaMean": {"type": "boolean"},
+        "node": {"enum": ["mean", "true"]},
+        "houseSystem": {"enum": ["whole_sign", "equal", "sripati"]}
+      }
+    },
+    "observed": {
+      "type": "object",
+      "required": ["status"],
+      "properties": {
+        "status": {"enum": ["pending", "entered"]},
+        "ayanamsa": {"description": "ayanamsa value shown by the software, degrees or d m s"},
+        "ascendant": {"$ref": "#/$defs/body"},
+        "planets": {
+          "type": "object",
+          "description": "sun, moon, mercury, venus, mars, jupiter, saturn, rahu, ketu",
+          "additionalProperties": {"$ref": "#/$defs/body"}
+        },
+        "vimshottari": {
+          "type": "array",
+          "description": "mahadasha start dates as shown by the software",
+          "items": {
+            "type": "object",
+            "required": ["planet", "start"],
+            "properties": {"planet": {"type": "string"}, "start": {"type": "string"}}
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "body": {
+      "oneOf": [
+        {"type": ["number", "string"]},
+        {
+          "type": "object",
+          "required": ["longitude"],
+          "properties": {
+            "longitude": {"type": ["number", "string"]},
+            "nakshatra": {"type": "string"},
+            "pada": {"type": "integer", "minimum": 1, "maximum": 4},
+            "retrograde": {"type": "boolean"}
+          }
+        }
+      ]
+    }
+  }
+}

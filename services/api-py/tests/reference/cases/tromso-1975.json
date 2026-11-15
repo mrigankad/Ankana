@@ -1,0 +1,76 @@
+{
+  "id": "tromso-1975",
+  "note": "High latitude 69.6N",
+  "source": "swisseph-provisional",
+  "settings": {
+    "ayanamsa": "lahiri",
+    "ayanamsaMean": false,
+    "node": "mean",
+    "sunriseRule": "hindu",
+    "houseSystem": "whole_sign",
+    "ephemerisFiles": "swisseph 2.10.03, sepl/semo/seas_18.se1"
+  },
+  "input": {
+    "birthDate": "1975-09-10",
+    "birthTime": "08:15",
+    "timezoneName": "Europe/Oslo",
+    "latitude": 69.6492,
+    "longitude": 18.9553
+  },
+  "expected": {
+    "ayanamsa": 23.521589342714535,
+    "planets": {
+      "sun": 143.4497670744948,
+      "moon": 205.85385611493683,
+      "mercury": 169.87605209406104,
+      "venus": 123.11180209783107,
+      "mars": 51.6081924099317,
+      "jupiter": 0.04190495575425501,
+      "saturn": 95.80405743925274,
+      "rahu": 211.7140927602988,
+      "ketu": 31.714092760298797
+    },
+    "ascendant": 169.69384609290847,
+    "midheaven": 90.97565776019557,
+    "sunrise": "1975-09-10T03:44:38.632705+00:00",
+    "sunset": "1975-09-10T17:35:37.920061+00:00",
+    "vimshottariStarts": [
+      {
+        "planet": "jupiter",
+        "start": "1968-08-31"
+      },
+      {
+        "planet": "saturn",
+        "start": "1984-08-31"
+      },
+      {
+        "planet": "mercury",
+        "start": "2003-09-01"
+      },
+      {
+        "planet": "ketu",
+        "start": "2020-08-31"
+      },
+      {
+        "planet": "venus",
+        "start": "2027-08-31"
+      },
+      {
+        "planet": "sun",
+        "start": "2047-08-31"
+      },
+      {
+        "planet": "moon",
+        "start": "2053-08-31"
+      },
+      {
+        "planet": "mars",
+        "start": "2063-08-31"
+      },
+      {
+        "planet": "rahu",
+        "start": "2070-08-31"
+      }
+    ]
+  }
+}

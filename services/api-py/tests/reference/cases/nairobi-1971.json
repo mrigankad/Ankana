@@ -1,0 +1,76 @@
+{
+  "id": "nairobi-1971",
+  "note": "Equatorial, retrograde Saturn era",
+  "source": "swisseph-provisional",
+  "settings": {
+    "ayanamsa": "lahiri",
+    "ayanamsaMean": false,
+    "node": "mean",
+    "sunriseRule": "hindu",
+    "houseSystem": "whole_sign",
+    "ephemerisFiles": "swisseph 2.10.03, sepl/semo/seas_18.se1"
+  },
+  "input": {
+    "birthDate": "1971-03-03",
+    "birthTime": "10:00",
+    "timezoneName": "Africa/Nairobi",
+    "latitude": -1.2921,
+    "longitude": 36.8219
+  },
+  "expected": {
+    "ayanamsa": 23.45741676587639,
+    "planets": {
+      "sun": 318.5957272757645,
+      "moon": 38.792945518565745,
+      "mercury": 315.5201326683542,
+      "venus": 275.6044264131208,
+      "mars": 240.97354734264476,
+      "jupiter": 222.36935038921197,
+      "saturn": 24.047836088231875,
+      "rahu": 299.25749235018566,
+      "ketu": 119.25749235018566
+    },
+    "ascendant": 10.730134743660429,
+    "midheaven": 276.5860234159186,
+    "sunrise": "1971-03-03T03:44:16.553726+00:00",
+    "sunset": "1971-03-03T15:45:26.483461+00:00",
+    "vimshottariStarts": [
+      {
+        "planet": "sun",
+        "start": "1965-09-17"
+      },
+      {
+        "planet": "moon",
+        "start": "1971-09-17"
+      },
+      {
+        "planet": "mars",
+        "start": "1981-09-17"
+      },
+      {
+        "planet": "rahu",
+        "start": "1988-09-16"
+      },
+      {
+        "planet": "jupiter",
+        "start": "2006-09-17"
+      },
+      {
+        "planet": "saturn",
+        "start": "2022-09-17"
+      },
+      {
+        "planet": "mercury",
+        "start": "2041-09-16"
+      },
+      {
+        "planet": "ketu",
+        "start": "2058-09-16"
+      },
+      {
+        "planet": "venus",
+        "start": "2065-09-16"
+      }
+    ]
+  }
+}

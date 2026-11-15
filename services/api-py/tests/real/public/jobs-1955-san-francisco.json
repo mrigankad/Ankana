@@ -1,0 +1,28 @@
+{
+  "id": "jobs-1955-san-francisco",
+  "consent": "public-domain",
+  "label": "Steve Jobs, entrepreneur",
+  "source": {
+    "software": "pending JHora entry",
+    "rodden": "AA (as recorded in Astro-Databank; confirm on the page before relying on it)",
+    "citation": "Astro-Databank (astro.com/astro-databank), entry for Steve Jobs; birth certificate 7:15 PM PST",
+    "note": ""
+  },
+  "input": {
+    "birthDate": "1955-02-24",
+    "birthTime": "19:15",
+    "latitude": 37.7749,
+    "longitude": -122.4194,
+    "placeLabel": "San Francisco, California, USA",
+    "timezoneName": "America/Los_Angeles"
+  },
+  "settings": {
+    "ayanamsa": "lahiri",
+    "ayanamsaMean": false,
+    "node": "mean",
+    "houseSystem": "whole_sign"
+  },
+  "observed": {
+    "status": "pending"
+  }
+}

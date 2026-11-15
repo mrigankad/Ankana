@@ -1,0 +1,76 @@
+{
+  "id": "bengaluru-2040",
+  "note": "Future date",
+  "source": "swisseph-provisional",
+  "settings": {
+    "ayanamsa": "lahiri",
+    "ayanamsaMean": false,
+    "node": "mean",
+    "sunriseRule": "hindu",
+    "houseSystem": "whole_sign",
+    "ephemerisFiles": "swisseph 2.10.03, sepl/semo/seas_18.se1"
+  },
+  "input": {
+    "birthDate": "2040-02-29",
+    "birthTime": "11:11",
+    "timezoneName": "Asia/Kolkata",
+    "latitude": 12.9716,
+    "longitude": 77.5946
+  },
+  "expected": {
+    "ayanamsa": 24.414015904568476,
+    "planets": {
+      "sun": 315.8296026008727,
+      "moon": 149.97861013655208,
+      "mercury": 300.8345523670733,
+      "venus": 292.42021968265396,
+      "mars": 70.83960590509287,
+      "jupiter": 154.6036879005283,
+      "saturn": 166.32556812928604,
+      "rahu": 43.86184048201302,
+      "ketu": 223.861840482013
+    },
+    "ascendant": 34.09093493527138,
+    "midheaven": 294.66564853350224,
+    "sunrise": "2040-02-29T01:09:17.847776+00:00",
+    "sunset": "2040-02-29T12:54:55.064405+00:00",
+    "vimshottariStarts": [
+      {
+        "planet": "sun",
+        "start": "2038-09-02"
+      },
+      {
+        "planet": "moon",
+        "start": "2044-09-02"
+      },
+      {
+        "planet": "mars",
+        "start": "2054-09-02"
+      },
+      {
+        "planet": "rahu",
+        "start": "2061-09-02"
+      },
+      {
+        "planet": "jupiter",
+        "start": "2079-09-02"
+      },
+      {
+        "planet": "saturn",
+        "start": "2095-09-02"
+      },
+      {
+        "planet": "mercury",
+        "start": "2114-09-03"
+      },
+      {
+        "planet": "ketu",
+        "start": "2131-09-03"
+      },
+      {
+        "planet": "venus",
+        "start": "2138-09-03"
+      }
+    ]
+  }
+}

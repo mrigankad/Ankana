@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="{{ lang }}">
+<head>
+<meta charset="utf-8">
+<title>{{ L.title }} - {{ client_name }}</title>
+<style>
+{{ font_css|safe }}
+:root { --primary: {{ branding.primary }}; --accent: {{ branding.accent }}; --ink: #221e1d; --muted: #6c6866; --line: #eae5e3; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: 'Urbanist', 'Noto Sans Devanagari', sans-serif; color: var(--ink); font-size: 11.5px; line-height: 1.55; }
+h1, h2, h3 { break-after: avoid; color: var(--primary); margin: 0; font-weight: 700; }
+h2 { font-size: 17px; margin: 0 0 10px; padding-bottom: 6px; border-bottom: 2px solid var(--accent); }
+h3 { font-size: 12.5px; margin: 12px 0 2px; }
+section { margin: 0 0 22px; break-inside: auto; }
+.cover { padding: 14mm 0 8mm; border-bottom: 4px solid var(--primary); margin-bottom: 18px; display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.cover .brand { font-size: 13px; font-weight: 700; color: var(--accent); letter-spacing: .04em; }
+.cover h1 { font-size: 30px; line-height: 1.15; margin: 6px 0 4px; }
+.cover .sub { color: var(--muted); font-size: 12px; }
+.logo { max-height: 70px; max-width: 160px; object-fit: contain; }
+.facts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.fact { border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; break-inside: avoid; }
+.fact .k { color: var(--muted); font-size: 9.5px; text-transform: uppercase; letter-spacing: .06em; }
+.fact .v { font-size: 14px; font-weight: 700; color: var(--primary); }
+table { width: 100%; border-collapse: collapse; }
+th { text-align: left; font-size: 9.5px; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; border-bottom: 1px solid var(--line); padding: 5px 6px; }
+td { padding: 5px 6px; border-bottom: 1px solid var(--line); }
+tr { break-inside: avoid; }
+tr.current td { background: #fff4f2; font-weight: 700; }
+.kundali { width: 330px; height: 330px; display: block; margin: 0 auto; }
+.item { break-inside: avoid; margin: 0 0 10px; }
+.item p { margin: 2px 0; }
+.ev { color: var(--muted); font-size: 10px; }
+.tag { display: inline-block; background: var(--primary); color: #fff; border-radius: 10px; padding: 0 7px; font-size: 9.5px; margin-left: 6px; }
+.note { color: var(--muted); font-size: 10px; margin-top: 18px; border-top: 1px solid var(--line); padding-top: 8px; }
+</style>
+</head>
+<body>
+<header class="cover">
+  <div>
+    <div class="brand">{{ branding.name }}</div>
+    <h1>{{ L.title }}</h1>
+    <div class="sub">{{ L.prepared_for }} {{ client_name }}</div>
+  </div>
+  {% if logo %}<img class="logo" src="{{ logo }}" alt="">{% else %}<svg class="mark" viewBox="0 0 64 64" width="48" height="48" aria-hidden="true"><path d="M13 56 V31 A19 19 0 0 1 51 31 V56" fill="none" stroke="{{ branding.accent }}" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="32" cy="40" r="6.5" fill="{{ branding.accent }}"/></svg>{% endif %}
+</header>
+
+{% if "summary" in sections %}
+<section>
+  <h2>{{ L.summary }}</h2>
+  <div class="facts">
+    <div class="fact"><div class="k">{{ L.born }}</div><div class="v">{{ input.birthDate }} {{ input.birthTime }}</div></div>
+    <div class="fact"><div class="k">{{ L.place }}</div><div class="v">{{ input.placeLabel or (input.latitude ~ ", " ~ input.longitude) }}</div></div>
+    <div class="fact"><div class="k">{{ L.ayanamsa }}</div><div class="v">{{ ayanamsa.name|title }} {{ "%.2f"|format(ayanamsa.value) }}&deg;</div></div>
+    <div class="fact"><div class="k">{{ L.lagna }}</div><div class="v">{{ asc_sign }} {{ "%.1f"|format(asc.degreesInSign) }}&deg;</div></div>
+    <div class="fact"><div class="k">{{ L.moon_sign }}</div><div class="v">{{ moon_sign }}</div></div>
+    <div class="fact"><div class="k">{{ L.birth_star }}</div><div class="v">{{ asc.nakshatra if not birth_star else birth_star }}</div></div>
+  </div>
+</section>
+{% endif %}
+
+{% if "kundali" in sections %}
+<section>
+  <h2>{{ L.kundali }}</h2>
+  {{ kundali_svg|safe }}
+</section>
+{% endif %}
+
+{% if "planets" in sections %}
+<section>
+  <h2>{{ L.planets }}</h2>
+  <table>
+    <tr><th>{{ L.planet }}</th><th>{{ L.sign }}</th><th>{{ L.degree }}</th><th>{{ L.nakshatra }}</th><th>{{ L.pada }}</th><th>{{ L.house }}</th><th>{{ L.dignity }}</th></tr>
+    {% for p in planets %}
+    <tr><td>{{ planet_names[p.planet] }}{% if p.retrograde %} (R){% endif %}{% if p.combust %} (C){% endif %}</td><td>{{ sign_names[p.signIndex] }}</td><td>{{ "%.2f"|format(p.degreesInSign) }}&deg;</td><td>{{ p.nakshatra }}</td><td>{{ p.pada }}</td><td>{{ p.house }}</td><td>{{ p.dignity }}</td></tr>
+    {% endfor %}
+  </table>
+</section>
+{% endif %}
+
+{% if "houses" in sections %}
+<section>
+  <h2>{{ L.houses }}</h2>
+  <table>
+    <tr><th>{{ L.house }}</th><th>{{ L.sign }}</th><th>{{ L.lord }}</th><th>{{ L.occupants }}</th></tr>
+    {% for h in houses %}
+    <tr><td>{{ h.number }}</td><td>{{ sign_names[h.signIndex] }}</td><td>{{ planet_names[h.lord] }}</td><td>{% for o in h.occupants %}{{ planet_names[o] }}{% if not loop.last %}, {% endif %}{% endfor %}{% if not h.occupants %}-{% endif %}</td></tr>
+    {% endfor %}
+  </table>
+</section>
+{% endif %}
+
+{% if "yogas" in sections %}
+<section>
+  <h2>{{ L.yogas }}</h2>
+  {% for y in yogas %}
+  <div class="item"><h3>{{ y.name }}</h3><p>{{ y.description }}</p>
+    {% if y.evidence %}<p class="ev">{{ L.evidence }}: {{ y.evidence|join("; ") }}</p>{% endif %}</div>
+  {% else %}<p>{{ L.none }}</p>
+  {% endfor %}
+</section>
+{% endif %}
+
+{% if "dasha" in sections %}
+<section>
+  <h2>{{ L.dasha }}</h2>
+  <table>
+    <tr><th>{{ L.mahadasha }}</th><th>{{ L.start }}</th><th>{{ L.end }}</th></tr>
+    {% for m in mahadashas %}
+    <tr class="{{ 'current' if m.current }}"><td>{{ m.planet }}</td><td>{{ m.start }}</td><td>{{ m.end }}</td></tr>
+    {% endfor %}
+  </table>
+</section>
+{% endif %}
+
+{% if "vargas" in sections and reading %}
+  {% for s in reading.sections if s.key == "vargas" %}
+  <section><h2>{{ L.vargas }}</h2>
+    {% for i in s["items"] %}<div class="item"><h3>{{ i.title }}</h3><p>{{ i.text }}</p></div>{% endfor %}
+  </section>
+  {% endfor %}
+{% endif %}
+
+{% if "panchang" in sections and panchang %}
+<section>
+  <h2>{{ L.panchang }}</h2>
+  <div class="facts">
+    <div class="fact"><div class="k">Tithi</div><div class="v">{{ panchang.tithi.name }}</div></div>
+    <div class="fact"><div class="k">Vara</div><div class="v">{{ panchang.vara.name }}</div></div>
+    <div class="fact"><div class="k">Yoga</div><div class="v">{{ panchang.yoga.name }}</div></div>
+    <div class="fact"><div class="k">Karana</div><div class="v">{{ panchang.karana.name }}</div></div>
+    <div class="fact"><div class="k">{{ L.nakshatra }}</div><div class="v">{{ panchang.moonNakshatra.name }} ({{ panchang.moonNakshatra.pada }})</div></div>
+  </div>
+</section>
+{% endif %}
+
+{% if "reading" in sections and reading %}
+<section>
+  <h2>{{ L.reading }}</h2>
+  {% for s in reading.sections if s.key not in ("vargas", "panchang") %}
+    <h3 style="font-size:14px">{{ s.title }}</h3>
+    {% for i in s["items"] %}
+    <div class="item"><h3>{{ i.title }}</h3><p>{{ i.text }}</p>
+      {% if i.evidence %}<p class="ev">{{ L.evidence }}: {{ i.evidence|join("; ") }}</p>{% endif %}</div>
+    {% endfor %}
+  {% endfor %}
+</section>
+{% endif %}
+
+{% if "lal_kitab" in sections and lal_kitab %}
+<section>
+  <h2>{{ L.lal_kitab }}</h2>
+  <h3>{{ L.sleeping_planets }}</h3>
+  {% for s in lal_kitab.sleeping_planets %}
+  <p>{{ planet_names[s.planet] }} ({{ L.house }} {{ s.house }}): {{ s.rule }}</p>
+  {% else %}<p>{{ L.none }}</p>{% endfor %}
+  <h3>{{ L.rin }}</h3>
+  {% for r in lal_kitab.rin %}<p>{{ r.name or r.id or r }}</p>{% else %}<p>{{ L.none }}</p>{% endfor %}
+  <h3>{{ L.masnui }}</h3>
+  {% for r in lal_kitab.masnui %}<p>{{ r.name or r.id or r }}</p>{% else %}<p>{{ L.none }}</p>{% endfor %}
+  {% if "remedies" in sections and lal_kitab.remedies %}
+  <h3>{{ L.upay }}</h3>
+  <p class="ev">{{ L.one_at_a_time }}: {{ lal_kitab.remedies.one_at_a_time.rule }}</p>
+  {% for u in lal_kitab.remedies.upay[:12] %}
+  <div class="item"><h3>{{ u.rank }}. {{ u.title }}</h3><p>{{ u.action }}</p><p class="ev">{{ u.why }}</p></div>
+  {% endfor %}
+  {% endif %}
+</section>
+{% endif %}
+
+{% if "remedies" in sections and remedies %}
+<section>
+  <h2>{{ L.remedies }}</h2>
+  {% for r in remedies %}
+  <div class="item"><h3>{{ r.title }}<span class="tag">{{ r.strengthOfRecommendation }}</span></h3>
+    <p>{{ r.practice }}</p><p class="ev">{{ r.rationale }}</p></div>
+  {% endfor %}
+</section>
+{% endif %}
+
+<p class="note">{{ L.disclaimer }} {{ L.generated }}: {{ generated }} &middot; engine {{ engine_version }}</p>
+</body>
+</html>

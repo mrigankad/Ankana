@@ -1,0 +1,101 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model Client {
+  id            String        @id @default(cuid())
+  workspaceId   String
+  fullName      String
+  preferredName String?
+  email         String?
+  phone         String?
+  timezone      String?
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+  birthRecords  BirthRecord[]
+}
+
+model BirthRecord {
+  id                    String   @id @default(cuid())
+  clientId              String
+  birthDate             String
+  birthTime             String
+  timezoneName          String
+  placeLabel            String
+  locationQueryText     String?
+  canonicalLocationName String?
+  latitude              Float
+  longitude             Float
+  providerPlaceId       String?
+  geocodeProvider       String?
+  geocodeConfidence     String?
+  createdAt             DateTime @default(now())
+  updatedAt             DateTime @updatedAt
+
+  client Client @relation(fields: [clientId], references: [id], onDelete: Cascade)
+}
+
+model ChartRequest {
+  id               String         @id @default(cuid())
+  workspaceId      String
+  clientId         String
+  birthRecordId    String
+  astrologySystem  String
+  requestedOutputs String
+  status           String         @default("queued")
+  error            String?
+  createdAt        DateTime       @default(now())
+  artifact         ChartArtifact?
+  assistantConversation AssistantConversation?
+}
+
+model ChartArtifact {
+  id             String   @id @default(cuid())
+  chartRequestId String   @unique
+  artifactJson   String
+  engineVersion  String
+  createdAt      DateTime @default(now())
+
+  chartRequest ChartRequest @relation(fields: [chartRequestId], references: [id], onDelete: Cascade)
+}
+
+/** One assistant thread per chart job - durable per-chart memory. */
+model AssistantConversation {
+  id             String             @id @default(cuid())
+  chartRequestId String             @unique
+  createdAt      DateTime           @default(now())
+  updatedAt      DateTime           @updatedAt
+  messages       AssistantMessage[]
+
+  chartRequest ChartRequest @relation(fields: [chartRequestId], references: [id], onDelete: Cascade)
+}
+
+model AssistantMessage {
+  id             String   @id @default(cuid())
+  conversationId String
+  role           String
+  content        String
+  citationsJson  String?
+  toolsUsedJson  String?
+  createdAt      DateTime @default(now())
+
+  conversation AssistantConversation @relation(fields: [conversationId], references: [id], onDelete: Cascade)
+
+  @@index([conversationId, createdAt])
+}
+
+model AuditEvent {
+  id          String   @id @default(cuid())
+  workspaceId String
+  action      String
+  subjectType String
+  subjectId   String
+  metaJson    String?
+  createdAt   DateTime @default(now())
+
+  @@index([workspaceId, createdAt])
+}

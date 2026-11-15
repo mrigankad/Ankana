@@ -1,0 +1,64 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ankana reference chart",
+  "description": "One reference chart: birth input, the settings that produced the expected values, and the expected values. Longitudes are sidereal degrees under the stated ayanamsa. Replace source 'swisseph-provisional' with 'jhora-<version>' when a JHora export is available, and keep the JHora settings in 'settings'.",
+  "type": "object",
+  "required": ["id", "source", "settings", "input", "expected"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string"},
+    "note": {"type": "string"},
+    "source": {
+      "type": "string",
+      "description": "swisseph-provisional | jhora-<version> | other citation"
+    },
+    "settings": {
+      "type": "object",
+      "required": ["ayanamsa", "ayanamsaMean", "node", "sunriseRule", "houseSystem"],
+      "properties": {
+        "ayanamsa": {"enum": ["lahiri", "raman", "kp", "true_chitra"]},
+        "ayanamsaMean": {"type": "boolean", "description": "true = mean ayanamsa (no nutation); false = nutation included (SE default, consistent with apparent planets)"},
+        "node": {"enum": ["mean", "true"]},
+        "sunriseRule": {"enum": ["hindu", "standard"]},
+        "houseSystem": {"enum": ["whole_sign", "equal", "sripati"]},
+        "ephemerisFiles": {"type": "string"}
+      }
+    },
+    "input": {
+      "type": "object",
+      "required": ["birthDate", "birthTime", "timezoneName", "latitude", "longitude"],
+      "properties": {
+        "birthDate": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$"},
+        "birthTime": {"type": "string", "pattern": "^\\d{2}:\\d{2}$"},
+        "timezoneName": {"type": "string"},
+        "latitude": {"type": "number"},
+        "longitude": {"type": "number"}
+      }
+    },
+    "expected": {
+      "type": "object",
+      "required": ["ayanamsa", "planets", "ascendant", "sunrise", "sunset", "vimshottariStarts"],
+      "properties": {
+        "ayanamsa": {"type": "number"},
+        "planets": {
+          "type": "object",
+          "description": "sidereal longitude per sun..saturn, rahu, ketu",
+          "additionalProperties": {"type": "number"}
+        },
+        "ascendant": {"type": "number"},
+        "midheaven": {"type": "number"},
+        "sunrise": {"type": "string", "description": "ISO UTC"},
+        "sunset": {"type": "string", "description": "ISO UTC"},
+        "vimshottariStarts": {
+          "type": "array",
+          "description": "9 mahadasha starts, UTC calendar dates",
+          "items": {
+            "type": "object",
+            "required": ["planet", "start"],
+            "properties": {"planet": {"type": "string"}, "start": {"type": "string"}}
+          }
+        }
+      }
+    }
+  }
+}

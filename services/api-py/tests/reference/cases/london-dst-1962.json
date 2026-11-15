@@ -1,0 +1,76 @@
+{
+  "id": "london-dst-1962",
+  "note": "London, British Summer Time",
+  "source": "swisseph-provisional",
+  "settings": {
+    "ayanamsa": "lahiri",
+    "ayanamsaMean": false,
+    "node": "mean",
+    "sunriseRule": "hindu",
+    "houseSystem": "whole_sign",
+    "ephemerisFiles": "swisseph 2.10.03, sepl/semo/seas_18.se1"
+  },
+  "input": {
+    "birthDate": "1962-07-04",
+    "birthTime": "14:05",
+    "timezoneName": "Europe/London",
+    "latitude": 51.5074,
+    "longitude": -0.1278
+  },
+  "expected": {
+    "ayanamsa": 23.329883848533314,
+    "planets": {
+      "sun": 78.73898061923951,
+      "moon": 108.72580970161042,
+      "mercury": 57.39696983768219,
+      "venus": 116.97380510434417,
+      "mars": 33.39897969009789,
+      "jupiter": 319.35241336572426,
+      "saturn": 286.63642818889326,
+      "rahu": 106.91088898044364,
+      "ketu": 286.91088898044364
+    },
+    "ascendant": 176.5105751452573,
+    "midheaven": 92.84876749464632,
+    "sunrise": "1962-07-04T03:56:08.395208+00:00",
+    "sunset": "1962-07-04T20:12:55.039423+00:00",
+    "vimshottariStarts": [
+      {
+        "planet": "mercury",
+        "start": "1959-11-18"
+      },
+      {
+        "planet": "ketu",
+        "start": "1976-11-17"
+      },
+      {
+        "planet": "venus",
+        "start": "1983-11-18"
+      },
+      {
+        "planet": "sun",
+        "start": "2003-11-18"
+      },
+      {
+        "planet": "moon",
+        "start": "2009-11-17"
+      },
+      {
+        "planet": "mars",
+        "start": "2019-11-18"
+      },
+      {
+        "planet": "rahu",
+        "start": "2026-11-17"
+      },
+      {
+        "planet": "jupiter",
+        "start": "2044-11-17"
+      },
+      {
+        "planet": "saturn",
+        "start": "2060-11-17"
+      }
+    ]
+  }
+}

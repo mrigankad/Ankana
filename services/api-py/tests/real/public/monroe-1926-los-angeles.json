@@ -1,0 +1,28 @@
+{
+  "id": "monroe-1926-los-angeles",
+  "consent": "public-domain",
+  "label": "Marilyn Monroe, actress",
+  "source": {
+    "software": "pending JHora entry",
+    "rodden": "AA (as recorded in Astro-Databank; confirm on the page before relying on it)",
+    "citation": "Astro-Databank (astro.com/astro-databank), entry for Marilyn Monroe; birth certificate 9:30 AM. Check the page for the PST/PDT assumption.",
+    "note": "Verify whether the source time is standard or daylight time; zoneinfo applies the 1926 rules."
+  },
+  "input": {
+    "birthDate": "1926-06-01",
+    "birthTime": "09:30",
+    "latitude": 34.0522,
+    "longitude": -118.2437,
+    "placeLabel": "Los Angeles, California, USA",
+    "timezoneName": "America/Los_Angeles"
+  },
+  "settings": {
+    "ayanamsa": "lahiri",
+    "ayanamsaMean": false,
+    "node": "mean",
+    "houseSystem": "whole_sign"
+  },
+  "observed": {
+    "status": "pending"
+  }
+}

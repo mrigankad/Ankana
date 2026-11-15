@@ -1,0 +1,165 @@
+{
+  "description": "Directed aspect arrows between houses. A planet in 'from' influences planets in each 'to' house, not vice versa.",
+  "strength_pct": {
+    "full": 100,
+    "half": 50,
+    "quarter": 25
+  },
+  "rows": [
+    {
+      "from": 1,
+      "to": [7],
+      "strength": 100,
+      "cite": {
+        "vol": "I",
+        "printed_page": 118,
+        "pdf_page": 137,
+        "section": "Planetary aspect table (arrows)",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "derived": false
+    },
+    {
+      "from": 4,
+      "to": [10],
+      "strength": 100,
+      "cite": {
+        "vol": "I",
+        "printed_page": 118,
+        "pdf_page": 137,
+        "section": "Planetary aspect table (arrows)",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "derived": false
+    },
+    {
+      "from": 7,
+      "to": [1],
+      "strength": 100,
+      "cite": {
+        "vol": "I",
+        "printed_page": 119,
+        "pdf_page": 138,
+        "section": "Each house has full aspect on the 7th",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "derived": true,
+      "note": "Derived from the p.119 sentence that every house has full aspect on its 7th. Ambiguous: the same page gives houses 3, 5, 9, 11 half and 2, 6, 8, 12 a quarter, p.121 says prior houses aspect later ones and the arrow table has no arrow starting in 7 or 10. Kept as 100% pending an expert."
+    },
+    {
+      "from": 10,
+      "to": [4],
+      "strength": 100,
+      "cite": {
+        "vol": "I",
+        "printed_page": 119,
+        "pdf_page": 138,
+        "section": "Each house has full aspect on the 7th",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "derived": true,
+      "note": "Derived from the p.119 sentence that every house has full aspect on its 7th. Ambiguous: the same page gives houses 3, 5, 9, 11 half and 2, 6, 8, 12 a quarter, p.121 says prior houses aspect later ones and the arrow table has no arrow starting in 7 or 10. Kept as 100% pending an expert."
+    },
+    {
+      "from": 3,
+      "to": [9, 11],
+      "strength": 50,
+      "cite": {
+        "vol": "I",
+        "printed_page": 118,
+        "pdf_page": 137,
+        "section": "Planetary aspect table (arrows)",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "derived": false
+    },
+    {
+      "from": 5,
+      "to": [9],
+      "strength": 50,
+      "cite": {
+        "vol": "I",
+        "printed_page": 118,
+        "pdf_page": 137,
+        "section": "Planetary aspect table (arrows)",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "derived": false
+    },
+    {
+      "from": 2,
+      "to": [6],
+      "strength": 25,
+      "cite": {
+        "vol": "I",
+        "printed_page": 118,
+        "pdf_page": 137,
+        "section": "Planetary aspect table (arrows)",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "derived": false
+    },
+    {
+      "from": 8,
+      "to": [2],
+      "strength": 25,
+      "cite": {
+        "vol": "I",
+        "printed_page": 118,
+        "pdf_page": 137,
+        "section": "Planetary aspect table (arrows)",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "derived": false,
+      "note": "Inverse aspect: H8 looks back at H2 (p.118, p.119, p.120). The prose on p.121 calls this 100%, but the arrow table says 25%; the table value is used."
+    },
+    {
+      "from": 6,
+      "to": [12],
+      "strength": 25,
+      "cite": {
+        "vol": "I",
+        "printed_page": 119,
+        "pdf_page": 138,
+        "section": "Prose list of where arrows start and end (6 to 12); repeated on p.121 and p.126",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "derived": false,
+      "note": "Not in the p.118 arrow table, but the prose on p.119 lists 6 as an arrow start ending in 12, p.121 says the 6th aspects the 12th and not the reverse, and p.126 lists 6 to 12 among the aspects that follow friendship/enmity. 25% from the quarter-sight list (2, 6, 8, 12)."
+    }
+  ],
+  "special_cases": [
+    {
+      "planets": ["mercury", "rahu", "ketu"],
+      "note": "Book pages 119-126 give only qualitative statements for these three. Mercury: in H12 it can aspect H6 (the 12th cannot otherwise look back at the 6th), and Mercury in H3 or H9 or aspecting H9 from H3, or in H12 aspecting H6, 'renders the effect of all planets meaningless' (p.121); Mercury's 'route canal' is not tabulated. Rahu and Ketu: mutual aspect with each other and with H2/H9 is called 'a different story' (p.119) with no table. Not implemented.",
+      "cite": {
+        "vol": "I",
+        "printed_page": 119,
+        "pdf_page": 138,
+        "section": "Special route canal of Mercury, Rahu-Ketu mutual aspect (statement only); p.121 Mercury exception",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "todo": true
+    }
+  ]
+}

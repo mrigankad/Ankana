@@ -1,0 +1,76 @@
+{
+  "id": "mumbai-1947",
+  "note": "Historic date, midnight",
+  "source": "swisseph-provisional",
+  "settings": {
+    "ayanamsa": "lahiri",
+    "ayanamsaMean": false,
+    "node": "mean",
+    "sunriseRule": "hindu",
+    "houseSystem": "whole_sign",
+    "ephemerisFiles": "swisseph 2.10.03, sepl/semo/seas_18.se1"
+  },
+  "input": {
+    "birthDate": "1947-08-15",
+    "birthTime": "00:00",
+    "timezoneName": "Asia/Kolkata",
+    "latitude": 19.076,
+    "longitude": 72.8777
+  },
+  "expected": {
+    "ayanamsa": 23.12182142181719,
+    "planets": {
+      "sun": 117.98901723021079,
+      "moon": 93.98356858926022,
+      "mercury": 103.67427721146927,
+      "venus": 112.5611954686779,
+      "mars": 67.45623787618462,
+      "jupiter": 205.87768625613973,
+      "saturn": 110.4730508463965,
+      "rahu": 35.069724725624326,
+      "ketu": 215.06972472562433
+    },
+    "ascendant": 28.53563852460214,
+    "midheaven": 287.13953035291144,
+    "sunrise": "1947-08-14T00:52:28.571898+00:00",
+    "sunset": "1947-08-14T13:33:45.462909+00:00",
+    "vimshottariStarts": [
+      {
+        "planet": "saturn",
+        "start": "1946-09-10"
+      },
+      {
+        "planet": "mercury",
+        "start": "1965-09-09"
+      },
+      {
+        "planet": "ketu",
+        "start": "1982-09-10"
+      },
+      {
+        "planet": "venus",
+        "start": "1989-09-09"
+      },
+      {
+        "planet": "sun",
+        "start": "2009-09-09"
+      },
+      {
+        "planet": "moon",
+        "start": "2015-09-10"
+      },
+      {
+        "planet": "mars",
+        "start": "2025-09-09"
+      },
+      {
+        "planet": "rahu",
+        "start": "2032-09-09"
+      },
+      {
+        "planet": "jupiter",
+        "start": "2050-09-09"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2709 @@
+{
+  "description": "Planet-in-house entries from Vol II, paraphrased. status 'done' rows have paraphrased conditions and remedies; 'todo' rows only carry the page pointer of the book entry. Condition 'when' is a list of machine clauses (all must hold); null means qualitative only. Clause kinds: in {planets any-of, houses any-of}, together [a,b], empty [house], alone.",
+  "coverage": {
+    "done": 12,
+    "todo": 96,
+    "total": 108
+  },
+  "rows": [
+    {
+      "id": "sun_h1",
+      "planet": "sun",
+      "house": 1,
+      "status": "done",
+      "theme": "Royal, dutiful character; self-made authority.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "empty": [7]
+            }
+          ],
+          "effect": "Pious ruler type when Sun sits in houses 1, 5 or 11; fortune rises after marriage if H7 is empty.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["venus"],
+                "houses": [7]
+              }
+            }
+          ],
+          "effect": "Venus in H7 shortens the father's life and weakens the wife's health.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["saturn"],
+                "houses": [8]
+              }
+            }
+          ],
+          "effect": "Saturn in H8: spouses are lost one after another.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["mars"],
+                "houses": [5]
+              }
+            }
+          ],
+          "effect": "Mars in H5: sons are lost one after another.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["moon"],
+                "houses": [2]
+              }
+            },
+            {
+              "in": {
+                "planets": ["saturn"],
+                "houses": [11]
+              }
+            }
+          ],
+          "effect": "Moon in H2 with Saturn in H11 increases wealth.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "together": ["mercury", "venus"]
+            }
+          ],
+          "effect": "Mercury and Venus together give lifelong prosperity.",
+          "tone": "benefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 370,
+        "pdf_page": 386,
+        "section": "Sun in house 1",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "sun_h2",
+      "planet": "sun",
+      "house": 2,
+      "status": "done",
+      "theme": "Generous, powerful friend; moderate means.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["mars"],
+                "houses": [1]
+              }
+            }
+          ],
+          "effect": "Mars in H1 makes one miserable.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["moon"],
+                "houses": [12]
+              }
+            }
+          ],
+          "effect": "Moon in H12 makes one miserable.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["moon"],
+                "houses": [6]
+              }
+            }
+          ],
+          "effect": "Moon in H6 becomes exalted.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["moon"],
+                "houses": [8]
+              }
+            }
+          ],
+          "effect": "Moon in H8 damages the Sun.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "empty": [8]
+            }
+          ],
+          "effect": "If H8 is empty, the Sun and H2 matters turn out well.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Sun and Jupiter do not give their separate results; Jupiter follows the Sun.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Earning by service is favourable; accepting donations destroys.",
+          "tone": "neutral",
+          "needs_review": false
+        }
+      ],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 372,
+        "pdf_page": 388,
+        "section": "Sun in house 2",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "sun_h3",
+      "planet": "sun",
+      "house": 3,
+      "status": "done",
+      "theme": "Wealth through own effort; character decides fortune.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Wealth stays intact even if the parents are poor.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Harmful Mars negative or a weak Venus or Mercury gives poor outcomes.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "A malefic Mercury hurts Ketu matters and maternal uncles.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Malefic Moon brings thefts and losses in daytime.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 374,
+        "pdf_page": 390,
+        "section": "Sun in house 3",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "sun_h4",
+      "planet": "sun",
+      "house": 4,
+      "status": "done",
+      "theme": "Toils and saves for others; hidden wealth for children.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["moon"],
+                "houses": [4, 5]
+              }
+            }
+          ],
+          "effect": "Moon in H4 or H5 gives prosperity.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["mercury"],
+                "houses": [10]
+              }
+            }
+          ],
+          "effect": "Mercury in H10 brings riches.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["saturn"],
+                "houses": [7]
+              }
+            }
+          ],
+          "effect": "Saturn in H7: poor eyesight and poverty.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["rahu"],
+                "houses": [1]
+              }
+            }
+          ],
+          "effect": "Rahu in H1 pollutes the Sun.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["saturn"],
+                "houses": [1]
+              }
+            }
+          ],
+          "effect": "Saturn in H1 pollutes the Sun.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["jupiter", "mars"],
+                "houses": [10]
+              }
+            }
+          ],
+          "effect": "Jupiter or Mars in H10 behave like thieves; thefts reduce savings.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Give food or alms to ten blind persons to clear the poison between H5 and H10.",
+          "delivery": null
+        },
+        {
+          "text": "Remedy the Moon first; once the Moon is favourable, add the remedy of Saturn. Red coral items help.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 375,
+        "pdf_page": 391,
+        "section": "Sun in house 4",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "sun_h5",
+      "planet": "sun",
+      "house": 5,
+      "status": "done",
+      "theme": "Guardian of the family's welfare.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["jupiter"],
+                "houses": [10]
+              }
+            }
+          ],
+          "effect": "Jupiter in H10: the native loses wives.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["saturn"],
+                "houses": [3]
+              }
+            }
+          ],
+          "effect": "Saturn in H3: the native loses sons.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["moon"],
+                "houses": [4]
+              }
+            }
+          ],
+          "effect": "Moon in H4 supports the Sun here.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Birth of a son brings prosperity; an east-facing kitchen helps; comfortable old age.",
+          "tone": "benefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 378,
+        "pdf_page": 394,
+        "section": "Sun in house 5",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "sun_h6",
+      "planet": "sun",
+      "house": 6,
+      "status": "done",
+      "theme": "Burnt by fire but never short of livelihood; contented.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Never short of a livelihood and not childless, provided he does not break the rear wall or turn obstinate.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["saturn"],
+                "houses": [12]
+              }
+            }
+          ],
+          "effect": "Saturn in H12: the wife dies.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "empty": [2]
+            }
+          ],
+          "effect": "If H2 is empty, the father dies.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["mars"],
+                "houses": [10]
+              }
+            }
+          ],
+          "effect": "Mars in H10 kills progeny.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["mercury"],
+                "houses": [12]
+              }
+            }
+          ],
+          "effect": "Mercury in H12 destroys standing with authority.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["rahu"],
+                "houses": [1]
+              }
+            }
+          ],
+          "effect": "Rahu in H1 eclipses fortune.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["saturn"],
+                "houses": [1]
+              }
+            }
+          ],
+          "effect": "Saturn in H1 eclipses fortune.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["ketu"],
+                "houses": [1, 7]
+              }
+            }
+          ],
+          "effect": "Ketu in H1 or H7 is benefic.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Harm around the Sun's ages 11 and 22 if the Moon is malefic.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "During evil effects on progeny, give jaggery to a monkey, or do the remedy of Mercury.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 381,
+        "pdf_page": 397,
+        "section": "Sun in house 6",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "sun_h7",
+      "planet": "sun",
+      "house": 7,
+      "status": "done",
+      "theme": "Small family; a king without a crown who toils for prosperity.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "empty": [1]
+            }
+          ],
+          "effect": "An empty H1 leaves H7 dormant.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "together": ["sun", "venus"]
+            }
+          ],
+          "effect": "Venus joining the Sun sends him philandering outside; the wife must stay chaste or the family suffers.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["jupiter", "moon", "mars"],
+                "houses": [2]
+              }
+            }
+          ],
+          "effect": "Jupiter, Moon or Mars in H2 gives high office.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Jupiter, Venus and Rahu-Ketu-Saturn together destroy a separate Mercury.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Family life is destroyed and gold turns to dust.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Prosperity comes after Mercury's period; wealth and family comfort after age 34.",
+          "tone": "benefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Keep a clean, sober outlook; act as a firm administrator and speak softly in business.",
+          "delivery": null
+        },
+        {
+          "text": "If Saturn is in H1 or afflicts the Sun, do the Moon remedy: after dinner extinguish the hearth fire with milk, leave it unlit till morning, do this 43 days, then drop the iron pan into running water.",
+          "delivery": null
+        },
+        {
+          "text": "Bury a few rectangular or square pieces of copper under the house floor, or start work after drinking sweet water.",
+          "delivery": null
+        },
+        {
+          "text": "Serve a black or hornless cow.",
+          "delivery": null
+        },
+        {
+          "text": "Offer a morsel of your meal to fire before eating.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 384,
+        "pdf_page": 400,
+        "section": "Sun in house 7",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "sun_h8",
+      "planet": "sun",
+      "house": 8,
+      "status": "done",
+      "theme": "A king with a saint's heart; a test of truthfulness.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Sun here scares death, gives long life, royalty and prosperity.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "together": ["sun", "mercury"]
+            }
+          ],
+          "effect": "With Mercury along, the Sun becomes like an evil planet.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["venus"],
+                "houses": [1, 2, 3, 4, 5]
+              }
+            }
+          ],
+          "effect": "Venus in houses 1 to 5 shortens life.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Liaisons ruin the native's progeny.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Polluted H1 makes one hide from the world.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Drink a little sweet water when leaving home.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 387,
+        "pdf_page": 403,
+        "section": "Sun in house 8",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "sun_h9",
+      "planet": "sun",
+      "house": 9,
+      "status": "done",
+      "theme": "Long life, large family; a source of strength after an eclipse.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "together": ["sun", "mercury"]
+            }
+          ],
+          "effect": "Mercury with or aspecting the Sun destroys the Sun's results.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["rahu"],
+                "houses": [3, 5]
+              }
+            }
+          ],
+          "effect": "Rahu in H3 or H5 makes one irreligious and comfort-seeking.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Self-respect and long prosperity if he refuses donations, silver or bribes.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Venus, Moon and houses 3 and 5 turn benefic.",
+          "tone": "benefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Donating silver strengthens the benefic effects of the Sun.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 389,
+        "pdf_page": 405,
+        "section": "Sun in house 9",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "sun_h10",
+      "planet": "sun",
+      "house": 10,
+      "status": "done",
+      "theme": "Health, respect and wealth but a suspicious nature.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "alone": true
+            }
+          ],
+          "effect": "A lone Sun here is generally malefic.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["moon"],
+                "houses": [2]
+              }
+            }
+          ],
+          "effect": "Moon in H2 takes the mother away around age 24.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["venus"],
+                "houses": [4]
+              }
+            }
+          ],
+          "effect": "Venus in H4 brings an early loss of the father (with a malefic Saturn).",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["rahu", "ketu", "saturn"],
+                "houses": [6]
+              }
+            }
+          ],
+          "effect": "Rahu, Ketu or Saturn in H6 shorten life and bring unhappiness.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Going bareheaded or wearing black or blue headgear brings misery.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Wear white or light pink headgear.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 390,
+        "pdf_page": 406,
+        "section": "Sun in house 10",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "sun_h11",
+      "planet": "sun",
+      "house": 11,
+      "status": "done",
+      "theme": "Religious but self-centred and forgiving.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Eating meat makes one issueless; giving up liquor and meat brings sons.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["mercury"],
+                "houses": [3]
+              }
+            }
+          ],
+          "effect": "Mercury in H3 is harmful.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["moon"],
+                "houses": [8]
+              }
+            }
+          ],
+          "effect": "Moon in H8 is harmful.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["moon"],
+                "houses": [5]
+              }
+            }
+          ],
+          "effect": "Moon in H5 gives long age but costs progeny in H12.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Eating or accepting things of Saturn makes one childless.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Donate white vegetables such as radish.",
+          "delivery": null
+        },
+        {
+          "text": "Keep almonds at the bedside overnight and give them away in the morning.",
+          "delivery": null
+        },
+        {
+          "text": "If Mercury is malefic or Saturn items were eaten, give away a live goat.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 392,
+        "pdf_page": 408,
+        "section": "Sun in house 11",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "sun_h12",
+      "planet": "sun",
+      "house": 12,
+      "status": "done",
+      "theme": "A carefree king; comfortable sleep but burnt by fires lit by others.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["rahu", "ketu"],
+                "houses": [1]
+              }
+            }
+          ],
+          "effect": "Rahu or Ketu in H1 brings service problems and loss of sleep.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "alone": true
+            }
+          ],
+          "effect": "A lone Sun in H12 brings sorrow, eye trouble and mental strain.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": ["moon"],
+                "houses": [6]
+              }
+            }
+          ],
+          "effect": "Moon in H6 harms the Sun here.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Devotion brings progeny and comfort; forgiveness in adversity brings victory.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Gain is better from business than from government service.",
+          "tone": "neutral",
+          "needs_review": false
+        }
+      ],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 394,
+        "pdf_page": 410,
+        "section": "Sun in house 12",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "moon_h1",
+      "planet": "moon",
+      "house": 1,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 405,
+        "pdf_page": 419,
+        "section": "Moon in house 1",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "moon_h2",
+      "planet": "moon",
+      "house": 2,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 408,
+        "pdf_page": 422,
+        "section": "Moon in house 2",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "moon_h3",
+      "planet": "moon",
+      "house": 3,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 411,
+        "pdf_page": 425,
+        "section": "Moon in house 3",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "moon_h4",
+      "planet": "moon",
+      "house": 4,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 414,
+        "pdf_page": 428,
+        "section": "Moon in house 4",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "moon_h5",
+      "planet": "moon",
+      "house": 5,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 417,
+        "pdf_page": 431,
+        "section": "Moon in house 5",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "moon_h6",
+      "planet": "moon",
+      "house": 6,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 419,
+        "pdf_page": 433,
+        "section": "Moon in house 6",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "moon_h7",
+      "planet": "moon",
+      "house": 7,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 421,
+        "pdf_page": 435,
+        "section": "Moon in house 7",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "moon_h8",
+      "planet": "moon",
+      "house": 8,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 423,
+        "pdf_page": 437,
+        "section": "Moon in house 8",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "moon_h9",
+      "planet": "moon",
+      "house": 9,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 426,
+        "pdf_page": 440,
+        "section": "Moon in house 9",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "moon_h10",
+      "planet": "moon",
+      "house": 10,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 428,
+        "pdf_page": 442,
+        "section": "Moon in house 10",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "moon_h11",
+      "planet": "moon",
+      "house": 11,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 431,
+        "pdf_page": 445,
+        "section": "Moon in house 11",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "moon_h12",
+      "planet": "moon",
+      "house": 12,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 434,
+        "pdf_page": 448,
+        "section": "Moon in house 12",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mars_h1",
+      "planet": "mars",
+      "house": 1,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 479,
+        "pdf_page": 490,
+        "section": "Mars in house 1",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mars_h2",
+      "planet": "mars",
+      "house": 2,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 481,
+        "pdf_page": 492,
+        "section": "Mars in house 2",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mars_h3",
+      "planet": "mars",
+      "house": 3,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 483,
+        "pdf_page": 494,
+        "section": "Mars in house 3",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mars_h4",
+      "planet": "mars",
+      "house": 4,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 485,
+        "pdf_page": 496,
+        "section": "Mars in house 4",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mars_h5",
+      "planet": "mars",
+      "house": 5,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 490,
+        "pdf_page": 501,
+        "section": "Mars in house 5",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mars_h6",
+      "planet": "mars",
+      "house": 6,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 492,
+        "pdf_page": 503,
+        "section": "Mars in house 6",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mars_h7",
+      "planet": "mars",
+      "house": 7,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 494,
+        "pdf_page": 505,
+        "section": "Mars in house 7",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mars_h8",
+      "planet": "mars",
+      "house": 8,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 496,
+        "pdf_page": 507,
+        "section": "Mars in house 8",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mars_h9",
+      "planet": "mars",
+      "house": 9,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 498,
+        "pdf_page": 509,
+        "section": "Mars in house 9",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mars_h10",
+      "planet": "mars",
+      "house": 10,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 499,
+        "pdf_page": 510,
+        "section": "Mars in house 10",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mars_h11",
+      "planet": "mars",
+      "house": 11,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 501,
+        "pdf_page": 512,
+        "section": "Mars in house 11",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mars_h12",
+      "planet": "mars",
+      "house": 12,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 502,
+        "pdf_page": 513,
+        "section": "Mars in house 12",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mercury_h1",
+      "planet": "mercury",
+      "house": 1,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 515,
+        "pdf_page": 525,
+        "section": "Mercury in house 1",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mercury_h2",
+      "planet": "mercury",
+      "house": 2,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 517,
+        "pdf_page": 527,
+        "section": "Mercury in house 2",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mercury_h3",
+      "planet": "mercury",
+      "house": 3,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 520,
+        "pdf_page": 530,
+        "section": "Mercury in house 3",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mercury_h4",
+      "planet": "mercury",
+      "house": 4,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 523,
+        "pdf_page": 533,
+        "section": "Mercury in house 4",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mercury_h5",
+      "planet": "mercury",
+      "house": 5,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 525,
+        "pdf_page": 535,
+        "section": "Mercury in house 5",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mercury_h6",
+      "planet": "mercury",
+      "house": 6,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 527,
+        "pdf_page": 537,
+        "section": "Mercury in house 6",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mercury_h7",
+      "planet": "mercury",
+      "house": 7,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 529,
+        "pdf_page": 539,
+        "section": "Mercury in house 7",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mercury_h8",
+      "planet": "mercury",
+      "house": 8,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 531,
+        "pdf_page": 541,
+        "section": "Mercury in house 8",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mercury_h9",
+      "planet": "mercury",
+      "house": 9,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 534,
+        "pdf_page": 544,
+        "section": "Mercury in house 9",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mercury_h10",
+      "planet": "mercury",
+      "house": 10,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 537,
+        "pdf_page": 547,
+        "section": "Mercury in house 10",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mercury_h11",
+      "planet": "mercury",
+      "house": 11,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 538,
+        "pdf_page": 548,
+        "section": "Mercury in house 11",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mercury_h12",
+      "planet": "mercury",
+      "house": 12,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 539,
+        "pdf_page": 549,
+        "section": "Mercury in house 12",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "jupiter_h1",
+      "planet": "jupiter",
+      "house": 1,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 327,
+        "pdf_page": 343,
+        "section": "Jupiter in house 1",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "jupiter_h2",
+      "planet": "jupiter",
+      "house": 2,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 332,
+        "pdf_page": 348,
+        "section": "Jupiter in house 2",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "jupiter_h3",
+      "planet": "jupiter",
+      "house": 3,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 337,
+        "pdf_page": 353,
+        "section": "Jupiter in house 3",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "jupiter_h4",
+      "planet": "jupiter",
+      "house": 4,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 339,
+        "pdf_page": 355,
+        "section": "Jupiter in house 4",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "jupiter_h5",
+      "planet": "jupiter",
+      "house": 5,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 342,
+        "pdf_page": 358,
+        "section": "Jupiter in house 5",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "jupiter_h6",
+      "planet": "jupiter",
+      "house": 6,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 344,
+        "pdf_page": 360,
+        "section": "Jupiter in house 6",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "jupiter_h7",
+      "planet": "jupiter",
+      "house": 7,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 346,
+        "pdf_page": 362,
+        "section": "Jupiter in house 7",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "jupiter_h8",
+      "planet": "jupiter",
+      "house": 8,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 348,
+        "pdf_page": 364,
+        "section": "Jupiter in house 8",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "jupiter_h9",
+      "planet": "jupiter",
+      "house": 9,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 350,
+        "pdf_page": 366,
+        "section": "Jupiter in house 9",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "jupiter_h10",
+      "planet": "jupiter",
+      "house": 10,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 352,
+        "pdf_page": 368,
+        "section": "Jupiter in house 10",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "jupiter_h11",
+      "planet": "jupiter",
+      "house": 11,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 355,
+        "pdf_page": 371,
+        "section": "Jupiter in house 11",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "jupiter_h12",
+      "planet": "jupiter",
+      "house": 12,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 357,
+        "pdf_page": 373,
+        "section": "Jupiter in house 12",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "venus_h1",
+      "planet": "venus",
+      "house": 1,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 444,
+        "pdf_page": 457,
+        "section": "Venus in house 1",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "venus_h2",
+      "planet": "venus",
+      "house": 2,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 447,
+        "pdf_page": 460,
+        "section": "Venus in house 2",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "venus_h3",
+      "planet": "venus",
+      "house": 3,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 450,
+        "pdf_page": 463,
+        "section": "Venus in house 3",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "venus_h4",
+      "planet": "venus",
+      "house": 4,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 452,
+        "pdf_page": 465,
+        "section": "Venus in house 4",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "venus_h5",
+      "planet": "venus",
+      "house": 5,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 454,
+        "pdf_page": 467,
+        "section": "Venus in house 5",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "venus_h6",
+      "planet": "venus",
+      "house": 6,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 456,
+        "pdf_page": 469,
+        "section": "Venus in house 6",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "venus_h7",
+      "planet": "venus",
+      "house": 7,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 460,
+        "pdf_page": 473,
+        "section": "Venus in house 7",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "venus_h8",
+      "planet": "venus",
+      "house": 8,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 462,
+        "pdf_page": 475,
+        "section": "Venus in house 8",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "venus_h9",
+      "planet": "venus",
+      "house": 9,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 464,
+        "pdf_page": 477,
+        "section": "Venus in house 9",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "venus_h10",
+      "planet": "venus",
+      "house": 10,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 466,
+        "pdf_page": 479,
+        "section": "Venus in house 10",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "venus_h11",
+      "planet": "venus",
+      "house": 11,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 468,
+        "pdf_page": 481,
+        "section": "Venus in house 11",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "venus_h12",
+      "planet": "venus",
+      "house": 12,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 470,
+        "pdf_page": 483,
+        "section": "Venus in house 12",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "saturn_h1",
+      "planet": "saturn",
+      "house": 1,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 551,
+        "pdf_page": 559,
+        "section": "Saturn in house 1",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "saturn_h2",
+      "planet": "saturn",
+      "house": 2,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 554,
+        "pdf_page": 562,
+        "section": "Saturn in house 2",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "saturn_h3",
+      "planet": "saturn",
+      "house": 3,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 557,
+        "pdf_page": 565,
+        "section": "Saturn in house 3",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "saturn_h4",
+      "planet": "saturn",
+      "house": 4,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 558,
+        "pdf_page": 566,
+        "section": "Saturn in house 4",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "saturn_h5",
+      "planet": "saturn",
+      "house": 5,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 560,
+        "pdf_page": 568,
+        "section": "Saturn in house 5",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "saturn_h6",
+      "planet": "saturn",
+      "house": 6,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 563,
+        "pdf_page": 571,
+        "section": "Saturn in house 6",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "saturn_h7",
+      "planet": "saturn",
+      "house": 7,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 566,
+        "pdf_page": 574,
+        "section": "Saturn in house 7",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "saturn_h8",
+      "planet": "saturn",
+      "house": 8,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 569,
+        "pdf_page": 577,
+        "section": "Saturn in house 8",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "saturn_h9",
+      "planet": "saturn",
+      "house": 9,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 570,
+        "pdf_page": 578,
+        "section": "Saturn in house 9",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "saturn_h10",
+      "planet": "saturn",
+      "house": 10,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 573,
+        "pdf_page": 581,
+        "section": "Saturn in house 10",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "saturn_h11",
+      "planet": "saturn",
+      "house": 11,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 575,
+        "pdf_page": 583,
+        "section": "Saturn in house 11",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "saturn_h12",
+      "planet": "saturn",
+      "house": 12,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 578,
+        "pdf_page": 586,
+        "section": "Saturn in house 12",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "rahu_h1",
+      "planet": "rahu",
+      "house": 1,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 586,
+        "pdf_page": 592,
+        "section": "Rahu in house 1",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "rahu_h2",
+      "planet": "rahu",
+      "house": 2,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 589,
+        "pdf_page": 595,
+        "section": "Rahu in house 2",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "rahu_h3",
+      "planet": "rahu",
+      "house": 3,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 591,
+        "pdf_page": 597,
+        "section": "Rahu in house 3",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "rahu_h4",
+      "planet": "rahu",
+      "house": 4,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 592,
+        "pdf_page": 598,
+        "section": "Rahu in house 4",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "rahu_h5",
+      "planet": "rahu",
+      "house": 5,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 594,
+        "pdf_page": 600,
+        "section": "Rahu in house 5",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "rahu_h6",
+      "planet": "rahu",
+      "house": 6,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 596,
+        "pdf_page": 602,
+        "section": "Rahu in house 6",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "rahu_h7",
+      "planet": "rahu",
+      "house": 7,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 597,
+        "pdf_page": 603,
+        "section": "Rahu in house 7",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "rahu_h8",
+      "planet": "rahu",
+      "house": 8,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 599,
+        "pdf_page": 605,
+        "section": "Rahu in house 8",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "rahu_h9",
+      "planet": "rahu",
+      "house": 9,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 601,
+        "pdf_page": 607,
+        "section": "Rahu in house 9",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "rahu_h10",
+      "planet": "rahu",
+      "house": 10,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 602,
+        "pdf_page": 608,
+        "section": "Rahu in house 10",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "rahu_h11",
+      "planet": "rahu",
+      "house": 11,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 603,
+        "pdf_page": 609,
+        "section": "Rahu in house 11",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "rahu_h12",
+      "planet": "rahu",
+      "house": 12,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 606,
+        "pdf_page": 612,
+        "section": "Rahu in house 12",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "ketu_h1",
+      "planet": "ketu",
+      "house": 1,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 614,
+        "pdf_page": 618,
+        "section": "Ketu in house 1",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "ketu_h2",
+      "planet": "ketu",
+      "house": 2,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 615,
+        "pdf_page": 619,
+        "section": "Ketu in house 2",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "ketu_h3",
+      "planet": "ketu",
+      "house": 3,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 616,
+        "pdf_page": 620,
+        "section": "Ketu in house 3",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "ketu_h4",
+      "planet": "ketu",
+      "house": 4,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 618,
+        "pdf_page": 622,
+        "section": "Ketu in house 4",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "ketu_h5",
+      "planet": "ketu",
+      "house": 5,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 619,
+        "pdf_page": 623,
+        "section": "Ketu in house 5",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "ketu_h6",
+      "planet": "ketu",
+      "house": 6,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 620,
+        "pdf_page": 624,
+        "section": "Ketu in house 6",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "ketu_h7",
+      "planet": "ketu",
+      "house": 7,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 622,
+        "pdf_page": 626,
+        "section": "Ketu in house 7",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "ketu_h8",
+      "planet": "ketu",
+      "house": 8,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 623,
+        "pdf_page": 627,
+        "section": "Ketu in house 8",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "ketu_h9",
+      "planet": "ketu",
+      "house": 9,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 626,
+        "pdf_page": 630,
+        "section": "Ketu in house 9",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "ketu_h10",
+      "planet": "ketu",
+      "house": 10,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 628,
+        "pdf_page": 632,
+        "section": "Ketu in house 10",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "ketu_h11",
+      "planet": "ketu",
+      "house": 11,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 629,
+        "pdf_page": 633,
+        "section": "Ketu in house 11",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "ketu_h12",
+      "planet": "ketu",
+      "house": 12,
+      "status": "todo",
+      "theme": null,
+      "conditions": [],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 630,
+        "pdf_page": 634,
+        "section": "Ketu in house 12",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    }
+  ]
+}

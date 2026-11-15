@@ -1,0 +1,87 @@
+# Dev services for the Python backend (services/api-py).
+#   docker compose up -d
+# Postgres: owner/migration user `ankana` and RLS-bound app user `ankana_app`.
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: ankana
+      POSTGRES_PASSWORD: ankana_dev
+      POSTGRES_DB: ankana
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./services/api-py/docker/postgres-init.sql:/docker-entrypoint-initdb.d/01-roles.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ankana -d ankana"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  # --- Python API + worker: one image, two entrypoints -----------------------
+  #   docker compose up -d --build migrate api worker
+  migrate:
+    build: &api_build
+      context: ./services/api-py
+    image: ankana-api
+    command: ["alembic", "upgrade", "head"]
+    environment:
+      API_MIGRATION_URL: postgresql+psycopg://ankana:ankana_dev@postgres:5432/ankana
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  api:
+    build: *api_build
+    image: ankana-api
+    environment: &api_env
+      API_DATABASE_URL: postgresql+psycopg://ankana_app:ankana_app_dev@postgres:5432/ankana
+      API_ENV: dev
+      AUTH_DEV_STUB: "1"
+      STORAGE_BACKEND: local            # azure: also set AZURE_STORAGE_CONNECTION_STRING
+      STORAGE_LOCAL_DIR: /data/storage
+      STORAGE_SIGNING_KEY: dev-only-change-me
+      STORAGE_PUBLIC_BASE_URL: http://localhost:8000
+    volumes:
+      - storage:/data/storage
+    ports:
+      - "8000:8000"
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+
+  worker:
+    image: ankana-api
+    command: ["python", "-m", "app.worker"]
+    environment:
+      <<: *api_env
+      WORKER_CONCURRENCY: "2"           # caps concurrent Chromium instances
+    volumes:
+      - storage:/data/storage
+    shm_size: 1gb                       # Chromium needs /dev/shm headroom
+    depends_on:
+      migrate:
+        condition: service_completed_successfully
+
+  # Optional Azure Blob emulator: docker compose --profile azure up azurite
+  azurite:
+    image: mcr.microsoft.com/azure-storage/azurite
+    command: azurite-blob --blobHost 0.0.0.0 --skipApiVersionCheck
+    profiles: ["azure"]
+    ports:
+      - "10000:10000"
+
+volumes:
+  pgdata:
+  storage:

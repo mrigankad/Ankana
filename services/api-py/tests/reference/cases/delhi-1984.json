@@ -1,0 +1,76 @@
+{
+  "id": "delhi-1984",
+  "note": "Delhi, evening",
+  "source": "swisseph-provisional",
+  "settings": {
+    "ayanamsa": "lahiri",
+    "ayanamsaMean": false,
+    "node": "mean",
+    "sunriseRule": "hindu",
+    "houseSystem": "whole_sign",
+    "ephemerisFiles": "swisseph 2.10.03, sepl/semo/seas_18.se1"
+  },
+  "input": {
+    "birthDate": "1984-10-31",
+    "birthTime": "17:20",
+    "timezoneName": "Asia/Kolkata",
+    "latitude": 28.6139,
+    "longitude": 77.209
+  },
+  "expected": {
+    "ayanamsa": 23.64089353840565,
+    "planets": {
+      "sun": 194.59943644943348,
+      "moon": 283.98529028373474,
+      "mercury": 207.38747487244945,
+      "venus": 230.03547865325658,
+      "mars": 265.0516396804917,
+      "jupiter": 255.11082368669025,
+      "saturn": 204.14042996970227,
+      "rahu": 34.763579232947336,
+      "ketu": 214.76357923294734
+    },
+    "ascendant": 10.453375871128799,
+    "midheaven": 269.21204566476433,
+    "sunrise": "1984-10-31T01:06:19.540354+00:00",
+    "sunset": "1984-10-31T12:02:54.344739+00:00",
+    "vimshottariStarts": [
+      {
+        "planet": "moon",
+        "start": "1981-11-04"
+      },
+      {
+        "planet": "mars",
+        "start": "1991-11-05"
+      },
+      {
+        "planet": "rahu",
+        "start": "1998-11-04"
+      },
+      {
+        "planet": "jupiter",
+        "start": "2016-11-04"
+      },
+      {
+        "planet": "saturn",
+        "start": "2032-11-04"
+      },
+      {
+        "planet": "mercury",
+        "start": "2051-11-04"
+      },
+      {
+        "planet": "ketu",
+        "start": "2068-11-03"
+      },
+      {
+        "planet": "venus",
+        "start": "2075-11-04"
+      },
+      {
+        "planet": "sun",
+        "start": "2095-11-04"
+      }
+    ]
+  }
+}

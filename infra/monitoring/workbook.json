@@ -1,0 +1,296 @@
+{
+  "version": "Notebook/1.0",
+  "items": [
+    {
+      "type": 1,
+      "content": {
+        "json": "# Ankana operations\nSLOs: chart generate p95 < 800 ms, reads p95 < 200 ms, errors < 0.5%. Data: Application Insights (workspace-based). Metric names come from `services/api-py/src/app/metrics.py`."
+      }
+    },
+    {
+      "type": 9,
+      "content": {
+        "version": "KqlParameterItem/1.0",
+        "parameters": [
+          {
+            "id": "a1",
+            "version": "KqlParameterItem/1.0",
+            "name": "TimeRange",
+            "label": "Time range",
+            "type": 4,
+            "isRequired": true,
+            "value": {
+              "durationMs": 86400000
+            },
+            "typeSettings": {
+              "selectableValues": [
+                {
+                  "durationMs": 3600000
+                },
+                {
+                  "durationMs": 21600000
+                },
+                {
+                  "durationMs": 86400000
+                },
+                {
+                  "durationMs": 259200000
+                },
+                {
+                  "durationMs": 604800000
+                }
+              ],
+              "allowCustom": true
+            }
+          },
+          {
+            "id": "a2",
+            "version": "KqlParameterItem/1.0",
+            "name": "Workspace",
+            "label": "Log Analytics workspace",
+            "type": 5,
+            "isRequired": true,
+            "multiSelect": false,
+            "query": "resources | where type =~ 'microsoft.operationalinsights/workspaces' | project id",
+            "crossComponentResources": [
+              "value::selected"
+            ],
+            "typeSettings": {
+              "additionalResourceOptions": [],
+              "showDefault": false
+            },
+            "queryType": 1,
+            "resourceType": "microsoft.resourcegraph/resources"
+          }
+        ],
+        "style": "pills",
+        "queryType": 0,
+        "resourceType": "microsoft.operationalinsights/workspaces"
+      },
+      "name": "parameters"
+    },
+    {
+      "type": 1,
+      "content": {
+        "json": "## Requests"
+      }
+    },
+    {
+      "type": 3,
+      "content": {
+        "version": "KqlItem/1.0",
+        "title": "SLO check",
+        "query": "AppRequests | where TimeGenerated {TimeRange} and Name !has '/health' and Name !has '/ready'\n| extend kind = case(Name startswith 'POST /v1/clients/{client_id}/charts', 'chart generate',\n                     Name startswith 'GET /v1/charts', 'chart read', Name has '/ask', 'ask',\n                     Name startswith 'GET', 'other read', 'other write')\n| summarize requests = count(), p50 = round(percentile(DurationMs, 50)),\n            p95 = round(percentile(DurationMs, 95)),\n            errors = countif(toint(ResultCode) >= 500) by kind\n| extend errorPct = round(100.0 * errors / requests, 2),\n         slo = case(kind == 'chart generate', iff(p95 < 800, 'ok', 'BREACH'),\n                    kind == 'chart read', iff(p95 < 200, 'ok', 'BREACH'), '')\n| order by requests desc",
+        "size": 1,
+        "queryType": 0,
+        "resourceType": "microsoft.operationalinsights/workspaces",
+        "timeContextFromParameter": "TimeRange",
+        "visualization": "table"
+      },
+      "name": "slo-tiles"
+    },
+    {
+      "type": 3,
+      "content": {
+        "version": "KqlItem/1.0",
+        "title": "Latency p50 / p95 / p99 (ms)",
+        "query": "AppRequests | where TimeGenerated {TimeRange} and Name !has '/health' and Name !has '/ready'\n| summarize p50 = percentile(DurationMs, 50), p95 = percentile(DurationMs, 95),\n            p99 = percentile(DurationMs, 99) by bin(TimeGenerated, 5m)",
+        "size": 1,
+        "queryType": 0,
+        "resourceType": "microsoft.operationalinsights/workspaces",
+        "timeContextFromParameter": "TimeRange",
+        "visualization": "timechart"
+      },
+      "name": "latency"
+    },
+    {
+      "type": 3,
+      "content": {
+        "version": "KqlItem/1.0",
+        "title": "5xx error rate (%)",
+        "query": "AppRequests | where TimeGenerated {TimeRange} and Name !has '/health' and Name !has '/ready'\n| summarize total = count(), failed = countif(toint(ResultCode) >= 500)\n  by bin(TimeGenerated, 5m)\n| project TimeGenerated, errorPct = iff(total == 0, 0.0, 100.0 * failed / total)",
+        "size": 1,
+        "queryType": 0,
+        "resourceType": "microsoft.operationalinsights/workspaces",
+        "timeContextFromParameter": "TimeRange",
+        "visualization": "timechart"
+      },
+      "name": "errors"
+    },
+    {
+      "type": 3,
+      "content": {
+        "version": "KqlItem/1.0",
+        "title": "Slowest routes (p95 ms)",
+        "query": "AppRequests | where TimeGenerated {TimeRange} and Name !has '/health' and Name !has '/ready'\n| summarize n = count(), p95 = round(percentile(DurationMs, 95)) by Name\n| where n >= 5 | top 15 by p95 desc",
+        "size": 1,
+        "queryType": 0,
+        "resourceType": "microsoft.operationalinsights/workspaces",
+        "timeContextFromParameter": "TimeRange",
+        "visualization": "table"
+      },
+      "name": "slowest"
+    },
+    {
+      "type": 1,
+      "content": {
+        "json": "## Job queue and reports"
+      }
+    },
+    {
+      "type": 3,
+      "content": {
+        "version": "KqlItem/1.0",
+        "title": "Queue depth by kind",
+        "query": "AppMetrics | where TimeGenerated {TimeRange} and Name == 'ankana.jobs.queue_depth'\n| summarize depth = max(Max) by bin(TimeGenerated, 5m), kind = tostring(Properties.kind)",
+        "size": 1,
+        "queryType": 0,
+        "resourceType": "microsoft.operationalinsights/workspaces",
+        "timeContextFromParameter": "TimeRange",
+        "visualization": "timechart"
+      },
+      "name": "queue-depth"
+    },
+    {
+      "type": 3,
+      "content": {
+        "version": "KqlItem/1.0",
+        "title": "Oldest ready job (seconds)",
+        "query": "AppMetrics | where TimeGenerated {TimeRange} and Name == 'ankana.jobs.oldest_queued_age'\n| summarize age = max(Max) by bin(TimeGenerated, 5m), kind = tostring(Properties.kind)",
+        "size": 1,
+        "queryType": 0,
+        "resourceType": "microsoft.operationalinsights/workspaces",
+        "timeContextFromParameter": "TimeRange",
+        "visualization": "timechart"
+      },
+      "name": "queue-age"
+    },
+    {
+      "type": 3,
+      "content": {
+        "version": "KqlItem/1.0",
+        "title": "Terminally failed jobs (last 24 h)",
+        "query": "AppMetrics | where TimeGenerated {TimeRange} and Name == 'ankana.jobs.failed_recent'\n| summarize failed = max(Max) by bin(TimeGenerated, 15m), kind = tostring(Properties.kind)",
+        "size": 1,
+        "queryType": 0,
+        "resourceType": "microsoft.operationalinsights/workspaces",
+        "timeContextFromParameter": "TimeRange",
+        "visualization": "timechart"
+      },
+      "name": "failed-jobs"
+    },
+    {
+      "type": 3,
+      "content": {
+        "version": "KqlItem/1.0",
+        "title": "Job run time, mean seconds",
+        "query": "AppMetrics | where TimeGenerated {TimeRange} and Name == 'ankana.jobs.duration'\n| summarize seconds = sum(Sum) / sum(ItemCount)\n  by bin(TimeGenerated, 5m), kind = tostring(Properties.kind)",
+        "size": 1,
+        "queryType": 0,
+        "resourceType": "microsoft.operationalinsights/workspaces",
+        "timeContextFromParameter": "TimeRange",
+        "visualization": "timechart"
+      },
+      "name": "job-duration"
+    },
+    {
+      "type": 3,
+      "content": {
+        "version": "KqlItem/1.0",
+        "title": "Report render time (mean and max, seconds)",
+        "query": "AppMetrics | where TimeGenerated {TimeRange} and Name == 'ankana.report.render.duration'\n| summarize mean = sum(Sum) / sum(ItemCount), max = max(Max) by bin(TimeGenerated, 15m)",
+        "size": 1,
+        "queryType": 0,
+        "resourceType": "microsoft.operationalinsights/workspaces",
+        "timeContextFromParameter": "TimeRange",
+        "visualization": "timechart"
+      },
+      "name": "render"
+    },
+    {
+      "type": 1,
+      "content": {
+        "json": "## AI assistant"
+      }
+    },
+    {
+      "type": 3,
+      "content": {
+        "version": "KqlItem/1.0",
+        "title": "Tokens by provider and type",
+        "query": "AppMetrics | where TimeGenerated {TimeRange} and Name == 'ankana.ai.tokens'\n| summarize tokens = sum(Sum) by bin(TimeGenerated, 1h),\n  series = strcat(tostring(Properties.provider), ' ', tostring(Properties.type))",
+        "size": 1,
+        "queryType": 0,
+        "resourceType": "microsoft.operationalinsights/workspaces",
+        "timeContextFromParameter": "TimeRange",
+        "visualization": "timechart"
+      },
+      "name": "ai-tokens"
+    },
+    {
+      "type": 3,
+      "content": {
+        "version": "KqlItem/1.0",
+        "title": "Estimated cost by provider (USD)",
+        "query": "AppMetrics | where TimeGenerated {TimeRange} and Name == 'ankana.ai.cost_usd'\n| summarize usd = round(sum(Sum), 4)\n  by provider = tostring(Properties.provider), model = tostring(Properties.model)\n| order by usd desc",
+        "size": 1,
+        "queryType": 0,
+        "resourceType": "microsoft.operationalinsights/workspaces",
+        "timeContextFromParameter": "TimeRange",
+        "visualization": "table"
+      },
+      "name": "ai-cost"
+    },
+    {
+      "type": 1,
+      "content": {
+        "json": "## Notifications and security"
+      }
+    },
+    {
+      "type": 3,
+      "content": {
+        "version": "KqlItem/1.0",
+        "title": "Notification failures",
+        "query": "AppMetrics | where TimeGenerated {TimeRange} and Name == 'ankana.notifications.failures'\n| summarize failures = sum(Sum) by bin(TimeGenerated, 1h), channel = tostring(Properties.channel)",
+        "size": 1,
+        "queryType": 0,
+        "resourceType": "microsoft.operationalinsights/workspaces",
+        "timeContextFromParameter": "TimeRange",
+        "visualization": "timechart"
+      },
+      "name": "notif"
+    },
+    {
+      "type": 3,
+      "content": {
+        "version": "KqlItem/1.0",
+        "title": "Sign-in failures and blocks (brute-force watch)",
+        "query": "AppMetrics | where TimeGenerated {TimeRange} and Name == 'ankana.auth.events'\n| summarize events = sum(Sum) by bin(TimeGenerated, 5m), action = tostring(Properties.action)",
+        "size": 1,
+        "queryType": 0,
+        "resourceType": "microsoft.operationalinsights/workspaces",
+        "timeContextFromParameter": "TimeRange",
+        "visualization": "timechart"
+      },
+      "name": "auth"
+    },
+    {
+      "type": 3,
+      "content": {
+        "version": "KqlItem/1.0",
+        "title": "Rate limiter: limited requests by scope",
+        "query": "AppMetrics | where TimeGenerated {TimeRange} and Name == 'ankana.ratelimit.decisions'\n| where tostring(Properties.result) == 'limited'\n| summarize limited = sum(Sum) by bin(TimeGenerated, 15m), scope = tostring(Properties.scope)",
+        "size": 1,
+        "queryType": 0,
+        "resourceType": "microsoft.operationalinsights/workspaces",
+        "timeContextFromParameter": "TimeRange",
+        "visualization": "timechart"
+      },
+      "name": "limits"
+    }
+  ],
+  "isLocked": false,
+  "fallbackResourceIds": [],
+  "$schema": "https://github.com/Microsoft/Application-Insights-Workbooks/blob/master/schema/workbook.json"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "losangeles-1999",
+  "note": "Year-end, PST",
+  "source": "swisseph-provisional",
+  "settings": {
+    "ayanamsa": "lahiri",
+    "ayanamsaMean": false,
+    "node": "mean",
+    "sunriseRule": "hindu",
+    "houseSystem": "whole_sign",
+    "ephemerisFiles": "swisseph 2.10.03, sepl/semo/seas_18.se1"
+  },
+  "input": {
+    "birthDate": "1999-12-31",
+    "birthTime": "23:59",
+    "timezoneName": "America/Los_Angeles",
+    "latitude": 34.0522,
+    "longitude": -118.2437
+  },
+  "expected": {
+    "ayanamsa": 23.853215881321784,
+    "planets": {
+      "sun": 256.34509060400484,
+      "moon": 197.4565114447154,
+      "mercury": 247.77567838667568,
+      "venus": 217.510241830547,
+      "mars": 303.9802694579681,
+      "jupiter": 1.3930967930435223,
+      "saturn": 16.545811234165793,
+      "rahu": 101.19629237249976,
+      "ketu": 281.1962923724998
+    },
+    "ascendant": 166.08528738116175,
+    "midheaven": 76.99584670901864,
+    "sunrise": "1999-12-31T15:02:51.447189+00:00",
+    "sunset": "2000-01-01T00:49:07.520685+00:00",
+    "vimshottariStarts": [
+      {
+        "planet": "rahu",
+        "start": "1985-06-08"
+      },
+      {
+        "planet": "jupiter",
+        "start": "2003-06-08"
+      },
+      {
+        "planet": "saturn",
+        "start": "2019-06-08"
+      },
+      {
+        "planet": "mercury",
+        "start": "2038-06-07"
+      },
+      {
+        "planet": "ketu",
+        "start": "2055-06-08"
+      },
+      {
+        "planet": "venus",
+        "start": "2062-06-07"
+      },
+      {
+        "planet": "sun",
+        "start": "2082-06-07"
+      },
+      {
+        "planet": "moon",
+        "start": "2088-06-07"
+      },
+      {
+        "planet": "mars",
+        "start": "2098-06-07"
+      }
+    ]
+  }
+}

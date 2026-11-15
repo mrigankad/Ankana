@@ -1,0 +1,1785 @@
+{
+  "description": "Planet-in-house entries for venus (Vol II), paraphrased. Same row schema as data/planet_house.json; remedies carry optional structured action/item/venue/duration.",
+  "planet": "venus",
+  "rows": [
+    {
+      "id": "venus_h1",
+      "planet": "venus",
+      "house": 1,
+      "status": "done",
+      "theme": "Swings between extremes: a benefic Venus gives a luxurious, comfortable life, a malefic one ruins it; spouse and mother are the pressure points.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Venus here is read as an extreme planet: very good when benefic (comforts, vehicles, animals) and very bad when malefic. It also echoes Saturn's influence.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Strong urge for romance and indulgence, especially roughly ages 16 to 36; reckless behaviour can cost reputation, though the native's own health and luck hold up and the spouse's health suffers.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  10,
+                  11
+                ]
+              }
+            }
+          ],
+          "effect": "Marriage comes before steady earning and the spouse runs the household; long life and a large family.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  6,
+                  7,
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Large progeny and long life.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                7,
+                10
+              ]
+            }
+          ],
+          "effect": "Houses 7 and 10 empty (or holding only Rahu, Ketu, Saturn, Mercury) form the Fish Line: abundant wealth, but it needs a maid-servant or a cow in the home.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  3,
+                  6
+                ]
+              }
+            }
+          ],
+          "effect": "Sharp intellect and favourable court decisions; Moon is not usually harmful.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  1
+                ]
+              }
+            }
+          ],
+          "effect": "Venus with a malefic Saturn forms the Crow Line and is destructive; a marriage at 25 destroys wealth and spouse.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Malefic Venus can bring the mother death-like suffering, and the mother and wife do not get on; the Sun's matters stay unaffected.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "moon",
+                  "rahu"
+                ],
+                "houses": [
+                  1,
+                  7
+                ]
+              }
+            }
+          ],
+          "effect": "Enemy planets in houses 1 and 7 bring a sickly spouse, family breakdown and possible divorce.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "rahu"
+                ],
+                "houses": [
+                  7
+                ]
+              }
+            }
+          ],
+          "effect": "Troubles with relations, a licentious nature and many deaths around the native.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "A malefic Jupiter, Sun and Saturn together, or Moon with Rahu and Sun in 1 and 7, give very poor health and bring other people's troubles to the native.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Restrain sexual escapades and heed the advice of elders.",
+          "delivery": null,
+          "action": "self-discipline",
+          "item": null,
+          "venue": null,
+          "duration": null
+        },
+        {
+          "text": "If the spouse's family gave silver at the wedding, it offsets the Crow Line effects.",
+          "delivery": null,
+          "action": "gift/keep silver",
+          "item": "silver",
+          "venue": null,
+          "duration": null
+        },
+        {
+          "text": "For the house-12 variant, donate barley, or seven mixed grains including mustard.",
+          "delivery": null,
+          "action": "donate",
+          "item": "barley or seven mixed grains",
+          "venue": "needy / temple",
+          "duration": null
+        },
+        {
+          "text": "Donate a cow (for a woman chart) in charity.",
+          "delivery": null,
+          "action": "donate",
+          "item": "cow",
+          "venue": "goshala",
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 444,
+        "pdf_page": 457,
+        "section": "Venus in house 1",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Remedy text involving a private-body procedure, medicine or giving away a person was omitted. Book text on exact remedy conditions is garbled."
+    },
+    {
+      "id": "venus_h2",
+      "planet": "venus",
+      "house": 2,
+      "status": "done",
+      "theme": "Excellent family life and prosperity; the house of Venus's own comfort, wealth grows on its own.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "The native need not beg for favours, is a family man with growing wealth (every 8th year), good in-laws and public affection; no planet is debilitated in house 2.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  2,
+                  9
+                ]
+              }
+            }
+          ],
+          "effect": "Venus here gives twice the benefit; Saturn's results follow its house-9 reading. Prosperity for about 60 years, gains from animals and soft land.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter",
+                  "ketu",
+                  "mercury"
+                ],
+                "houses": [
+                  5
+                ]
+              }
+            }
+          ],
+          "effect": "Excellent luck; the house becomes like a palace.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Living in a house narrow at the front and broad at the rear (cow house) helps; Jupiter decides the fate of brothers and sons.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Living in a house broad at the front and narrow at the rear (lion house), dealing in gold, or an eclipse in the chart brings misery.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "rahu",
+                  "ketu"
+                ],
+                "houses": [
+                  2
+                ]
+              }
+            }
+          ],
+          "effect": "Children by a woman other than the spouse; with Rahu or Ketu in 2, 5, 9 or 12 the spouse is unfaithful and wealth is destroyed.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                8
+              ]
+            }
+          ],
+          "effect": "No procreation possible; ruin through widows or immoral partners.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter"
+                ],
+                "houses": [
+                  8,
+                  9,
+                  10
+                ]
+              }
+            }
+          ],
+          "effect": "Obstruction in marriage and children; the spouse may earn.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Book says that for a woman with Venus in 2 the husband is impotent, and for a man the wife is barren; low-confidence reading.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Take blood-building supplements with iron-based ingredients, under a doctor's advice.",
+          "delivery": null,
+          "action": "take supplement",
+          "item": "iron-based tonic",
+          "venue": "home",
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 447,
+        "pdf_page": 460,
+        "section": "Venus in house 2",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Book remedy mentions Mars items as medicine; kept only as a doctor-advised supplement."
+    },
+    {
+      "id": "venus_h3",
+      "planet": "venus",
+      "house": 3,
+      "status": "done",
+      "theme": "Respect for the spouse brings luck; liked by women, wife is strong-willed.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Favourite of women; the wife is bold and teasing but loyal, and her presence protects against theft, cheating and early death. Respecting her brings salvation and luck.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  3
+                ]
+              }
+            }
+          ],
+          "effect": "Mars conjoined or linked to Venus gives parental affection up to 15 and gain through the opposite sex under the spouse's control.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "ketu"
+                ],
+                "houses": [
+                  3
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  9
+                ]
+              }
+            }
+          ],
+          "effect": "Pious spouse, no thefts, father's support.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  3
+                ]
+              }
+            }
+          ],
+          "effect": "Benefic Mercury gives a pilgrimage gain around age 20 and a share in parental property.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                8
+              ]
+            }
+          ],
+          "effect": "House 8 empty makes Venus lucky with victory over enemies, stronger than Sun or Jupiter here.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter"
+                ],
+                "houses": [
+                  9
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  11
+                ]
+              }
+            }
+          ],
+          "effect": "Poor health and troubles through disease; wealth up to about 34 but an unhappy life, progress after 34.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Mars or Mercury malefic, or enemy planets in 9 and 11, hurt wealth between 16 and 34, bring losses through brothers, relatives and daughters.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [],
+      "cite": {
+        "vol": "II",
+        "printed_page": 450,
+        "pdf_page": 463,
+        "section": "Venus in house 3",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "No remedy given in the entry."
+    },
+    {
+      "id": "venus_h4",
+      "planet": "venus",
+      "house": 4,
+      "status": "done",
+      "theme": "Illicit liaisons and love affairs; comforts but little marital bliss and few children.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Frequent, enjoyable surface travel; comforts after 4 years of marriage; chances for flirtation, but the wife gives little comfort and children are few.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                2,
+                7
+              ]
+            }
+          ],
+          "effect": "With no planet in 2 to 7 and Venus unlinked, two spouses are indicated (one older, one comforting) and children may still be few.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars",
+                  "mercury",
+                  "rahu",
+                  "ketu"
+                ],
+                "houses": [
+                  1
+                ]
+              }
+            }
+          ],
+          "effect": "The shortage of children is made good.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Venus alone with 2 and 7 empty: any romance brings disrepute.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  4
+                ]
+              }
+            }
+          ],
+          "effect": "Intoxication causes destruction, via Mercury items.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  4
+                ]
+              }
+            }
+          ],
+          "effect": "Poverty (with divine help), conflict between wife and mother, harm to maternal uncle.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Covering a well, or building over one, brings childlessness; marriage at 22, 24, 25, 29, 32, 34, 45, 47, 51 or 60 is unfavourable.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "If Venus and Moon are both malefic, the wife is inauspicious and daughters cause trouble; Jupiter decides the wife's condition unless linked to Saturn.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Establish the Moon (remedy of Moon), or throw Jupiter-ruled items into a well.",
+          "delivery": null,
+          "action": "symbolic offering",
+          "item": "Jupiter-ruled items",
+          "venue": "well",
+          "duration": null
+        },
+        {
+          "text": "Keep a small pond or water vessel on the roof.",
+          "delivery": null,
+          "action": "keep water",
+          "item": "pond/water",
+          "venue": "roof",
+          "duration": null
+        },
+        {
+          "text": "When Venus and Moon are both malefic, bury a black item in a peach stone outside the home.",
+          "delivery": null,
+          "action": "bury",
+          "item": "black item in peach stone",
+          "venue": "outside home",
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 452,
+        "pdf_page": 465,
+        "section": "Venus in house 4",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Remedy detail on the wife's health and Mars medicine omitted."
+    },
+    {
+      "id": "venus_h5",
+      "planet": "venus",
+      "house": 5,
+      "status": "done",
+      "theme": "A family full of children; wealth follows character.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Many children and a fortunate spouse; wealth via Venus articles. Religious conduct makes the native lucky, licentious conduct ruins him; wife and children stay content.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury",
+                  "saturn",
+                  "ketu"
+                ],
+                "houses": [
+                  5
+                ]
+              }
+            }
+          ],
+          "effect": "The native becomes a religious guide, wife is chaste and lucky, wealth and love of family grow.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun"
+                ],
+                "houses": [
+                  1
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  3
+                ]
+              }
+            }
+          ],
+          "effect": "Very lucky and wealthy.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "together": [
+                "venus",
+                "sun"
+              ]
+            }
+          ],
+          "effect": "Enemy planets with Venus here do not harm it.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "moon",
+                  "rahu"
+                ],
+                "houses": [
+                  1,
+                  7
+                ]
+              }
+            }
+          ],
+          "effect": "Elder brothers, maternal uncles and in-laws become a source of loss.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                12
+              ]
+            }
+          ],
+          "effect": "House 12 destroyed also destroys Venus; losses through friends.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "A love marriage here risks unfaithful children; Venus polluted by Saturn leads to immorality; Venus without aspect brings theft losses.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Serve a cow and keep conduct clean; loss of character means loss of wealth.",
+          "delivery": null,
+          "action": "service",
+          "item": "cow",
+          "venue": "home/goshala",
+          "duration": null
+        },
+        {
+          "text": "Use the Moon remedy to reduce malefic effects.",
+          "delivery": null,
+          "action": "remedy of Moon",
+          "item": null,
+          "venue": null,
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 454,
+        "pdf_page": 467,
+        "section": "Venus in house 5",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Remedy text involving a private-body procedure, medicine or giving away a person was omitted."
+    },
+    {
+      "id": "venus_h6",
+      "planet": "venus",
+      "house": 6,
+      "status": "done",
+      "theme": "Wealth depends on how one treats wealth; Venus here acts debilitated and harms companions and the partner more than the native.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Pursuit of money and dominance over relatives; native good with words, health, speech and sight good; but loses by helping the poor and gets nothing from government service.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  6
+                ]
+              }
+            }
+          ],
+          "effect": "If the Moon is alive Venus gives no malefic results; comfortable old age, aided by the Moon remedy.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  6
+                ]
+              }
+            }
+          ],
+          "effect": "Comfortable life; results depend on Rahu or Ketu.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "jupiter"
+                ],
+                "houses": [
+                  2,
+                  6
+                ]
+              }
+            }
+          ],
+          "effect": "Very wealthy, but children may be spoiled; help from brothers, relations and father.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "ketu"
+                ],
+                "houses": [
+                  6
+                ]
+              }
+            }
+          ],
+          "effect": "Ketu with Venus: hard work without gain, enemies; barrenness indicated in the book.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter"
+                ],
+                "houses": [
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Loss of wealth; Jupiter, Sun and Moon all turn malefic.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "moon",
+                  "rahu"
+                ],
+                "houses": [
+                  7
+                ]
+              }
+            }
+          ],
+          "effect": "Wasteful effort, damage to wisdom; Jupiter, Sun, Moon dormant or malefic.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter"
+                ],
+                "houses": [
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "A second son comes only after about 12 years.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Marrying an only child brings Mars-type harm; Mercury entering house 1 sets many things right.",
+          "tone": "neutral",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Keep a solid silver bar or silver items at home.",
+          "delivery": null,
+          "action": "keep",
+          "item": "silver bar",
+          "venue": "home",
+          "duration": null
+        },
+        {
+          "text": "Wife should wear a gold ornament on the head (and socks rather than barefoot) for children.",
+          "delivery": null,
+          "action": "wear",
+          "item": "gold ornament",
+          "venue": "body",
+          "duration": null
+        },
+        {
+          "text": "At marriage, give two gold pieces as a gift to the person with Venus in 6.",
+          "delivery": null,
+          "action": "gift",
+          "item": "two gold pieces",
+          "venue": "at marriage",
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 456,
+        "pdf_page": 469,
+        "section": "Venus in house 6",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Remedy text involving a private-body procedure, medicine or giving away a person was omitted."
+    },
+    {
+      "id": "venus_h7",
+      "planet": "venus",
+      "house": 7,
+      "status": "done",
+      "theme": "Effects depend on the companion; very good when alone; long life and earning, philandering harms.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "alone": true
+            }
+          ],
+          "effect": "Venus alone in 7 is extremely benefic; with a companion Venus gives that planet's results (Saturn the family, Ketu children, Rahu wealth, Mercury family life).",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Long life (about 83 to 90), gains through travel but nothing from ancestral property; marriage at 25 gives a comfortable domestic life with a beautiful, non-interfering wife, provided no white cow is kept.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  9,
+                  11
+                ]
+              }
+            }
+          ],
+          "effect": "Wealth and a benefic Venus; business in comfort items does well.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  2,
+                  4,
+                  6
+                ]
+              }
+            }
+          ],
+          "effect": "Gains for about 37 years from marriage.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  4
+                ]
+              }
+            }
+          ],
+          "effect": "Venus alone here with Moon in 4: the native keeps away from sex, returns safely home and dies at home.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "together": [
+                "venus",
+                "jupiter"
+              ]
+            }
+          ],
+          "effect": "Venus with Jupiter, or a malefic Jupiter, causes business loss and childbirth difficulty.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  1
+                ]
+              }
+            }
+          ],
+          "effect": "Moon in 1 harms Venus; unlucky native.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "mercury"
+                ],
+                "houses": [
+                  8
+                ]
+              }
+            }
+          ],
+          "effect": "Death of wives, especially with a skylight in the house.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "rahu"
+                ],
+                "houses": [
+                  8
+                ]
+              }
+            }
+          ],
+          "effect": "Unlucky, troubled wife, who should avoid blue.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "together": [
+                "venus",
+                "rahu"
+              ]
+            }
+          ],
+          "effect": "A troubled life, loss via the opposite sex.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                8
+              ]
+            }
+          ],
+          "effect": "Highly sexual, risk of disease; ill health of the spouse.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Be cool and kind-hearted; avoid partnerships with the wife's relatives.",
+          "delivery": null,
+          "action": "conduct",
+          "item": null,
+          "venue": null,
+          "duration": null
+        },
+        {
+          "text": "Wife avoids blue colour.",
+          "delivery": null,
+          "action": "avoid colour",
+          "item": "blue",
+          "venue": null,
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 460,
+        "pdf_page": 473,
+        "section": "Venus in house 7",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Remedy text involving a private-body procedure, medicine or giving away a person was omitted."
+    },
+    {
+      "id": "venus_h8",
+      "planet": "venus",
+      "house": 8,
+      "status": "done",
+      "theme": "A woman made of burnt soil: protect the wife's health, worship and avoid gifts.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "The wife is harsh in temperament and her words take effect, so she should not be ignored; accept no gifts, stay content with own earnings and pray at a temple for victory over enemies.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon",
+                  "mars",
+                  "mercury"
+                ],
+                "houses": [
+                  8
+                ]
+              }
+            }
+          ],
+          "effect": "If these are not alive Venus is benefic.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "moon",
+                  "rahu"
+                ],
+                "houses": [
+                  2,
+                  8
+                ]
+              }
+            }
+          ],
+          "effect": "Licentious character and disease; do not stand surety for anyone.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                2
+              ]
+            }
+          ],
+          "effect": "In-laws, wealth and progeny destroyed; wife dominates; battlefield help but home front damage.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Unlucky till 11; better after 12; years 27, 34 and 39 to 45 are unlucky; do not marry before 25.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Donate barley or bury it in the ground to protect the wife's health.",
+          "delivery": null,
+          "action": "donate / bury",
+          "item": "barley",
+          "venue": "earth / temple",
+          "duration": null
+        },
+        {
+          "text": "Throw a copper coin or a flower into running drainage.",
+          "delivery": null,
+          "action": "throw",
+          "item": "copper coin or flower",
+          "venue": "drain/sewer",
+          "duration": null
+        },
+        {
+          "text": "Serve or donate a cow; pray at temples.",
+          "delivery": null,
+          "action": "donate",
+          "item": "cow",
+          "venue": "temple/goshala",
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 462,
+        "pdf_page": 475,
+        "section": "Venus in house 8",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "venus_h9",
+      "planet": "venus",
+      "house": 9,
+      "status": "done",
+      "theme": "A dark storm; self-earned wealth only, forefathers may be rich but not the native.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Pilgrimages, intelligence and hard work; wealth only through toil; takes on other people's troubles.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon",
+                  "mars"
+                ],
+                "houses": [
+                  9
+                ]
+              }
+            }
+          ],
+          "effect": "Venus acts nine times beneficial if a mare, a well, silver or honey is kept at home or in the foundation.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "rahu",
+                  "ketu",
+                  "saturn",
+                  "mercury"
+                ],
+                "houses": [
+                  9
+                ]
+              }
+            }
+          ],
+          "effect": "From age 17 drinking and disease cause expense; wife diseased from marriage; spouse, children and wealth harmed.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "moon",
+                  "rahu"
+                ],
+                "houses": [
+                  4
+                ]
+              }
+            }
+          ],
+          "effect": "Wealth loss at ages 4, 16, 28, 40/42, 52, 64, 76, 88, 100, 114.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  7
+                ]
+              }
+            }
+          ],
+          "effect": "Poverty and unfavourable children.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "together": [
+                "venus",
+                "jupiter"
+              ]
+            }
+          ],
+          "effect": "Obstruction in childbirth and poor business.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                1
+              ]
+            }
+          ],
+          "effect": "Blood disease.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Loss around age 25 via marriage, cow, farming or Venus relatives.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Bury a square or rectangular silver piece in a hole in a neem tree, closing it with neem wood.",
+          "delivery": null,
+          "action": "embed",
+          "item": "square silver piece",
+          "venue": "neem tree",
+          "duration": null
+        },
+        {
+          "text": "Keep silver or honey at home or in the foundation for Venus to act nine times beneficial.",
+          "delivery": null,
+          "action": "keep",
+          "item": "silver / honey",
+          "venue": "home",
+          "duration": null
+        },
+        {
+          "text": "Wife wears red thread or red bangles.",
+          "delivery": null,
+          "action": "wear",
+          "item": "red thread or bangles",
+          "venue": "wife",
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 464,
+        "pdf_page": 477,
+        "section": "Venus in house 9",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Book also suggests keeping a mare; omitted as an animal-keeping instruction."
+    },
+    {
+      "id": "venus_h10",
+      "planet": "venus",
+      "house": 10,
+      "status": "done",
+      "theme": "An imaginary Saturn: benefic if Saturn is, with fondness for women and travel.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Frequent chances for liaisons; fond of clothes, sex and travel; these turn Moon and Mars malefic.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                4
+              ]
+            }
+          ],
+          "effect": "With house 4 empty Venus acts like benefic Saturn; very sexy native of questionable character.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  9,
+                  11
+                ]
+              }
+            }
+          ],
+          "effect": "Saturn alone in 9 or 11 (exalted): gardens, orchards, wife's good health, comfortable old age while the western wall stays kachcha.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  2,
+                  4,
+                  7
+                ]
+              }
+            }
+          ],
+          "effect": "Moon alone here gives conveyance, wealth, comfort.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "moon",
+                  "rahu"
+                ],
+                "houses": [
+                  10
+                ]
+              }
+            }
+          ],
+          "effect": "12 years of life trouble.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  5
+                ]
+              }
+            }
+          ],
+          "effect": "Eye troubles to the wife.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Malefic Saturn makes Venus unhappy; denied or dying children, a licentious wife; 12 years of suffering through children, brothers, wealth.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Donate a Kapila cow to save from Saturn's malefic effects.",
+          "delivery": null,
+          "action": "donate",
+          "item": "Kapila cow",
+          "venue": "goshala",
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 466,
+        "pdf_page": 479,
+        "section": "Venus in house 10",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Remedy text involving a private-body procedure, medicine or giving away a person was omitted. Book's goat-keeping suggestion omitted."
+    },
+    {
+      "id": "venus_h11",
+      "planet": "venus",
+      "house": 11,
+      "status": "done",
+      "theme": "Handsome, hankering after wealth; secretive, with a 20-year Venus period.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "A handsome, wealthy, comfortable native, otherwise weak virility; hankers after wealth from youth; secretive, changeable nature.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury",
+                  "moon"
+                ],
+                "houses": [
+                  11
+                ]
+              }
+            }
+          ],
+          "effect": "Strong unafflicted Mercury or Moon: wealth, secret acts, earns well for 12 years.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "rahu"
+                ],
+                "houses": [
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Wealth through birth of daughters.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  3
+                ]
+              }
+            }
+          ],
+          "effect": "Wealth stays but daughters cause losses; Mercury, Rahu, Ketu, Saturn give malefic results.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                3
+              ]
+            }
+          ],
+          "effect": "Benefit through Mars remedy or wife's brothers.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Three years after marriage everything may go wrong; sons die or are not born; the wife must not control the household finances.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Venus major period of 20 years is malefic.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Donate mustard oil.",
+          "delivery": null,
+          "action": "donate",
+          "item": "mustard oil",
+          "venue": "temple/needy",
+          "duration": null
+        },
+        {
+          "text": "Donate a Kapila cow.",
+          "delivery": null,
+          "action": "donate",
+          "item": "Kapila cow",
+          "venue": "goshala",
+          "duration": null
+        },
+        {
+          "text": "Use Saturn-ruled or Moon-ruled items under medical advice for 40 to 43 days.",
+          "delivery": null,
+          "action": "take",
+          "item": "Saturn/Moon items (doctor advised)",
+          "venue": null,
+          "duration": "40-43 days"
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 468,
+        "pdf_page": 481,
+        "section": "Venus in house 11",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Remedy text involving a private-body procedure, medicine or giving away a person was omitted."
+    },
+    {
+      "id": "venus_h12",
+      "planet": "venus",
+      "house": 12,
+      "status": "done",
+      "theme": "A helpful deity in adversity; the wife rescues the native; comforts from the spouse for 37 years.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Poor birth turns wealthy after marriage; royal favour, comfortable nights, the spouse brings luck; respect for the spouse brings domestic comfort.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  2,
+                  6
+                ]
+              }
+            }
+          ],
+          "effect": "Love of music and poetry; couple lives about 96 years.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter",
+                  "saturn"
+                ],
+                "houses": [
+                  7
+                ]
+              }
+            }
+          ],
+          "effect": "Fish Line: the spouse has a troubled life, but the family and children are happy.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                2,
+                7
+              ]
+            }
+          ],
+          "effect": "Houses 2 and 7 empty or afflicted give malefic Venus results.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Malefic Mercury: spouse a source of trouble, unlucky and unhappy.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "rahu"
+                ],
+                "houses": [
+                  2,
+                  6,
+                  7,
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Troubled life till 25.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Spouse suffers first and has poor health; strong Venus indicates early attraction to the opposite sex.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Donate a cow for the spouse's health.",
+          "delivery": null,
+          "action": "donate",
+          "item": "cow",
+          "venue": "goshala",
+          "duration": null
+        },
+        {
+          "text": "Wife buries a blue flower in an open outdoor spot in the evening.",
+          "delivery": null,
+          "action": "bury",
+          "item": "blue flower",
+          "venue": "outdoors",
+          "duration": "evening"
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 470,
+        "pdf_page": 483,
+        "section": "Venus in house 12",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Book's advice on which cow colour to keep omitted."
+    }
+  ]
+}

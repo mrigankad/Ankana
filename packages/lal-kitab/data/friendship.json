@@ -1,0 +1,223 @@
+{
+  "description": "Two 9x9 friendship tables printed on p.761 inside the Patiala 1962 worked example. Row planet's attitude towards column planet. F friend, FF fast friend, N neutral, E enemy, BE bitter enemy.",
+  "legend": {
+    "F": "friend",
+    "FF": "fast friend",
+    "N": "neutral",
+    "E": "enemy",
+    "BE": "bitter enemy"
+  },
+  "tables": [
+    {
+      "id": "relationship_chart",
+      "caption": "Chart showing friendship of the planets after aspect and relationship (second table on page)",
+      "matrix": {
+        "jupiter": {
+          "sun": "F",
+          "moon": "FF",
+          "venus": "N",
+          "mars": "F",
+          "mercury": "E",
+          "saturn": "N",
+          "rahu": "E",
+          "ketu": "N"
+        },
+        "sun": {
+          "jupiter": "F",
+          "moon": "N",
+          "venus": "BE",
+          "mars": "F",
+          "mercury": "N",
+          "saturn": "BE",
+          "rahu": "E",
+          "ketu": "BE"
+        },
+        "moon": {
+          "jupiter": "F",
+          "sun": "N",
+          "venus": "F",
+          "mars": "F",
+          "mercury": "F",
+          "saturn": "E",
+          "rahu": "E",
+          "ketu": "BE"
+        },
+        "venus": {
+          "jupiter": "F",
+          "sun": "BE",
+          "moon": "N",
+          "mars": "F",
+          "mercury": "F",
+          "saturn": "N",
+          "rahu": "E",
+          "ketu": "N"
+        },
+        "mars": {
+          "jupiter": "F",
+          "sun": "F",
+          "moon": "FF",
+          "venus": "F",
+          "mercury": "BE",
+          "saturn": "N",
+          "rahu": "N",
+          "ketu": "E"
+        },
+        "mercury": {
+          "jupiter": "E",
+          "sun": "F",
+          "moon": "E",
+          "venus": "F",
+          "mars": "N",
+          "saturn": "N",
+          "rahu": "N",
+          "ketu": "N"
+        },
+        "saturn": {
+          "jupiter": "N",
+          "sun": "E",
+          "moon": "E",
+          "venus": "F",
+          "mars": "BE",
+          "mercury": "FF",
+          "rahu": "N",
+          "ketu": "N"
+        },
+        "rahu": {
+          "jupiter": "BE",
+          "sun": "E",
+          "moon": "E",
+          "venus": "BE",
+          "mars": "E",
+          "mercury": "N",
+          "saturn": "N",
+          "ketu": "N"
+        },
+        "ketu": {
+          "jupiter": "N",
+          "sun": "N",
+          "moon": "E",
+          "venus": "F",
+          "mars": "BE",
+          "mercury": "F",
+          "saturn": "N",
+          "rahu": "N"
+        }
+      },
+      "cite": {
+        "vol": "II",
+        "printed_page": 761,
+        "pdf_page": 764,
+        "section": "Friendship of planets after aspect and relationship",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "after_aspect",
+      "caption": "Behaviour according to aspect: sudden strike, help, deception, foundation, confrontation (first table on page)",
+      "matrix": {
+        "jupiter": {
+          "sun": "F",
+          "moon": "F",
+          "venus": "E",
+          "mars": "F",
+          "mercury": "E",
+          "saturn": "N",
+          "rahu": "N",
+          "ketu": "N"
+        },
+        "sun": {
+          "jupiter": "F",
+          "moon": "F",
+          "venus": "E",
+          "mars": "F",
+          "mercury": "N",
+          "saturn": "E",
+          "rahu": "E",
+          "ketu": "E"
+        },
+        "moon": {
+          "jupiter": "N",
+          "sun": "F",
+          "venus": "N",
+          "mars": "N",
+          "mercury": "F",
+          "saturn": "N",
+          "rahu": "E",
+          "ketu": "E"
+        },
+        "venus": {
+          "jupiter": "N",
+          "sun": "E",
+          "moon": "E",
+          "mars": "N",
+          "mercury": "F",
+          "saturn": "F",
+          "rahu": "E",
+          "ketu": "F"
+        },
+        "mars": {
+          "jupiter": "F",
+          "sun": "F",
+          "moon": "F",
+          "venus": "N",
+          "mercury": "E",
+          "saturn": "N",
+          "rahu": "N",
+          "ketu": "E"
+        },
+        "mercury": {
+          "jupiter": "N",
+          "sun": "F",
+          "moon": "E",
+          "venus": "F",
+          "mars": "N",
+          "saturn": "N",
+          "rahu": "F",
+          "ketu": "N"
+        },
+        "saturn": {
+          "jupiter": "N",
+          "sun": "E",
+          "moon": "E",
+          "venus": "F",
+          "mars": "E",
+          "mercury": "F",
+          "rahu": "F",
+          "ketu": "N"
+        },
+        "rahu": {
+          "jupiter": "N",
+          "sun": "E",
+          "moon": "N",
+          "venus": "E",
+          "mars": "E",
+          "mercury": "F",
+          "saturn": "F",
+          "ketu": "F"
+        },
+        "ketu": {
+          "jupiter": "N",
+          "sun": "N",
+          "moon": "E",
+          "venus": "F",
+          "mars": "E",
+          "mercury": "N",
+          "saturn": "N",
+          "rahu": "F"
+        }
+      },
+      "cite": {
+        "vol": "II",
+        "printed_page": 761,
+        "pdf_page": 764,
+        "section": "Friendship of planets after aspect and relationship",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    }
+  ],
+  "note": "Both tables are asymmetric and sit inside a worked example, so they may encode chart-specific behaviour rather than a universal friendship scheme. Transcribed from the page image; flagged for review before use in rules."
+}

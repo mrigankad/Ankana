@@ -1,0 +1,29 @@
+{
+  "id": "einstein-1879-ulm",
+  "consent": "public-domain",
+  "label": "Albert Einstein, physicist",
+  "source": {
+    "software": "pending JHora entry",
+    "rodden": "AA (as recorded in Astro-Databank; confirm on the page before relying on it)",
+    "citation": "Astro-Databank (astro.com/astro-databank), entry for Albert Einstein; birth certificate quoted as 11:30 LMT",
+    "note": "Local mean time: input.utcOffset +00:39:57 (Ulm 9.9876 E) overrides the zone name, which would give Berlin LMT. Tests the LMT path."
+  },
+  "input": {
+    "birthDate": "1879-03-14",
+    "birthTime": "11:30",
+    "latitude": 48.4011,
+    "longitude": 9.9876,
+    "placeLabel": "Ulm, Germany",
+    "utcOffset": "+00:39:57",
+    "timezoneName": "Europe/Berlin"
+  },
+  "settings": {
+    "ayanamsa": "lahiri",
+    "ayanamsaMean": false,
+    "node": "mean",
+    "houseSystem": "whole_sign"
+  },
+  "observed": {
+    "status": "pending"
+  }
+}

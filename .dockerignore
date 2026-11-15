@@ -1,0 +1,17 @@
+**/node_modules
+**/.next
+**/.venv
+**/__pycache__
+**/.pytest_cache
+**/.ruff_cache
+**/ephe
+.git
+test-results
+playwright-report
+services/api-py/data/*.db
+apps/api/*.db
+docs
+tests
+**/.env
+**/.env.*
+!**/.env.example

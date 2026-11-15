@@ -1,0 +1,76 @@
+{
+  "id": "moon-nakshatra-boundary",
+  "note": "Moon within ~0.01 deg of a nakshatra boundary",
+  "source": "swisseph-provisional",
+  "settings": {
+    "ayanamsa": "lahiri",
+    "ayanamsaMean": false,
+    "node": "mean",
+    "sunriseRule": "hindu",
+    "houseSystem": "whole_sign",
+    "ephemerisFiles": "swisseph 2.10.03, sepl/semo/seas_18.se1"
+  },
+  "input": {
+    "birthDate": "2001-06-10",
+    "birthTime": "05:36",
+    "timezoneName": "Asia/Kolkata",
+    "latitude": 22.5726,
+    "longitude": 88.3639
+  },
+  "expected": {
+    "ayanamsa": 23.872373692368917,
+    "planets": {
+      "sun": 55.320105174864885,
+      "moon": 280.0069597012673,
+      "mercury": 64.91284491441678,
+      "venus": 9.548180649540427,
+      "mars": 240.07650095252632,
+      "jupiter": 58.59813778991613,
+      "saturn": 42.48281513748449,
+      "rahu": 73.33990110985945,
+      "ketu": 253.33990110985945
+    },
+    "ascendant": 64.89973674500877,
+    "midheaven": 323.3887077522223,
+    "sunrise": "2001-06-09T23:25:12.552300+00:00",
+    "sunset": "2001-06-10T12:46:41.619606+00:00",
+    "vimshottariStarts": [
+      {
+        "planet": "moon",
+        "start": "2001-06-08"
+      },
+      {
+        "planet": "mars",
+        "start": "2011-06-08"
+      },
+      {
+        "planet": "rahu",
+        "start": "2018-06-08"
+      },
+      {
+        "planet": "jupiter",
+        "start": "2036-06-07"
+      },
+      {
+        "planet": "saturn",
+        "start": "2052-06-07"
+      },
+      {
+        "planet": "mercury",
+        "start": "2071-06-08"
+      },
+      {
+        "planet": "ketu",
+        "start": "2088-06-07"
+      },
+      {
+        "planet": "venus",
+        "start": "2095-06-07"
+      },
+      {
+        "planet": "sun",
+        "start": "2115-06-08"
+      }
+    ]
+  }
+}

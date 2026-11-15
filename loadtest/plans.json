@@ -1,0 +1,4 @@
+{
+  "free": {"name": "Free", "price_month_paise": 0, "price_year_paise": 0,
+           "limits": {"clients": null, "ai_asks": null, "reports": null}, "features": []}
+}

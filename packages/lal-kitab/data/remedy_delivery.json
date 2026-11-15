@@ -1,0 +1,199 @@
+{
+  "description": "How to deliver a planet's remedy articles depending on the house that planet occupies.",
+  "rows": [
+    {
+      "house": 1,
+      "method": "Wear the planet's article around the neck or on the body.",
+      "no_remedy": false,
+      "note": null,
+      "cite": {
+        "vol": "I",
+        "printed_page": 171,
+        "pdf_page": 190,
+        "section": "Taking benefit of planets in particular houses",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "house": 2,
+      "method": "Give the planet's article at a place of worship (temple, gurdwara, church, mosque).",
+      "no_remedy": false,
+      "note": null,
+      "cite": {
+        "vol": "I",
+        "printed_page": 171,
+        "pdf_page": 190,
+        "section": "Taking benefit of planets in particular houses",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "house": 3,
+      "method": "Wear the planet's metal or stone on the hand.",
+      "no_remedy": false,
+      "note": null,
+      "cite": {
+        "vol": "I",
+        "printed_page": 171,
+        "pdf_page": 190,
+        "section": "Taking benefit of planets in particular houses",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "house": 4,
+      "method": "Float the planet's article in running water.",
+      "no_remedy": false,
+      "note": null,
+      "cite": {
+        "vol": "I",
+        "printed_page": 171,
+        "pdf_page": 190,
+        "section": "Taking benefit of planets in particular houses",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "house": 5,
+      "method": "Donate the planet's article to a school.",
+      "no_remedy": false,
+      "note": null,
+      "cite": {
+        "vol": "I",
+        "printed_page": 171,
+        "pdf_page": 190,
+        "section": "Taking benefit of planets in particular houses",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "house": 6,
+      "method": "Drop the planet's article into a well.",
+      "no_remedy": false,
+      "note": null,
+      "cite": {
+        "vol": "I",
+        "printed_page": 171,
+        "pdf_page": 190,
+        "section": "Taking benefit of planets in particular houses",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "house": 7,
+      "method": "Bury the planet's article in the ground.",
+      "no_remedy": false,
+      "note": null,
+      "cite": {
+        "vol": "I",
+        "printed_page": 171,
+        "pdf_page": 190,
+        "section": "Taking benefit of planets in particular houses",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "house": 8,
+      "method": "Bury the planet's article at a cremation ground.",
+      "no_remedy": false,
+      "note": null,
+      "cite": {
+        "vol": "I",
+        "printed_page": 171,
+        "pdf_page": 190,
+        "section": "Taking benefit of planets in particular houses",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "house": 9,
+      "method": "Donate the planet's article at a temple, or wear it on the body.",
+      "no_remedy": false,
+      "note": null,
+      "cite": {
+        "vol": "I",
+        "printed_page": 171,
+        "pdf_page": 190,
+        "section": "Taking benefit of planets in particular houses",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "house": 10,
+      "method": "Give the article to the father, or bury it near a government office where the building's shadow falls.",
+      "no_remedy": false,
+      "note": null,
+      "cite": {
+        "vol": "I",
+        "printed_page": 171,
+        "pdf_page": 190,
+        "section": "Taking benefit of planets in particular houses",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "house": 11,
+      "method": null,
+      "no_remedy": true,
+      "note": "Planets in H11 are neither exalted nor debilitated; the book gives no remedy.",
+      "cite": {
+        "vol": "I",
+        "printed_page": 171,
+        "pdf_page": 190,
+        "section": "Taking benefit of planets in particular houses",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "house": 12,
+      "method": "Keep the planet's article on the roof.",
+      "no_remedy": false,
+      "note": null,
+      "cite": {
+        "vol": "I",
+        "printed_page": 171,
+        "pdf_page": 190,
+        "section": "Taking benefit of planets in particular houses",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    }
+  ],
+  "one_at_a_time": {
+    "rule": "Run only one remedy at a time: 40 or 43 consecutive days (p.133 says 'days / weeks'; p.74-75 explains 40 = 28 nakshatras + 12 signs, 43 at most), pause a few days, then start the next. Two remedies at once nullify the fruit.",
+    "duration_days": [40, 43],
+    "gap": "a few days",
+    "cite": {
+      "vol": "I",
+      "printed_page": 133,
+      "pdf_page": 152,
+      "section": "Debts: two remedies not together",
+      "ocr_confidence": "high",
+      "verified_from_image": true
+    },
+    "needs_review": false
+  }
+}

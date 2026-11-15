@@ -1,0 +1,1802 @@
+{
+  "description": "Planet-in-house entries for saturn (Vol II), paraphrased. Same row schema as data/planet_house.json; remedies carry optional structured action/item/venue/duration.",
+  "planet": "saturn",
+  "rows": [
+    {
+      "id": "saturn_h1",
+      "planet": "saturn",
+      "house": 1,
+      "status": "done",
+      "theme": "Three times malefic when bad, excellent when well supported; a marker of wealth and long life when the Fish Line forms.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Saturn with Venus in house 1 forms the Crow Line (misfortune, wealth lost, but long life); with 7 and 10 empty it becomes the Fish Line (wealth, property, lifelong comfort).",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                7,
+                10
+              ]
+            }
+          ],
+          "effect": "Fish Line: Saturn acts like a benevolent power and wealth flows.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Also forms a Fish Line for wealth, but with no guarantee for family members.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  7
+                ]
+              }
+            }
+          ],
+          "effect": "Mercury here acts like Ketu: a male child and, with a benefic Moon, large wealth for the parents.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "rahu",
+                  "ketu"
+                ],
+                "houses": [
+                  4,
+                  10
+                ]
+              }
+            }
+          ],
+          "effect": "Fish Line style wealth, effective when the agents Rahu and Ketu meet.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "moon",
+                  "mars"
+                ],
+                "houses": [
+                  4
+                ]
+              }
+            }
+          ],
+          "effect": "Enemies of Saturn in 4 make it three times malefic: education, wealth and wife suffer; ancestral business hit; father in poor shape; life still long.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun"
+                ],
+                "houses": [
+                  7
+                ]
+              }
+            }
+          ],
+          "effect": "Service matters doubtful; Venus and Mars results poor.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun"
+                ],
+                "houses": [
+                  10,
+                  11
+                ]
+              }
+            }
+          ],
+          "effect": "Earnings affected, discomfort to children, eye trouble, theft and deception.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Excess body hair marks a poor Saturn; liquor, romance and a west-facing house bring poverty and sickness around ages 36 to 48; education blocked.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "For wealth, seek help of Sun items (copper, jaggery offered at a temple).",
+          "delivery": null,
+          "action": "donate/offer",
+          "item": "jaggery, copper",
+          "venue": "temple",
+          "duration": null
+        },
+        {
+          "text": "For health and education, apply a tilak of sweet milk mixed with soil from banyan roots.",
+          "delivery": null,
+          "action": "apply tilak",
+          "item": "banyan root soil with milk",
+          "venue": "forehead",
+          "duration": null
+        },
+        {
+          "text": "For business and royalty, bury black antimony (surma) in the earth.",
+          "delivery": null,
+          "action": "bury",
+          "item": "black antimony",
+          "venue": "earth",
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 551,
+        "pdf_page": 559,
+        "section": "Saturn in house 1",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Omitted from remedies: instructions involving liquor, feeding or harming snakes, or keeping animals. The book says to feed jaggery to a monkey; recast as a temple offering."
+    },
+    {
+      "id": "saturn_h2",
+      "planet": "saturn",
+      "house": 2,
+      "status": "done",
+      "theme": "In service of Guru; Saturn here troubles the in-laws and rewards a detached, wise, self-dependent life.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Looks simple but is wise; good health, kind and just, self-dependent, owns land, rarely visits temples; Saturn works on the native's Saturnine items.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Marked tilak of oil is inauspicious; milk or curd tilak improves Saturn and Jupiter. House 7 shows wealth, 6 sons, 8 lifespan, 2 houses owned.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  2
+                ]
+              }
+            }
+          ],
+          "effect": "Happy long life but father (Jupiter) is generally lost.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter"
+                ],
+                "houses": [
+                  4
+                ]
+              }
+            }
+          ],
+          "effect": "Sharp intellect and self-confidence.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars",
+                  "mercury"
+                ],
+                "houses": [
+                  8
+                ]
+              }
+            }
+          ],
+          "effect": "Mars 8: rich or wise; Mercury 8: wise.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "rahu"
+                ],
+                "houses": [
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Saturn turns against the in-laws: poverty from the day of engagement, loss of male in-laws; Rahu 8 gives selfishness and suspicion.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter"
+                ],
+                "houses": [
+                  11
+                ]
+              }
+            }
+          ],
+          "effect": "Notorious, mediocre status without help.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun"
+                ],
+                "houses": [
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Gambler, doubtful nature, expenses equal gains.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "jupiter",
+                  "mercury"
+                ],
+                "houses": [
+                  8
+                ]
+              }
+            }
+          ],
+          "effect": "Loneliness, brooding thoughts, depression; sickness ages 28 to 39 in some cases.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Visit a temple barefoot and ask forgiveness for mistakes.",
+          "delivery": null,
+          "action": "visit",
+          "item": null,
+          "venue": "temple",
+          "duration": null
+        },
+        {
+          "text": "Apply a milk or curd tilak rather than oil.",
+          "delivery": null,
+          "action": "tilak",
+          "item": "milk or curd",
+          "venue": null,
+          "duration": null
+        },
+        {
+          "text": "Let a house come up when it is being built; it proves auspicious.",
+          "delivery": null,
+          "action": "construction advice",
+          "item": null,
+          "venue": null,
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 554,
+        "pdf_page": 562,
+        "section": "Saturn in house 2",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Omitted from remedies: instructions involving liquor, feeding or harming snakes, or keeping animals. Advice on where to raise a daughter omitted."
+    },
+    {
+      "id": "saturn_h3",
+      "planet": "saturn",
+      "house": 3,
+      "status": "done",
+      "theme": "Twice malefic when bad, but remediable; either wealth or sons, depending on conduct.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Either many males or wealth; large family means less wealth, but life is protected if the native does not drink.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "ketu"
+                ],
+                "houses": [
+                  3,
+                  10
+                ]
+              }
+            }
+          ],
+          "effect": "Supportive Ketu: wealth increases, repute as an eye surgeon, strangers help.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Without Ketu's support (or without caring for dogs) Ketu turns malefic: poor intellect, relations a source of discomfort, poor circumstances.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun"
+                ],
+                "houses": [
+                  1,
+                  3,
+                  5
+                ]
+              }
+            }
+          ],
+          "effect": "Poor results of Ketu and Saturn; a south-facing door and stone pillar near the gate harm family; a well on the property brings death and loss of wealth.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  10
+                ]
+              }
+            }
+          ],
+          "effect": "Saturn turns poisonous; destruction of wealth.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Enemy planets with or beside Saturn: total destruction, theft and loss.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Worship Lord Ganesha for Ketu's support.",
+          "delivery": null,
+          "action": "worship",
+          "item": null,
+          "venue": "temple",
+          "duration": null
+        },
+        {
+          "text": "Give free eye-care medicines or eye-camp help to improve eyesight and Saturn.",
+          "delivery": null,
+          "action": "donate",
+          "item": "eye medicines",
+          "venue": "needy",
+          "duration": null
+        },
+        {
+          "text": "Feeding stray dogs is advised by the book.",
+          "delivery": null,
+          "action": "feed",
+          "item": "food for dogs",
+          "venue": "street",
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 557,
+        "pdf_page": 565,
+        "section": "Saturn in house 3",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Book also suggests keeping three dogs; recast as feeding strays."
+    },
+    {
+      "id": "saturn_h4",
+      "planet": "saturn",
+      "house": 4,
+      "status": "done",
+      "theme": "A watery snake: detachment from family, medical connection, mother and maternal uncle at risk.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Sense of detachment from parents and romance; family members or the native may work in medicine; helping snake-bite victims is good; selling oil (Saturn items) can cost children.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  2,
+                  3
+                ]
+              }
+            }
+          ],
+          "effect": "Comfort of parents and in worldly affairs.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "If Saturn is destroyed by drinking, killing snakes or laying house foundations at night, misfortune follows; mother and maternal uncle suffer, finances weak till age 36.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  4,
+                  10
+                ]
+              }
+            }
+          ],
+          "effect": "Moon destroyed: mother unhappy, maternal uncle harmed, water dangerous, loss of property, expenses on travel.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Milk at night acts like poison; during illness Saturn's things help but Moon things do not; womanising poisons Venus's results.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter"
+                ],
+                "houses": [
+                  3
+                ]
+              }
+            }
+          ],
+          "effect": "Robs others to gain for himself.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Throw milk (Moon item) into a well to improve finances.",
+          "delivery": null,
+          "action": "pour",
+          "item": "milk",
+          "venue": "well",
+          "duration": null
+        },
+        {
+          "text": "Rear fish and give service or fair wages to labourers to dilute Saturn's poison.",
+          "delivery": null,
+          "action": "service",
+          "item": "aquarium fish care, fair wages",
+          "venue": "home / workplace",
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 558,
+        "pdf_page": 566,
+        "section": "Saturn in house 4",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Omitted from remedies: instructions involving liquor, feeding or harming snakes, or keeping animals. Milk for snakes omitted."
+    },
+    {
+      "id": "saturn_h5",
+      "planet": "saturn",
+      "house": 5,
+      "status": "done",
+      "theme": "A snake which devours children: children and houses are the issue; self-reliant native.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Native is self-dependent, inquisitive and prospers; not childless; Ketu shows children and Rahu shows houses. Self-built houses harm children, houses bought or made by children do not.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "ketu"
+                ],
+                "houses": [
+                  5
+                ]
+              }
+            }
+          ],
+          "effect": "Benefic Ketu: children grow; benefic Rahu: houses increase.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "venus"
+                ],
+                "houses": [
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "moon"
+                ],
+                "houses": [
+                  5,
+                  9,
+                  10
+                ]
+              }
+            }
+          ],
+          "effect": "Children are protected and no remedy needed, but they may not help the parents.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter"
+                ],
+                "houses": [
+                  9
+                ]
+              }
+            }
+          ],
+          "effect": "Good luck at ages 5, 17, 41, 49, 53, 65.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "ketu"
+                ],
+                "houses": [
+                  4
+                ]
+              }
+            }
+          ],
+          "effect": "First son's survival not affecting Saturn; family priest affected instead.",
+          "tone": "neutral",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                10
+              ]
+            }
+          ],
+          "effect": "Blind snake of Saturn: even with many wives only one son survives to 48; building or buying a house leads to loss.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "saturn"
+                ],
+                "houses": [
+                  1
+                ]
+              }
+            }
+          ],
+          "effect": "No wealth despite effort; Saturn's malefic effect lasts to the age of Rahu or Ketu (poverty).",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "together": [
+                "mars",
+                "mercury"
+              ]
+            }
+          ],
+          "effect": "Artificial Saturn of Rahu temper; items of house 2 hit during ages 9, 18, 36.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Keep items of Sun, Moon, Jupiter and Mars in the ancestral house (unless Rahu or Ketu is in 10, then drop Mars items).",
+          "delivery": null,
+          "action": "keep",
+          "item": "Sun/Moon/Jupiter/Mars items e.g. copper, rice, silver, gold, sugar",
+          "venue": "ancestral house",
+          "duration": null
+        },
+        {
+          "text": "Take almonds to a temple, leave half and bring half home (do not eat them); use 86 almonds in the stronger version.",
+          "delivery": null,
+          "action": "offer",
+          "item": "almonds",
+          "venue": "temple",
+          "duration": null
+        },
+        {
+          "text": "Distribute salty items rather than sweets at a child's birth.",
+          "delivery": null,
+          "action": "distribute",
+          "item": "salty snacks",
+          "venue": null,
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 560,
+        "pdf_page": 568,
+        "section": "Saturn in house 5",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Book also suggests keeping dogs; omitted."
+    },
+    {
+      "id": "saturn_h6",
+      "planet": "saturn",
+      "house": 6,
+      "status": "done",
+      "theme": "Ink of destiny: one unit malefic; early difficulty that turns excellent after 42.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Saturn here aspects house 2 in reverse and poisons its planet (even Venus); acts like Ketu; marriage before 28 turns Moon, Venus and Ketu malefic; after 28, sons for 24 years.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "ketu"
+                ],
+                "houses": [
+                  10
+                ]
+              }
+            }
+          ],
+          "effect": "Ketu in 10 or exalted: travel benefits, son rises above father, all-round prosperity.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "rahu"
+                ],
+                "houses": [
+                  3,
+                  6
+                ]
+              }
+            }
+          ],
+          "effect": "Bad period only until 42; after that Saturn wipes out misfortune and the wife is happy.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "After 42 Saturn becomes excellent and makes up for everything.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Shoe and iron articles go bad first; buying leather shoes brings trouble in service and court matters; drinking and house-building worsen results.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Marrying before 28 damages mother and children around 34 to 36; build a house after 36 to 39, preferably after 48.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  2
+                ]
+              }
+            }
+          ],
+          "effect": "Elder brother and father suffer; with Rahu in 1, maternal uncle may go blind at 21.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "venus",
+                  "moon"
+                ],
+                "houses": [
+                  2
+                ]
+              }
+            }
+          ],
+          "effect": "Poor luck; loss of cow, wealth and women of the family, mother.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Float coconut or almonds in running water.",
+          "delivery": null,
+          "action": "float",
+          "item": "coconut or almonds",
+          "venue": "running water",
+          "duration": null
+        },
+        {
+          "text": "Bury an earthen pot of mustard oil at a riverside or tank; start Saturn work on a moonless night.",
+          "delivery": null,
+          "action": "bury",
+          "item": "pot of mustard oil",
+          "venue": "riverside or tank",
+          "duration": null
+        },
+        {
+          "text": "Worship of snakes for children is advised in the book; do it as a temple prayer only.",
+          "delivery": null,
+          "action": "worship",
+          "item": null,
+          "venue": "temple",
+          "duration": null
+        },
+        {
+          "text": "Use Rahu items, such as mustard, to protect Ketu.",
+          "delivery": null,
+          "action": "donate",
+          "item": "mustard",
+          "venue": null,
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 563,
+        "pdf_page": 571,
+        "section": "Saturn in house 6",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Omitted from remedies: instructions involving liquor, feeding or harming snakes, or keeping animals."
+    },
+    {
+      "id": "saturn_h7",
+      "planet": "saturn",
+      "house": 7,
+      "status": "done",
+      "theme": "The pen of the Almighty for earning; wealth is certain, property is not.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Strong-willed and private; builds wealth and rises fast with backing from authority; owns several homes and travels often. Works like an exalted Jupiter, with Venus as its base.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury",
+                  "venus",
+                  "rahu"
+                ],
+                "houses": [
+                  3,
+                  5,
+                  7,
+                  11
+                ]
+              }
+            }
+          ],
+          "effect": "Results of Saturn, Venus, Mercury and Rahu are excellent, but a Saturnine partner causes loss.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  7
+                ]
+              }
+            }
+          ],
+          "effect": "High monthly income.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  11
+                ]
+              }
+            }
+          ],
+          "effect": "Wealthy, headman of an area.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                1
+              ]
+            }
+          ],
+          "effect": "Wealth stays only if a pot of honey is kept at home, otherwise it is lost after a grandson is born.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Liaisons with other women, drinking or a malefic Saturn harm health, children and money; ancestral house intact limits the damage.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars",
+                  "moon",
+                  "venus"
+                ],
+                "houses": [
+                  7
+                ]
+              }
+            }
+          ],
+          "effect": "Full of miseries when weak.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun"
+                ],
+                "houses": [
+                  4
+                ]
+              }
+            }
+          ],
+          "effect": "Eunuch or useless man; planets dormant at night.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "moon",
+                  "mars"
+                ],
+                "houses": [
+                  3,
+                  5,
+                  7,
+                  10
+                ]
+              }
+            }
+          ],
+          "effect": "Age, wealth, father and property adversely affected.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Fill a flute with sugar and bury it outside if house 1 is empty.",
+          "delivery": null,
+          "action": "bury",
+          "item": "flute filled with sugar",
+          "venue": "outside the home",
+          "duration": null
+        },
+        {
+          "text": "Otherwise keep a pot of honey at home.",
+          "delivery": null,
+          "action": "keep",
+          "item": "pot of honey",
+          "venue": "home",
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 566,
+        "pdf_page": 574,
+        "section": "Saturn in house 7",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "saturn_h8",
+      "planet": "saturn",
+      "house": 8,
+      "status": "done",
+      "theme": "Headquarters of Saturn: doubtful, relies on Rahu, Ketu and Mercury; many deaths when enemy planets crowd in.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Proud, self-conceited, treats others as himself; Saturn here acts like Mars in the chart and relies on Rahu, Ketu and Mercury.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "alone": true
+            }
+          ],
+          "effect": "Alone, Saturn items or effects stay malefic unless a silver square is carried.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "moon",
+                  "mars"
+                ],
+                "houses": [
+                  8,
+                  9
+                ]
+              }
+            }
+          ],
+          "effect": "Numerous deaths and eyesight loss in old age.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                12
+              ]
+            }
+          ],
+          "effect": "Lifelong misery and poverty, relatives suffer too.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "More planets with Saturn in 8 means more deaths around the native.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Carry a square piece of silver.",
+          "delivery": null,
+          "action": "carry",
+          "item": "square silver piece",
+          "venue": null,
+          "duration": null
+        },
+        {
+          "text": "Bathe with milk while seated on a stone, so feet do not touch bare earth.",
+          "delivery": null,
+          "action": "bathe",
+          "item": "milk, stone",
+          "venue": "bathroom",
+          "duration": null
+        },
+        {
+          "text": "Float eight almonds or about 8 kg of urad in running water (up to age 39).",
+          "delivery": null,
+          "action": "float",
+          "item": "8 almonds or 8 kg urad",
+          "venue": "running water",
+          "duration": "until age 39"
+        },
+        {
+          "text": "Sprinkle unboiled milk on the floor of the house.",
+          "delivery": null,
+          "action": "sprinkle",
+          "item": "raw milk",
+          "venue": "home floor",
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 569,
+        "pdf_page": 577,
+        "section": "Saturn in house 8",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Book's 'give up drinking' advice paraphrased as plain advice."
+    },
+    {
+      "id": "saturn_h9",
+      "planet": "saturn",
+      "house": 9,
+      "status": "done",
+      "theme": "Pen of God: wealth, land and a large family; excellent for about 60 years if charitable.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Intelligent, blessed with three houses (building the third marks life's end), generous, gains through travel, comfort from parents; prosperity for 60 years if charitable.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "venus"
+                ],
+                "houses": [
+                  2
+                ]
+              }
+            }
+          ],
+          "effect": "Saturn nine times excellent, results like Venus in 2; Moon turns malefic.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  6
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "venus"
+                ],
+                "houses": [
+                  7
+                ]
+              }
+            }
+          ],
+          "effect": "Saturn, Mercury and Venus all excellent; wife from a rich family.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                2
+              ]
+            }
+          ],
+          "effect": "No deaths in the family, but a skylight in the rear dark room ruins everything within three years.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter"
+                ],
+                "houses": [
+                  5
+                ]
+              }
+            }
+          ],
+          "effect": "Good condition of progeny.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  4
+                ]
+              }
+            }
+          ],
+          "effect": "Saturn highly destructive like a plague-carrying rat; wealthy but cruel and licentious.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "rahu",
+                  "ketu"
+                ],
+                "houses": [
+                  9
+                ]
+              }
+            }
+          ],
+          "effect": "Delay in children, vindictive nature, rolling-stone fortune; wealth turns to poverty.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "A house bought or built during conception, firewood or broken wooden furniture at home destroys father by 36.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Treatment of Jupiter helps if trouble comes after the father's death.",
+          "delivery": null,
+          "action": "remedy of Jupiter",
+          "item": null,
+          "venue": null,
+          "duration": null
+        },
+        {
+          "text": "Avoid broken wood furniture and unfinished doors or windows.",
+          "delivery": null,
+          "action": "housekeeping",
+          "item": null,
+          "venue": null,
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 570,
+        "pdf_page": 578,
+        "section": "Saturn in house 9",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "saturn_h10",
+      "planet": "saturn",
+      "house": 10,
+      "status": "done",
+      "theme": "Plain writing paper: extremely benefic when supported, poisonous when enemies join.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Respect others and progress steadily; every 3rd and 7th year can bring peaks; wealth, respect, vehicles; long life of father and about 90 years for the native.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  1
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "jupiter"
+                ],
+                "houses": [
+                  4
+                ]
+              }
+            }
+          ],
+          "effect": "Comforts of vehicles all round.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                2
+              ]
+            }
+          ],
+          "effect": "Saturn like a sleeping snake, but good.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Without drinking, native stays lucky; if no house is built by 48, Saturn keeps giving wealth equal to its value; Mercury in 7 in transit benefits the in-laws.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "mars",
+                  "moon"
+                ],
+                "houses": [
+                  10
+                ]
+              }
+            }
+          ],
+          "effect": "All planets turn blind and Saturn becomes malefic.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "moon",
+                  "mars"
+                ],
+                "houses": [
+                  4
+                ]
+              }
+            }
+          ],
+          "effect": "Ill repute, risk to life up to 27, poor wealth.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Outdoor life is bad; stationary work is better.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Take help of Jupiter if the effects turn malefic.",
+          "delivery": null,
+          "action": "remedy of Jupiter",
+          "item": null,
+          "venue": null,
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 573,
+        "pdf_page": 581,
+        "section": "Saturn in house 10",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Entry text ends abruptly at the page break; low-confidence completeness."
+    },
+    {
+      "id": "saturn_h11",
+      "planet": "saturn",
+      "house": 11,
+      "status": "done",
+      "theme": "Writes his own fate: controls Rahu and Ketu's conduct, religious bent, unfair-gain risk.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Rich through unfair means, strong will, may inherit rather than hold property; Saturn gives a son even when other planets do not; the 40th year decides the fortune.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter"
+                ],
+                "houses": [
+                  11
+                ]
+              }
+            }
+          ],
+          "effect": "Pious Saturn, benefic planets in the house are exalted.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun"
+                ],
+                "houses": [
+                  10
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  10
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  6
+                ]
+              }
+            }
+          ],
+          "effect": "Royal treasure flows.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "venus"
+                ],
+                "houses": [
+                  7
+                ]
+              }
+            }
+          ],
+          "effect": "Native comfortable and able to comfort others.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  3
+                ]
+              }
+            }
+          ],
+          "effect": "Saturn dormant; with Jupiter in 9 all three become ineffective.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "South-facing door depletes wealth; drinking and flirtation damage Saturn; a house built before 36 to 39 leaves the owner sick.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Changing a door's direction from east to west or north to south brings misfortune; ill-gotten wealth brings death.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                2,
+                3
+              ]
+            }
+          ],
+          "effect": "Saturn dormant if houses 2 and 3 are poor or empty.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Keep a pitcher of water during auspicious work.",
+          "delivery": null,
+          "action": "keep",
+          "item": "pitcher of water",
+          "venue": "home",
+          "duration": null
+        },
+        {
+          "text": "Pour fluid items such as mustard oil on the ground at sunrise for royalty, family and income.",
+          "delivery": null,
+          "action": "pour",
+          "item": "mustard oil",
+          "venue": "earth",
+          "duration": "at sunrise"
+        },
+        {
+          "text": "Take help of Mars if Rahu or Ketu items go bad; Jupiter if no elder male lives.",
+          "delivery": null,
+          "action": "remedy of Mars/Jupiter",
+          "item": null,
+          "venue": null,
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 575,
+        "pdf_page": 583,
+        "section": "Saturn in house 11",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Omitted from remedies: instructions involving liquor, feeding or harming snakes, or keeping animals."
+    },
+    {
+      "id": "saturn_h12",
+      "planet": "saturn",
+      "house": 12,
+      "status": "done",
+      "theme": "Pen of God, comfort: benefic helper that conquers enemies, rewards honesty.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Conquers enemies, bold life, many houses built every 6th or 12th year, prosperity; rich but prone to cheating if corrupt; prophetic powers.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                2
+              ]
+            }
+          ],
+          "effect": "Sun, Mars and Moon absent from 2: comfortable nights and foresight.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "rahu",
+                  "ketu"
+                ],
+                "houses": [
+                  3,
+                  6
+                ]
+              }
+            }
+          ],
+          "effect": "Fish Line with a dark last room; excellent results.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Excellent Fish Line results.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "rahu"
+                ],
+                "houses": [
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Saturn gives excellent help.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  4
+                ]
+              }
+            }
+          ],
+          "effect": "Fish Line, blissful meditation.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun"
+                ],
+                "houses": [
+                  6
+                ]
+              }
+            }
+          ],
+          "effect": "Loss of wives, especially if the rear wall is demolished.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "A liar, licentious or glutton loses Saturn's help; eye pain and wife's illness signal malefic Saturn.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Keep almonds in the south-east of a dark room.",
+          "delivery": null,
+          "action": "keep",
+          "item": "almonds",
+          "venue": "dark room, south-east",
+          "duration": null
+        },
+        {
+          "text": "Keep the rear room dark.",
+          "delivery": null,
+          "action": "housekeeping",
+          "item": null,
+          "venue": null,
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 578,
+        "pdf_page": 586,
+        "section": "Saturn in house 12",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    }
+  ]
+}

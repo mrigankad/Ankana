@@ -1,0 +1,28 @@
+{
+  "id": "gates-1955-seattle",
+  "consent": "public-domain",
+  "label": "Bill Gates, entrepreneur",
+  "source": {
+    "software": "pending JHora entry",
+    "rodden": "AA (as recorded in Astro-Databank; confirm on the page before relying on it)",
+    "citation": "Astro-Databank (astro.com/astro-databank), entry for Bill Gates; birth certificate 9:15 PM",
+    "note": "DST caveat: 28 Oct 1955 may fall in daylight time under the tz database; confirm whether the source time is PST or PDT, and use utcOffset if it differs."
+  },
+  "input": {
+    "birthDate": "1955-10-28",
+    "birthTime": "21:15",
+    "latitude": 47.6062,
+    "longitude": -122.3321,
+    "placeLabel": "Seattle, Washington, USA",
+    "timezoneName": "America/Los_Angeles"
+  },
+  "settings": {
+    "ayanamsa": "lahiri",
+    "ayanamsaMean": false,
+    "node": "mean",
+    "houseSystem": "whole_sign"
+  },
+  "observed": {
+    "status": "pending"
+  }
+}

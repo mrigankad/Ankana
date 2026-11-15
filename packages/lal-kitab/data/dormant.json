@@ -1,0 +1,602 @@
+{
+  "awakeners": [
+    {
+      "house": 1,
+      "planet": "mars",
+      "cite": {
+        "vol": "I",
+        "printed_page": 116,
+        "pdf_page": 135,
+        "section": "Dormant house awakening table",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "house": 2,
+      "planet": "moon",
+      "cite": {
+        "vol": "I",
+        "printed_page": 116,
+        "pdf_page": 135,
+        "section": "Dormant house awakening table",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "house": 3,
+      "planet": "mercury",
+      "cite": {
+        "vol": "I",
+        "printed_page": 116,
+        "pdf_page": 135,
+        "section": "Dormant house awakening table",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "house": 4,
+      "planet": "moon",
+      "cite": {
+        "vol": "I",
+        "printed_page": 116,
+        "pdf_page": 135,
+        "section": "Dormant house awakening table",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "house": 5,
+      "planet": "sun",
+      "cite": {
+        "vol": "I",
+        "printed_page": 116,
+        "pdf_page": 135,
+        "section": "Dormant house awakening table",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "house": 6,
+      "planet": "rahu",
+      "cite": {
+        "vol": "I",
+        "printed_page": 116,
+        "pdf_page": 135,
+        "section": "Dormant house awakening table",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "house": 7,
+      "planet": "venus",
+      "cite": {
+        "vol": "I",
+        "printed_page": 116,
+        "pdf_page": 135,
+        "section": "Dormant house awakening table",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "house": 8,
+      "planet": "moon",
+      "cite": {
+        "vol": "I",
+        "printed_page": 116,
+        "pdf_page": 135,
+        "section": "Dormant house awakening table",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "house": 9,
+      "planet": "jupiter",
+      "cite": {
+        "vol": "I",
+        "printed_page": 116,
+        "pdf_page": 135,
+        "section": "Dormant house awakening table",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "house": 10,
+      "planet": "saturn",
+      "cite": {
+        "vol": "I",
+        "printed_page": 116,
+        "pdf_page": 135,
+        "section": "Dormant house awakening table",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "house": 11,
+      "planet": "jupiter",
+      "cite": {
+        "vol": "I",
+        "printed_page": 116,
+        "pdf_page": 135,
+        "section": "Dormant house awakening table",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "house": 12,
+      "planet": "ketu",
+      "cite": {
+        "vol": "I",
+        "printed_page": 116,
+        "pdf_page": 135,
+        "section": "Dormant house awakening table",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    }
+  ],
+  "self_awakening": [
+    {
+      "planet": "jupiter",
+      "age": 16,
+      "trigger": "own business begins",
+      "malefic_year_raw": "6th or 22nd",
+      "cite": {
+        "vol": "I",
+        "printed_page": 117,
+        "pdf_page": 136,
+        "section": "Self-awakening ages",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Age and trigger match the p.117 table (image checked). 'malefic_year_raw' is the book's 'age at the time of malefic effect' column."
+    },
+    {
+      "planet": "sun",
+      "age": 22,
+      "trigger": "government service or link with government",
+      "malefic_year_raw": "2nd or 24th",
+      "cite": {
+        "vol": "I",
+        "printed_page": 117,
+        "pdf_page": 136,
+        "section": "Self-awakening ages",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Age and trigger match the p.117 table (image checked). 'malefic_year_raw' is the book's 'age at the time of malefic effect' column."
+    },
+    {
+      "planet": "moon",
+      "age": 24,
+      "trigger": "education",
+      "malefic_year_raw": "1st or 25th",
+      "cite": {
+        "vol": "I",
+        "printed_page": 117,
+        "pdf_page": 136,
+        "section": "Self-awakening ages",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Age 24 is the Moon's full-form age (p.74). The same page gives 12 if the Moon sits with Jupiter, Venus, Mercury or Rahu and 8 with Saturn (see effective_age); the p.117 awakening table gives 24 without conditions."
+    },
+    {
+      "planet": "venus",
+      "age": 25,
+      "trigger": "marriage",
+      "malefic_year_raw": "3rd or 28th",
+      "cite": {
+        "vol": "I",
+        "printed_page": 117,
+        "pdf_page": 136,
+        "section": "Self-awakening ages",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Age and trigger match the p.117 table (image checked). 'malefic_year_raw' is the book's 'age at the time of malefic effect' column."
+    },
+    {
+      "planet": "mars",
+      "age": 28,
+      "trigger": "relationship with a woman",
+      "malefic_year_raw": "6th or 34th",
+      "cite": {
+        "vol": "I",
+        "printed_page": 117,
+        "pdf_page": 136,
+        "section": "Self-awakening ages",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Age and trigger match the p.117 table (image checked). 'malefic_year_raw' is the book's 'age at the time of malefic effect' column."
+    },
+    {
+      "planet": "mercury",
+      "age": 34,
+      "trigger": "business; sister's or daughter's marriage",
+      "malefic_year_raw": "2nd or 35th",
+      "cite": {
+        "vol": "I",
+        "printed_page": 117,
+        "pdf_page": 136,
+        "section": "Self-awakening ages",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Age and trigger match the p.117 table. The malefic-year cell prints as a superscripted '35' (digits partly smudged); the other rows follow 'age + planet cycle years', which would give 36. Kept as printed, flagged."
+    },
+    {
+      "planet": "saturn",
+      "age": 36,
+      "trigger": "relationship with a house (building or acquiring)",
+      "malefic_year_raw": "6th or 42nd",
+      "cite": {
+        "vol": "I",
+        "printed_page": 117,
+        "pdf_page": 136,
+        "section": "Self-awakening ages",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Age and trigger match the p.117 table (image checked). 'malefic_year_raw' is the book's 'age at the time of malefic effect' column."
+    },
+    {
+      "planet": "rahu",
+      "age": 42,
+      "trigger": "relationship with in-laws",
+      "malefic_year_raw": "2nd or 48th",
+      "cite": {
+        "vol": "I",
+        "printed_page": 117,
+        "pdf_page": 136,
+        "section": "Self-awakening ages",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Age and trigger match the p.117 table (image checked). 'malefic_year_raw' is the book's 'age at the time of malefic effect' column."
+    },
+    {
+      "planet": "ketu",
+      "age": 48,
+      "trigger": "birth of offspring",
+      "malefic_year_raw": "3rd or 51st",
+      "cite": {
+        "vol": "I",
+        "printed_page": 117,
+        "pdf_page": 136,
+        "section": "Self-awakening ages",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Age and trigger match the p.117 table (image checked). 'malefic_year_raw' is the book's 'age at the time of malefic effect' column."
+    }
+  ],
+  "rules": [
+    {
+      "id": "own_pakka_ghar",
+      "text": "A planet in its own fixed house is awake (p.116).",
+      "cite": {
+        "vol": "I",
+        "printed_page": 116,
+        "pdf_page": 135,
+        "section": "Dormant planets",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "prior_side_empty",
+      "text": "If houses 1-6 hold no planet, planets in houses 7-12 are dormant.",
+      "cite": {
+        "vol": "I",
+        "printed_page": 116,
+        "pdf_page": 135,
+        "section": "Dormant planets",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "latter_side_empty",
+      "text": "If houses 7-12 hold no planet, planets in houses 1-6 are dormant.",
+      "cite": {
+        "vol": "I",
+        "printed_page": 115,
+        "pdf_page": 134,
+        "section": "Dormant fixed houses (bold list); repeated on p.116",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "no_opposite_planet",
+      "text": "A planet in houses 1-6 with no planet in the opposite (7th-from) house is dormant.",
+      "cite": {
+        "vol": "I",
+        "printed_page": 116,
+        "pdf_page": 135,
+        "section": "Dormant planets",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Stated on p.116 as a flat rule: a planet in houses 1-6 with no planet in the opposite house is dormant. The book's worked example (p.761-762) does not contradict it."
+    },
+    {
+      "id": "unaspected",
+      "text": "A planet in houses 7-12 that receives no aspect from an occupied house is dormant.",
+      "cite": {
+        "vol": "I",
+        "printed_page": 116,
+        "pdf_page": 135,
+        "section": "Dormant planets (unaspected planet)",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "p.116 says an unaspected planet is dormant. The arrow table never ends an arrow in houses 1, 3, 4, 5 or 8, so a literal reading would make almost everything dormant; we apply it only to houses 7-12 (planets in 1-6 are judged by the opposite-house rule). Whether yog-drishti (5th/9th help, p.125) counts as an aspect here is not stated. Needs an expert."
+    },
+    {
+      "id": "h10_empty_h2",
+      "text": "If house 10 is empty, planets in house 2 are dormant.",
+      "cite": {
+        "vol": "I",
+        "printed_page": 117,
+        "pdf_page": 136,
+        "section": "Dormant houses 10/2/9",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Three separate lines on p.117 (H10 empty -> H2 dormant, H2 empty -> H10 dormant, H2 empty -> H9 dormant)."
+    },
+    {
+      "id": "h2_empty_h10",
+      "text": "If house 2 is empty, planets in house 10 are dormant.",
+      "cite": {
+        "vol": "I",
+        "printed_page": 117,
+        "pdf_page": 136,
+        "section": "Dormant houses 10/2/9",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Literal p.117 rule. The book's own worked example (Patiala 1962, p.761) has H2 empty and Rahu in H10 yet calls Rahu awake while calling Mars in H9 dormant (the same empty-H2 rule); either the example is loose or an incoming aspect (Rahu is aspected from H4) rescues it. Expert question."
+    },
+    {
+      "id": "h2_empty_h9",
+      "text": "If house 2 is empty, planets in house 9 are dormant.",
+      "cite": {
+        "vol": "I",
+        "printed_page": 117,
+        "pdf_page": 136,
+        "section": "Dormant houses 10/2/9",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Third line of the p.117 list (H2 empty -> H9 dormant); a worked example on p.761 agrees (Mars in H9 dormant with H2 empty)."
+    },
+    {
+      "id": "empty_unaspected_house",
+      "text": "A house with no planet and no incoming aspect is a dormant house; it is awakened by the planet named in the awakening map.",
+      "cite": {
+        "vol": "I",
+        "printed_page": 116,
+        "pdf_page": 135,
+        "section": "Dormant house definition",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    }
+  ],
+  "effective_age": {
+    "description": "Effective (full) age of each planet and how it shrinks when conjoined (p.74). Reference data; the engine does not use it yet. The dormant-planet table on p.117 uses the first number of each row.",
+    "rows": [
+      {
+        "planet": "jupiter",
+        "cases": [
+          {
+            "with": "any planet",
+            "age": 16
+          }
+        ]
+      },
+      {
+        "planet": "sun",
+        "cases": [
+          {
+            "with": "any planet except Rahu or Ketu",
+            "age": 22
+          },
+          {
+            "with": "rahu",
+            "age": 0
+          },
+          {
+            "with": "ketu",
+            "age": 11
+          }
+        ]
+      },
+      {
+        "planet": "moon",
+        "cases": [
+          {
+            "with": "jupiter, venus, mercury or rahu",
+            "age": 12
+          },
+          {
+            "with": "saturn",
+            "age": 8
+          },
+          {
+            "with": "other planets",
+            "age": 24
+          }
+        ]
+      },
+      {
+        "planet": "mercury",
+        "cases": [
+          {
+            "with": "sun or mars",
+            "age": 17
+          },
+          {
+            "with": "others",
+            "age": 34
+          }
+        ]
+      },
+      {
+        "planet": "venus",
+        "cases": [
+          {
+            "with": "jupiter",
+            "age": 60
+          },
+          {
+            "with": "sun",
+            "age": 34
+          },
+          {
+            "with": "mars (positive)",
+            "age": 8
+          },
+          {
+            "with": "other planets",
+            "age": 25
+          }
+        ]
+      },
+      {
+        "planet": "mars",
+        "cases": [
+          {
+            "with": "positive, any planet",
+            "age": 13
+          },
+          {
+            "with": "negative, any planet",
+            "age": 15
+          }
+        ]
+      },
+      {
+        "planet": "saturn",
+        "cases": [
+          {
+            "with": "jupiter",
+            "age": 18
+          },
+          {
+            "with": "jupiter (second row)",
+            "age": 27
+          },
+          {
+            "with": "sun",
+            "age": 24
+          },
+          {
+            "with": "mars and venus",
+            "age": 12
+          },
+          {
+            "with": "mercury",
+            "age": 45
+          },
+          {
+            "with": "other planets",
+            "age": 36
+          }
+        ]
+      },
+      {
+        "planet": "rahu",
+        "cases": [
+          {
+            "with": "mars (positive)",
+            "age": 0
+          },
+          {
+            "with": "ketu",
+            "age": 45
+          },
+          {
+            "with": "other planets",
+            "age": 42
+          }
+        ]
+      },
+      {
+        "planet": "ketu",
+        "cases": [
+          {
+            "with": "jupiter",
+            "age": 40
+          },
+          {
+            "with": "sun, saturn or mars (positive)",
+            "age": 24
+          },
+          {
+            "with": "rahu",
+            "age": 45
+          },
+          {
+            "with": "other planets",
+            "age": 48
+          }
+        ]
+      }
+    ],
+    "cite": {
+      "vol": "I",
+      "printed_page": 74,
+      "pdf_page": 93,
+      "section": "Age of planets by conjunction (p.74-75)",
+      "ocr_confidence": "high",
+      "verified_from_image": true
+    },
+    "needs_review": true,
+    "note": "Saturn's two Jupiter rows are labelled '18 (father's age)' and '27 (wealth)' on the page; the book's worked example (p.761) applies Moon = 12."
+  }
+}

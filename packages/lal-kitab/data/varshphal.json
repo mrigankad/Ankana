@@ -1,0 +1,503 @@
+{
+  "description": "Annual chart matrix (p.756-758). rows[age-1][natal_house-1] is the annual-chart house that the planets of that natal house occupy in the given age row. Row 1 is not the identity; the natal chart is not a row of the matrix.",
+  "semantics_cite": {
+    "vol": "II",
+    "printed_page": 755,
+    "pdf_page": 758,
+    "section": "Table for annual chart: transit at age 33",
+    "ocr_confidence": "high",
+    "verified_from_image": true
+  },
+  "matrix_cite": {
+    "vol": "II",
+    "printed_pages": [756, 757, 758],
+    "pdf_pages": [759, 760, 761],
+    "section": "Chart giving planetary position with respect to age",
+    "ocr_confidence": "high",
+    "verified_from_image": true
+  },
+  "needs_review": true,
+  "coverage_note": "The book prints rows 1-100 (image checked: p.756, p.757, p.758). The prose mentions 120 years but no rows beyond 100 exist. Which age a person is 'in' is not stated unambiguously: the p.761 example (native born 05.09.1962, consulted 14.09.1997, 'running 36') uses row 36 (= completed years + 1), while the p.221/239 example (born 18.01.1902, 'age 37' chart in 1939) reads like completed years. We use completed years + 1; expert question.",
+  "worked_check": {
+    "age": 33,
+    "row": [12, 2, 6, 10, 8, 3, 9, 1, 5, 7, 4, 11],
+    "note": "Book example: planets of H1 move to H12; H2 stays H2."
+  },
+  "rows": [
+    {
+      "age": 1,
+      "houses": [1, 9, 10, 3, 5, 2, 11, 7, 6, 12, 4, 8]
+    },
+    {
+      "age": 2,
+      "houses": [4, 1, 12, 9, 3, 7, 5, 6, 2, 8, 10, 11]
+    },
+    {
+      "age": 3,
+      "houses": [9, 4, 1, 2, 8, 3, 10, 5, 7, 11, 12, 6]
+    },
+    {
+      "age": 4,
+      "houses": [3, 8, 4, 1, 10, 9, 6, 11, 5, 7, 2, 12]
+    },
+    {
+      "age": 5,
+      "houses": [11, 3, 8, 4, 1, 5, 9, 2, 12, 6, 7, 10]
+    },
+    {
+      "age": 6,
+      "houses": [5, 12, 3, 8, 4, 11, 2, 9, 1, 10, 6, 7]
+    },
+    {
+      "age": 7,
+      "houses": [7, 6, 9, 5, 12, 4, 1, 10, 11, 2, 8, 3]
+    },
+    {
+      "age": 8,
+      "houses": [2, 7, 6, 12, 9, 10, 3, 1, 8, 5, 11, 4]
+    },
+    {
+      "age": 9,
+      "houses": [12, 2, 7, 6, 11, 1, 8, 4, 10, 3, 5, 9]
+    },
+    {
+      "age": 10,
+      "houses": [10, 11, 2, 7, 6, 12, 4, 8, 3, 1, 9, 5]
+    },
+    {
+      "age": 11,
+      "houses": [8, 5, 11, 10, 7, 6, 12, 3, 9, 4, 1, 2]
+    },
+    {
+      "age": 12,
+      "houses": [6, 10, 5, 11, 2, 8, 7, 12, 4, 9, 3, 1]
+    },
+    {
+      "age": 13,
+      "houses": [1, 5, 10, 8, 11, 6, 7, 2, 12, 3, 9, 4]
+    },
+    {
+      "age": 14,
+      "houses": [4, 1, 3, 2, 5, 7, 8, 11, 6, 12, 10, 9]
+    },
+    {
+      "age": 15,
+      "houses": [9, 4, 1, 6, 8, 5, 2, 7, 11, 10, 12, 3]
+    },
+    {
+      "age": 16,
+      "houses": [3, 9, 4, 1, 12, 8, 6, 5, 2, 7, 11, 10]
+    },
+    {
+      "age": 17,
+      "houses": [11, 3, 9, 4, 1, 10, 5, 6, 7, 8, 2, 12]
+    },
+    {
+      "age": 18,
+      "houses": [5, 11, 6, 9, 4, 1, 12, 8, 10, 2, 3, 7]
+    },
+    {
+      "age": 19,
+      "houses": [7, 10, 11, 3, 9, 4, 1, 12, 8, 5, 6, 2]
+    },
+    {
+      "age": 20,
+      "houses": [2, 7, 5, 12, 3, 9, 10, 1, 4, 6, 8, 11]
+    },
+    {
+      "age": 21,
+      "houses": [12, 2, 8, 5, 10, 3, 9, 4, 1, 11, 7, 6]
+    },
+    {
+      "age": 22,
+      "houses": [10, 12, 2, 7, 6, 11, 3, 9, 5, 1, 4, 8]
+    },
+    {
+      "age": 23,
+      "houses": [8, 6, 12, 10, 7, 2, 11, 3, 9, 4, 1, 5]
+    },
+    {
+      "age": 24,
+      "houses": [6, 8, 7, 11, 2, 12, 4, 10, 3, 9, 5, 1]
+    },
+    {
+      "age": 25,
+      "houses": [1, 6, 10, 3, 2, 8, 7, 4, 11, 5, 12, 9]
+    },
+    {
+      "age": 26,
+      "houses": [4, 1, 3, 8, 6, 7, 2, 11, 12, 9, 5, 10]
+    },
+    {
+      "age": 27,
+      "houses": [9, 4, 1, 5, 10, 11, 12, 7, 6, 8, 2, 3]
+    },
+    {
+      "age": 28,
+      "houses": [3, 9, 4, 1, 11, 5, 6, 8, 7, 2, 10, 12]
+    },
+    {
+      "age": 29,
+      "houses": [11, 3, 9, 4, 1, 6, 8, 2, 10, 12, 7, 5]
+    },
+    {
+      "age": 30,
+      "houses": [5, 11, 8, 9, 4, 1, 3, 12, 2, 10, 6, 7]
+    },
+    {
+      "age": 31,
+      "houses": [7, 5, 11, 12, 9, 4, 1, 10, 8, 6, 3, 2]
+    },
+    {
+      "age": 32,
+      "houses": [2, 7, 5, 11, 3, 12, 10, 6, 4, 1, 9, 8]
+    },
+    {
+      "age": 33,
+      "houses": [12, 2, 6, 10, 8, 3, 9, 1, 5, 7, 4, 11]
+    },
+    {
+      "age": 34,
+      "houses": [10, 12, 2, 7, 5, 9, 11, 3, 1, 4, 8, 6]
+    },
+    {
+      "age": 35,
+      "houses": [8, 10, 12, 6, 7, 2, 4, 5, 9, 3, 11, 1]
+    },
+    {
+      "age": 36,
+      "houses": [6, 8, 7, 2, 12, 10, 5, 9, 3, 11, 1, 4]
+    },
+    {
+      "age": 37,
+      "houses": [1, 3, 10, 6, 9, 12, 7, 5, 11, 2, 4, 8]
+    },
+    {
+      "age": 38,
+      "houses": [4, 1, 3, 8, 6, 5, 2, 7, 12, 10, 11, 9]
+    },
+    {
+      "age": 39,
+      "houses": [9, 4, 1, 12, 8, 2, 10, 11, 6, 3, 5, 7]
+    },
+    {
+      "age": 40,
+      "houses": [3, 9, 4, 1, 11, 8, 6, 12, 2, 5, 7, 10]
+    },
+    {
+      "age": 41,
+      "houses": [11, 7, 9, 4, 1, 6, 8, 2, 10, 12, 3, 5]
+    },
+    {
+      "age": 42,
+      "houses": [5, 11, 8, 9, 12, 1, 3, 4, 7, 6, 10, 2]
+    },
+    {
+      "age": 43,
+      "houses": [7, 5, 11, 2, 3, 4, 1, 10, 8, 9, 12, 6]
+    },
+    {
+      "age": 44,
+      "houses": [2, 10, 5, 3, 4, 9, 12, 8, 1, 7, 6, 11]
+    },
+    {
+      "age": 45,
+      "houses": [12, 2, 6, 5, 10, 7, 9, 1, 3, 11, 8, 4]
+    },
+    {
+      "age": 46,
+      "houses": [10, 12, 2, 7, 5, 3, 11, 6, 4, 8, 9, 1]
+    },
+    {
+      "age": 47,
+      "houses": [8, 6, 12, 10, 7, 11, 4, 9, 5, 1, 2, 3]
+    },
+    {
+      "age": 48,
+      "houses": [6, 8, 7, 11, 2, 10, 5, 3, 9, 4, 1, 12]
+    },
+    {
+      "age": 49,
+      "houses": [1, 7, 10, 6, 12, 2, 8, 4, 11, 9, 3, 5]
+    },
+    {
+      "age": 50,
+      "houses": [4, 1, 8, 3, 6, 12, 5, 11, 2, 7, 10, 9]
+    },
+    {
+      "age": 51,
+      "houses": [9, 4, 1, 2, 8, 3, 12, 6, 7, 10, 5, 11]
+    },
+    {
+      "age": 52,
+      "houses": [3, 9, 4, 1, 11, 7, 2, 12, 5, 8, 6, 10]
+    },
+    {
+      "age": 53,
+      "houses": [11, 10, 7, 4, 1, 6, 3, 9, 12, 5, 8, 2]
+    },
+    {
+      "age": 54,
+      "houses": [5, 11, 3, 9, 4, 1, 6, 2, 10, 12, 7, 8]
+    },
+    {
+      "age": 55,
+      "houses": [7, 5, 11, 8, 3, 9, 1, 10, 6, 4, 2, 12]
+    },
+    {
+      "age": 56,
+      "houses": [2, 3, 5, 11, 9, 4, 10, 1, 8, 6, 12, 7]
+    },
+    {
+      "age": 57,
+      "houses": [12, 2, 6, 5, 10, 8, 9, 7, 4, 11, 1, 3]
+    },
+    {
+      "age": 58,
+      "houses": [10, 12, 2, 7, 5, 11, 4, 8, 3, 1, 9, 6]
+    },
+    {
+      "age": 59,
+      "houses": [8, 6, 12, 10, 7, 5, 11, 3, 9, 2, 4, 1]
+    },
+    {
+      "age": 60,
+      "houses": [6, 8, 9, 12, 2, 10, 7, 5, 1, 3, 11, 4]
+    },
+    {
+      "age": 61,
+      "houses": [1, 11, 10, 6, 12, 2, 4, 7, 8, 9, 5, 3]
+    },
+    {
+      "age": 62,
+      "houses": [4, 1, 6, 8, 3, 12, 2, 10, 9, 5, 7, 11]
+    },
+    {
+      "age": 63,
+      "houses": [9, 4, 1, 2, 8, 6, 12, 11, 7, 3, 10, 5]
+    },
+    {
+      "age": 64,
+      "houses": [3, 9, 4, 1, 6, 8, 7, 12, 5, 2, 11, 10]
+    },
+    {
+      "age": 65,
+      "houses": [11, 2, 9, 4, 1, 5, 8, 3, 10, 12, 6, 7]
+    },
+    {
+      "age": 66,
+      "houses": [5, 10, 3, 9, 2, 1, 6, 8, 11, 7, 12, 4]
+    },
+    {
+      "age": 67,
+      "houses": [7, 5, 11, 3, 10, 4, 1, 9, 12, 6, 8, 2]
+    },
+    {
+      "age": 68,
+      "houses": [2, 3, 5, 11, 9, 7, 10, 1, 6, 8, 4, 12]
+    },
+    {
+      "age": 69,
+      "houses": [12, 8, 7, 5, 11, 3, 9, 4, 1, 10, 2, 6]
+    },
+    {
+      "age": 70,
+      "houses": [10, 12, 2, 7, 5, 11, 3, 6, 4, 1, 9, 8]
+    },
+    {
+      "age": 71,
+      "houses": [8, 6, 12, 10, 7, 9, 11, 5, 2, 4, 3, 1]
+    },
+    {
+      "age": 72,
+      "houses": [6, 7, 8, 12, 4, 10, 5, 2, 3, 11, 1, 9]
+    },
+    {
+      "age": 73,
+      "houses": [1, 4, 10, 6, 12, 11, 7, 8, 2, 5, 9, 3]
+    },
+    {
+      "age": 74,
+      "houses": [4, 2, 3, 8, 6, 12, 1, 11, 7, 10, 5, 9]
+    },
+    {
+      "age": 75,
+      "houses": [9, 10, 1, 3, 8, 6, 2, 7, 5, 4, 12, 11]
+    },
+    {
+      "age": 76,
+      "houses": [3, 9, 6, 1, 2, 8, 5, 12, 11, 7, 10, 4]
+    },
+    {
+      "age": 77,
+      "houses": [11, 3, 9, 4, 1, 2, 8, 10, 12, 6, 7, 5]
+    },
+    {
+      "age": 78,
+      "houses": [5, 11, 4, 9, 7, 1, 6, 2, 10, 12, 3, 8]
+    },
+    {
+      "age": 79,
+      "houses": [7, 5, 11, 2, 9, 4, 12, 6, 3, 1, 8, 10]
+    },
+    {
+      "age": 80,
+      "houses": [2, 8, 5, 11, 4, 7, 10, 3, 1, 9, 6, 12]
+    },
+    {
+      "age": 81,
+      "houses": [12, 1, 7, 5, 11, 10, 9, 4, 8, 3, 2, 6]
+    },
+    {
+      "age": 82,
+      "houses": [10, 12, 2, 7, 5, 3, 4, 9, 6, 8, 11, 1]
+    },
+    {
+      "age": 83,
+      "houses": [8, 6, 12, 10, 3, 5, 11, 1, 9, 2, 4, 7]
+    },
+    {
+      "age": 84,
+      "houses": [6, 7, 8, 12, 10, 9, 3, 5, 4, 11, 1, 2]
+    },
+    {
+      "age": 85,
+      "houses": [1, 3, 10, 6, 12, 2, 8, 11, 5, 4, 9, 7]
+    },
+    {
+      "age": 86,
+      "houses": [4, 1, 8, 3, 6, 12, 11, 2, 9, 7, 10, 5]
+    },
+    {
+      "age": 87,
+      "houses": [9, 4, 1, 7, 3, 8, 12, 5, 2, 6, 11, 10]
+    },
+    {
+      "age": 88,
+      "houses": [3, 9, 4, 1, 8, 10, 2, 7, 12, 5, 6, 11]
+    },
+    {
+      "age": 89,
+      "houses": [11, 10, 9, 4, 1, 6, 7, 12, 3, 8, 5, 2]
+    },
+    {
+      "age": 90,
+      "houses": [5, 11, 6, 9, 4, 1, 3, 8, 10, 2, 7, 12]
+    },
+    {
+      "age": 91,
+      "houses": [7, 5, 11, 2, 10, 4, 6, 9, 8, 3, 12, 1]
+    },
+    {
+      "age": 92,
+      "houses": [2, 7, 5, 11, 9, 3, 10, 4, 1, 12, 8, 6]
+    },
+    {
+      "age": 93,
+      "houses": [12, 8, 7, 5, 2, 11, 9, 1, 6, 10, 3, 4]
+    },
+    {
+      "age": 94,
+      "houses": [10, 12, 2, 8, 11, 5, 4, 6, 9, 7, 1, 3]
+    },
+    {
+      "age": 95,
+      "houses": [8, 6, 12, 10, 5, 7, 1, 3, 4, 11, 2, 9]
+    },
+    {
+      "age": 96,
+      "houses": [6, 2, 3, 12, 7, 9, 5, 10, 11, 1, 4, 8]
+    },
+    {
+      "age": 97,
+      "houses": [1, 9, 10, 6, 12, 2, 7, 5, 3, 4, 8, 11]
+    },
+    {
+      "age": 98,
+      "houses": [4, 1, 6, 8, 10, 12, 11, 2, 9, 7, 3, 5]
+    },
+    {
+      "age": 99,
+      "houses": [9, 4, 1, 2, 6, 8, 12, 11, 5, 3, 10, 7]
+    },
+    {
+      "age": 100,
+      "houses": [3, 10, 8, 1, 5, 7, 6, 12, 2, 9, 11, 4]
+    }
+  ],
+  "months": {
+    "description": "Houses of the annual chart map to the months of the Vikram year, starting around 13 April (Vaisakh).",
+    "rows": [
+      {
+        "house": 1,
+        "month": "Vaisakh"
+      },
+      {
+        "house": 2,
+        "month": "Jeth"
+      },
+      {
+        "house": 3,
+        "month": "Asadh"
+      },
+      {
+        "house": 4,
+        "month": "Savan"
+      },
+      {
+        "house": 5,
+        "month": "Bhado"
+      },
+      {
+        "house": 6,
+        "month": "Asoj"
+      },
+      {
+        "house": 7,
+        "month": "Kartik"
+      },
+      {
+        "house": 8,
+        "month": "Maghar"
+      },
+      {
+        "house": 9,
+        "month": "Poh"
+      },
+      {
+        "house": 10,
+        "month": "Magh"
+      },
+      {
+        "house": 11,
+        "month": "Fagan"
+      },
+      {
+        "house": 12,
+        "month": "Chet"
+      }
+    ],
+    "cite": {
+      "vol": "I",
+      "printed_page": 215,
+      "pdf_page": 234,
+      "section": "Houses as months of the Vikram year",
+      "ocr_confidence": "high",
+      "verified_from_image": true
+    },
+    "needs_review": false
+  },
+  "moving_chart": {
+    "text": "For finer charts the book moves the chart by Sun (month), Venus (week), Mars (day), Jupiter (hour), Saturn (minute), Mercury (second), Moon (degree), Rahu (night) and Ketu (day-time). Not implemented.",
+    "cite": {
+      "vol": "I",
+      "printed_page": 215,
+      "pdf_page": 234,
+      "section": "Moving the annual chart",
+      "ocr_confidence": "high",
+      "verified_from_image": false
+    },
+    "needs_review": true,
+    "todo": true
+  }
+}

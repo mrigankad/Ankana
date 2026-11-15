@@ -1,0 +1,76 @@
+{
+  "id": "ananya-sharma",
+  "note": "Ananya Sharma, Varanasi (spec example)",
+  "source": "swisseph-provisional",
+  "settings": {
+    "ayanamsa": "lahiri",
+    "ayanamsaMean": false,
+    "node": "mean",
+    "sunriseRule": "hindu",
+    "houseSystem": "whole_sign",
+    "ephemerisFiles": "swisseph 2.10.03, sepl/semo/seas_18.se1"
+  },
+  "input": {
+    "birthDate": "1995-03-15",
+    "birthTime": "06:42",
+    "timezoneName": "Asia/Kolkata",
+    "latitude": 25.3176,
+    "longitude": 82.9739
+  },
+  "expected": {
+    "ayanamsa": 23.793173761106758,
+    "planets": {
+      "sun": 330.19557554321506,
+      "moon": 124.69823311195434,
+      "mercury": 306.4215422407472,
+      "venus": 290.51699862927546,
+      "mars": 109.9596970643954,
+      "jupiter": 231.1165939251744,
+      "saturn": 322.31971941231996,
+      "rahu": 194.10627117019664,
+      "ketu": 14.106271170196635
+    },
+    "ascendant": 340.5292861155481,
+    "midheaven": 249.10108509457615,
+    "sunrise": "1995-03-15T00:41:51.115327+00:00",
+    "sunset": "1995-03-15T12:33:00.637296+00:00",
+    "vimshottariStarts": [
+      {
+        "planet": "ketu",
+        "start": "1992-09-25"
+      },
+      {
+        "planet": "venus",
+        "start": "1999-09-25"
+      },
+      {
+        "planet": "sun",
+        "start": "2019-09-25"
+      },
+      {
+        "planet": "moon",
+        "start": "2025-09-25"
+      },
+      {
+        "planet": "mars",
+        "start": "2035-09-25"
+      },
+      {
+        "planet": "rahu",
+        "start": "2042-09-25"
+      },
+      {
+        "planet": "jupiter",
+        "start": "2060-09-24"
+      },
+      {
+        "planet": "saturn",
+        "start": "2076-09-24"
+      },
+      {
+        "planet": "mercury",
+        "start": "2095-09-25"
+      }
+    ]
+  }
+}

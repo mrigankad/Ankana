@@ -1,0 +1,233 @@
+{
+  "description": "Artificial (masnui) planets: two planets in the same house act as a third.",
+  "rows": [
+    {
+      "id": "masnui_jupiter",
+      "formed_planet": "jupiter",
+      "variant": null,
+      "components": ["sun", "venus"],
+      "note": "Printed 'Sun-Venus together (in hollow condition)'. The book never defines 'hollow' here (p.113 uses it for Jupiter in H2). Reported whenever Sun and Venus share a house; hollow condition not tested.",
+      "cite": {
+        "vol": "I",
+        "printed_page": 68,
+        "pdf_page": 87,
+        "section": "Planets, colours, artificial combination",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "masnui_sun",
+      "formed_planet": "sun",
+      "variant": null,
+      "components": ["mercury", "venus"],
+      "note": null,
+      "cite": {
+        "vol": "I",
+        "printed_page": 68,
+        "pdf_page": 87,
+        "section": "Planets, colours, artificial combination",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "masnui_moon",
+      "formed_planet": "moon",
+      "variant": null,
+      "components": ["sun", "jupiter"],
+      "note": "p.68 and p.287 say Sun-Jupiter. p.402 (remedies) has a one-line remedy headed 'Sun + Mercury - artificial Moon', which looks like a slip (Sun + Mercury is artificial Mars positive).",
+      "cite": {
+        "vol": "I",
+        "printed_page": 68,
+        "pdf_page": 87,
+        "section": "Planets, colours, artificial combination",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "masnui_venus",
+      "formed_planet": "venus",
+      "variant": null,
+      "components": ["rahu", "ketu"],
+      "note": null,
+      "cite": {
+        "vol": "I",
+        "printed_page": 68,
+        "pdf_page": 87,
+        "section": "Planets, colours, artificial combination",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "masnui_mars_positive",
+      "formed_planet": "mars",
+      "variant": "positive",
+      "components": ["sun", "mercury"],
+      "note": null,
+      "cite": {
+        "vol": "I",
+        "printed_page": 68,
+        "pdf_page": 87,
+        "section": "Planets, colours, artificial combination",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "masnui_mars_negative",
+      "formed_planet": "mars",
+      "variant": "negative",
+      "components": ["sun", "saturn"],
+      "note": "p.68 and p.287 say Sun and Saturn together. Separately, p.478 lists 'Sun + Saturn (anywhere)' among the conditions that make real Mars negative (not necessarily artificial Mars); p.158-159 once writes 'Mars + Mercury = Mars negative', which conflicts with p.68. Together-in-one-house is used.",
+      "cite": {
+        "vol": "I",
+        "printed_page": 68,
+        "pdf_page": 87,
+        "section": "Planets, colours, artificial combination",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "masnui_mercury",
+      "formed_planet": "mercury",
+      "variant": null,
+      "components": ["jupiter", "rahu"],
+      "note": null,
+      "cite": {
+        "vol": "I",
+        "printed_page": 68,
+        "pdf_page": 87,
+        "section": "Planets, colours, artificial combination",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "masnui_saturn_ketu_like",
+      "formed_planet": "saturn",
+      "variant": "ketu_like",
+      "components": ["venus", "jupiter"],
+      "note": "p.68 omits the word together in this row; p.287 (marriage chapter) says together for the Saturn rows and leaves it out for Rahu/Ketu. Read as same house.",
+      "cite": {
+        "vol": "I",
+        "printed_page": 68,
+        "pdf_page": 87,
+        "section": "Planets, colours, artificial combination",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "masnui_saturn_rahu_like",
+      "formed_planet": "saturn",
+      "variant": "rahu_like",
+      "components": ["mercury", "mars"],
+      "note": "p.68 omits the word together in this row; p.287 (marriage chapter) says together for the Saturn rows and leaves it out for Rahu/Ketu. Read as same house.",
+      "cite": {
+        "vol": "I",
+        "printed_page": 68,
+        "pdf_page": 87,
+        "section": "Planets, colours, artificial combination",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "masnui_rahu_exalted",
+      "formed_planet": "rahu",
+      "variant": "exalted",
+      "components": ["mars", "saturn"],
+      "note": "p.68 omits the word together in this row; p.287 (marriage chapter) says together for the Saturn rows and leaves it out for Rahu/Ketu. Read as same house.",
+      "cite": {
+        "vol": "I",
+        "printed_page": 68,
+        "pdf_page": 87,
+        "section": "Planets, colours, artificial combination",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "masnui_rahu_debilitated",
+      "formed_planet": "rahu",
+      "variant": "debilitated",
+      "components": ["sun", "saturn"],
+      "note": "p.68 omits the word together in this row; p.287 (marriage chapter) says together for the Saturn rows and leaves it out for Rahu/Ketu. Read as same house.",
+      "cite": {
+        "vol": "I",
+        "printed_page": 68,
+        "pdf_page": 87,
+        "section": "Planets, colours, artificial combination",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "masnui_ketu_exalted",
+      "formed_planet": "ketu",
+      "variant": "exalted",
+      "components": ["venus", "saturn"],
+      "note": "p.68 omits the word together in this row; p.287 (marriage chapter) says together for the Saturn rows and leaves it out for Rahu/Ketu. Read as same house.",
+      "cite": {
+        "vol": "I",
+        "printed_page": 68,
+        "pdf_page": 87,
+        "section": "Planets, colours, artificial combination",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "masnui_ketu_debilitated",
+      "formed_planet": "ketu",
+      "variant": "debilitated",
+      "components": ["moon", "saturn"],
+      "note": "p.68 omits the word together in this row; p.287 (marriage chapter) says together for the Saturn rows and leaves it out for Rahu/Ketu. Read as same house.",
+      "cite": {
+        "vol": "I",
+        "printed_page": 68,
+        "pdf_page": 87,
+        "section": "Planets, colours, artificial combination",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    }
+  ],
+  "remedy_principle": {
+    "text": "When a planet is malefic, remove (neutralise) the malefic component of its artificial combination so the planet turns benefic. For Mars negative, items of the deer and worship of the Moon are suggested.",
+    "cite": {
+      "vol": "I",
+      "printed_page": 158,
+      "pdf_page": 177,
+      "section": "Helpful remedies: artificial condition",
+      "ocr_confidence": "high",
+      "verified_from_image": false
+    },
+    "cite2": {
+      "vol": "I",
+      "printed_page": 159,
+      "pdf_page": 178,
+      "section": "Remedy of Mars negative",
+      "ocr_confidence": "high",
+      "verified_from_image": false
+    },
+    "needs_review": false
+  }
+}

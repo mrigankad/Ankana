@@ -1,0 +1,1313 @@
+{
+  "description": "Planet-in-house entries for ketu (Vol II), paraphrased. Same row schema as data/planet_house.json; remedies carry optional structured action/item/venue/duration.",
+  "planet": "ketu",
+  "rows": [
+    {
+      "id": "ketu_h1",
+      "planet": "ketu",
+      "house": 1,
+      "status": "done",
+      "theme": "Always worried about children and journeys; Ketu here lifts Sun and Jupiter.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Planned trips fall through at the last moment; worry about children; strong appetite for sex that grows with wealth; earnings cannot be stopped; unconcerned about the future.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun"
+                ],
+                "houses": [
+                  6,
+                  7
+                ]
+              }
+            }
+          ],
+          "effect": "Sun becomes benefic to the highest degree; a son is born; Jupiter is benefic and the native serves his father and preacher.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Ketu is never malefic.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                6,
+                7
+              ]
+            }
+          ],
+          "effect": "Ketu causes havoc.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                2,
+                7
+              ]
+            }
+          ],
+          "effect": "Mercury and Venus turn malefic; an unlucky period for health around the birth of a grandson.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "If Ketu is unfavourable after marriage and Saturn's remedy is not done, it may cause the father's death; birth outside the ancestral place; trouble first via Mercury items, then Venus, Mars (blood), last Jupiter.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Do the remedy of Saturn if Ketu is unfavourable after marriage.",
+          "delivery": null,
+          "action": "remedy of Saturn",
+          "item": null,
+          "venue": null,
+          "duration": null
+        },
+        {
+          "text": "Males with Sun in 6 or 7 avoid eating or buying Sun items in the early morning and evening.",
+          "delivery": null,
+          "action": "habit",
+          "item": "Sun items",
+          "venue": null,
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 614,
+        "pdf_page": 618,
+        "section": "Ketu in house 1",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Omitted: remedies involving keeping, raising or breeding dogs, body piercing, or other animal-related instructions."
+    },
+    {
+      "id": "ketu_h2",
+      "planet": "ketu",
+      "house": 2,
+      "status": "done",
+      "theme": "Rich, ruler, traveller; royal position without accumulated wealth.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Power, authority, honour and promotions via frequent land travel; wealth comes and goes without accumulating; Venus is benefic, Moon is not; Jupiter decides wealth and Venus family life.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                8
+              ]
+            }
+          ],
+          "effect": "Alone in 2 with 8 empty gives frequent travel, promotion and comfort.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun"
+                ],
+                "houses": [
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Earnings begin after 24 and life becomes prosperous.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon",
+                  "mars",
+                  "venus"
+                ],
+                "houses": [
+                  8
+                ]
+              }
+            }
+          ],
+          "effect": "Loss and unhappiness at 16 or 22; short life indicated.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "However many children are born, none helps in old age.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Apply a tilak (or a triangle mark) on the forehead.",
+          "delivery": null,
+          "action": "apply tilak",
+          "item": null,
+          "venue": "forehead",
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 615,
+        "pdf_page": 619,
+        "section": "Ketu in house 2",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "ketu_h3",
+      "planet": "ketu",
+      "house": 3,
+      "status": "done",
+      "theme": "A barking dog but pious: brothers cause trouble, benefits come at 24 or with a son's birth.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Good children; in-laws' and brothers' finances fluctuate; uninvited guests; sees through character of others; nagging but noble.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Long life and good finances from 23 or the first son's birth.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Troubles from brothers, losses on journeys and in lengthy litigation, strained ties with wife and sisters-in-law.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon",
+                  "mars"
+                ],
+                "houses": [
+                  8
+                ]
+              }
+            }
+          ],
+          "effect": "A south-door house lived in for three years brings harm to children; effects last till 24.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon",
+                  "mars"
+                ],
+                "houses": [
+                  3,
+                  4
+                ]
+              }
+            }
+          ],
+          "effect": "The native is poor.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "For chest or lung trouble, throw Jupiter items into running water or apply saffron tilak.",
+          "delivery": null,
+          "action": "float/apply",
+          "item": "saffron, Jupiter items",
+          "venue": "running water, forehead",
+          "duration": null
+        },
+        {
+          "text": "Wear gold on the body for financial success.",
+          "delivery": null,
+          "action": "wear",
+          "item": "gold",
+          "venue": null,
+          "duration": null
+        },
+        {
+          "text": "Throw combined Sun and Moon items into running water before journeys for protection from loss.",
+          "delivery": null,
+          "action": "float",
+          "item": "Sun and Moon items",
+          "venue": "running water",
+          "duration": null
+        },
+        {
+          "text": "Decide for yourself rather than follow others' advice.",
+          "delivery": null,
+          "action": "conduct",
+          "item": null,
+          "venue": null,
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 616,
+        "pdf_page": 620,
+        "section": "Ketu in house 3",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "ketu_h4",
+      "planet": "ketu",
+      "house": 4,
+      "status": "done",
+      "theme": "A dog that scares children: delayed sons, long life and wealth, Jupiter-dependent.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Lucky for father; Jupiter exalted; delayed male child who lives long with the family priest's blessing; long life, good wealth, studious and God-fearing; mother's health suffers.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon",
+                  "mars"
+                ],
+                "houses": [
+                  3,
+                  4
+                ]
+              }
+            }
+          ],
+          "effect": "Ketu and Moon turn malefic; mother unhappy, children denied.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Poor health including diabetes; sons born late (36 to 48); more daughters unless Jupiter is benefic.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Donate gold or yellow items to a temple or the family priest for children and wealth.",
+          "delivery": null,
+          "action": "donate",
+          "item": "gold or yellow items",
+          "venue": "temple / family priest",
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 618,
+        "pdf_page": 622,
+        "section": "Ketu in house 4",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "ketu_h5",
+      "planet": "ketu",
+      "house": 5,
+      "status": "done",
+      "theme": "Under Jupiter's patronage; excellent after 24; sons and grandsons by character.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "With good character in youth, sons and grandsons; troubled life up to 24 then excellent; number of children depends on Jupiter.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter",
+                  "sun",
+                  "moon"
+                ],
+                "houses": [
+                  4,
+                  6,
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "At least five sons, good finances.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  9
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "venus"
+                ],
+                "houses": [
+                  4
+                ]
+              }
+            }
+          ],
+          "effect": "Fish Line for children and domestic life.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter"
+                ],
+                "houses": [
+                  5
+                ]
+              }
+            }
+          ],
+          "effect": "Malefic Jupiter: loss of looks; malefic for children until 45.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon",
+                  "mars"
+                ],
+                "houses": [
+                  3,
+                  4
+                ]
+              }
+            }
+          ],
+          "effect": "Malefic Ketu: poverty and trouble; three sons may be lost but others survive.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  5,
+                  9
+                ]
+              }
+            }
+          ],
+          "effect": "Three sons lost up to 36; two survive.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Donate Moon or Mars items (rice, milk, sugar, honey) when Saturn is in 5 or 9, or Moon and Mars are in 3 or 4.",
+          "delivery": null,
+          "action": "donate",
+          "item": "Moon/Mars items",
+          "venue": "needy / temple",
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 619,
+        "pdf_page": 623,
+        "section": "Ketu in house 5",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "ketu_h6",
+      "planet": "ketu",
+      "house": 6,
+      "status": "done",
+      "theme": "Dual life like Ketu itself; benefit follows Jupiter's strength.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Gain through children, advisors and enemies defeated; Ketu alone here is benefic in all directions and exalts Jupiter; ambitious, revengeful, fond of saving, favoured by authority.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  6
+                ]
+              }
+            }
+          ],
+          "effect": "Ketu acts friendly to Mercury and hostile to Venus; benefit for children.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter"
+                ],
+                "houses": [
+                  2
+                ]
+              }
+            }
+          ],
+          "effect": "Benefic Jupiter and Ketu: about 70 years of life, maternal uncle comfortable, gain from journeys.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "If arrogant, Ketu turns cowardly and unlucky; rolling-stone life; aimless journeys, enemies.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  2
+                ]
+              }
+            }
+          ],
+          "effect": "Mother and her brother unhappy; poor old age.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "venus"
+                ],
+                "houses": [
+                  6
+                ]
+              }
+            }
+          ],
+          "effect": "Ketu and Venus both malefic; trouble in feet, skin disease.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Wear a gold ring on the left hand.",
+          "delivery": null,
+          "action": "wear",
+          "item": "gold ring",
+          "venue": "left hand",
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 620,
+        "pdf_page": 624,
+        "section": "Ketu in house 6",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "ketu_h7",
+      "planet": "ketu",
+      "house": 7,
+      "status": "done",
+      "theme": "A shepherd's dog, helpful to children; luck follows a man of his word.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Number of children matches his siblings; earns well from 24 and stays comfortable for about 40 years; wealth grows as the son grows; victory over enemies.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  7
+                ]
+              }
+            }
+          ],
+          "effect": "Troubled life until 34, enemies defeated after 34.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Pride, false promises and a foul mouth bring disease, Venus trouble and stressed family life; fortune returns at 7, 19, 31, 43, 55, 67 or when the son reaches 18.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  7
+                ]
+              }
+            }
+          ],
+          "effect": "Mercury malefic: troubled, unhappy life; writers and journalists affected.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Keep your word and avoid decrying your own position.",
+          "delivery": null,
+          "action": "conduct",
+          "item": null,
+          "venue": null,
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 622,
+        "pdf_page": 626,
+        "section": "Ketu in house 7",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "ketu_h8",
+      "planet": "ketu",
+      "house": 8,
+      "status": "done",
+      "theme": "Dog crying on the roof: child loss risk, remorse, long life for the native.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Children's ages are affected while the native's own age stays long (not under 70); male child around 34; mixed fortune like Ketu in 2.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter"
+                ],
+                "houses": [
+                  1,
+                  2
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  2
+                ]
+              }
+            }
+          ],
+          "effect": "Ketu stays alive and no remedy needed; many children.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Ketu gives no malefic results.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ]
+              }
+            }
+          ],
+          "effect": "A son is born by 34.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "A planet with Ketu, or malefic Jupiter, Mars and Venus makes it malefic: progeny and wealth affected, wife's health reflects the native's morals, household and roof trouble.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Benefic results till 25; from 26 with Rahu, Mercury and Saturn results turn malefic; marital life disturbed.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter",
+                  "mars"
+                ],
+                "houses": [
+                  6,
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Children and wealth affected.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Donate a two-colour blanket in a temple.",
+          "delivery": null,
+          "action": "donate",
+          "item": "two-colour blanket",
+          "venue": "temple",
+          "duration": null
+        },
+        {
+          "text": "Apply saffron and wear gold for the children's wellbeing.",
+          "delivery": null,
+          "action": "apply/wear",
+          "item": "saffron, gold",
+          "venue": null,
+          "duration": null
+        },
+        {
+          "text": "Worship the Moon if malefic; keep high morals.",
+          "delivery": null,
+          "action": "worship",
+          "item": null,
+          "venue": null,
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 623,
+        "pdf_page": 627,
+        "section": "Ketu in house 8",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Omitted: remedies involving keeping, raising or breeding dogs, body piercing, or other animal-related instructions."
+    },
+    {
+      "id": "ketu_h9",
+      "planet": "ketu",
+      "house": 9,
+      "status": "done",
+      "theme": "An obedient dog that follows human voice; faithful and bold, comforts abroad.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Promotions without many transfers; wealth through own effort; handicrafts help; faithful, bold sons; three sons live comfortably; gains wealth after the period of the 7th-house planet; keeping gold at home helps.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  2
+                ]
+              }
+            }
+          ],
+          "effect": "All planets including Moon give benefic results.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Strong Jupiter or Rahu: power, authority, luck for father.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon",
+                  "mars"
+                ],
+                "houses": [
+                  3
+                ]
+              }
+            }
+          ],
+          "effect": "Death of children; Ketu and Moon malefic; maternal uncle unlucky.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  9
+                ]
+              }
+            }
+          ],
+          "effect": "Malefic Saturn makes a thief, liar and cheat.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Keep a gold bar at home.",
+          "delivery": null,
+          "action": "keep",
+          "item": "gold bar",
+          "venue": "home",
+          "duration": null
+        },
+        {
+          "text": "Wear gold in the ears.",
+          "delivery": null,
+          "action": "wear",
+          "item": "gold",
+          "venue": "ears",
+          "duration": null
+        },
+        {
+          "text": "A woman with Ketu in 9 blessing a childless woman brings a child (book note).",
+          "delivery": null,
+          "action": "blessing",
+          "item": null,
+          "venue": null,
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 626,
+        "pdf_page": 630,
+        "section": "Ketu in house 9",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Omitted: remedies involving keeping, raising or breeding dogs, body piercing, or other animal-related instructions."
+    },
+    {
+      "id": "ketu_h10",
+      "planet": "ketu",
+      "house": 10,
+      "status": "done",
+      "theme": "A silently walking opportunist dog: harmless, doubtful, ruled by Saturn.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Harmless, no loss of livelihood; brother pardons him; renowned 'player' of good and bad games; rich if moral.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  9,
+                  11
+                ]
+              }
+            }
+          ],
+          "effect": "Exalted or well-placed Saturn: soil turns to gold, son by 24, Jupiter's results good.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  10
+                ]
+              }
+            }
+          ],
+          "effect": "Malefic Saturn: loss of child, family welfare destroyed, financial losses, Ketu items suffer till 24 and 48.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  4
+                ]
+              }
+            }
+          ],
+          "effect": "Loss of three children but no loss of property.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  6
+                ]
+              }
+            }
+          ],
+          "effect": "A slimy player.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Keep honey in a silver box and bury it in an isolated place.",
+          "delivery": null,
+          "action": "bury",
+          "item": "honey in silver box",
+          "venue": "isolated place",
+          "duration": null
+        },
+        {
+          "text": "Bury milk and honey in the foundation of the house.",
+          "delivery": null,
+          "action": "bury",
+          "item": "milk and honey",
+          "venue": "house foundation",
+          "duration": null
+        },
+        {
+          "text": "Do the Ketu remedies of house 8; seek help of Moon; keep morals upright.",
+          "delivery": null,
+          "action": "conduct",
+          "item": null,
+          "venue": null,
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 628,
+        "pdf_page": 632,
+        "section": "Ketu in house 10",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Omitted: remedies involving keeping, raising or breeding dogs, body piercing, or other animal-related instructions."
+    },
+    {
+      "id": "ketu_h11",
+      "planet": "ketu",
+      "house": 11,
+      "status": "done",
+      "theme": "A cowardly dog: Ketu eleven times strong, wealth and self-earning.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Prosperous, progressive; royal position unless Mercury is in 3; self-earned wealth exceeds inherited; mother usually dies by the time his son is born.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  3
+                ]
+              }
+            }
+          ],
+          "effect": "Wealth grows eleven times.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "rahu"
+                ],
+                "houses": [
+                  5
+                ]
+              }
+            }
+          ],
+          "effect": "Children are eleven times benefic.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  3
+                ]
+              }
+            }
+          ],
+          "effect": "Moon's results poor or zero at 11, 23, 36, 48; loss via liquid Moon items.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  11
+                ]
+              }
+            }
+          ],
+          "effect": "Malefic Saturn: loss of children and property (not for a female chart).",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter"
+                ],
+                "houses": [
+                  5,
+                  11
+                ]
+              }
+            }
+          ],
+          "effect": "Dead or sickly first son.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Keep Saturn items (white radish) by the head at night and donate in the morning if the first child is stillborn.",
+          "delivery": null,
+          "action": "donate",
+          "item": "white radish",
+          "venue": "temple",
+          "duration": null
+        },
+        {
+          "text": "Offer milk at a Bhairon temple.",
+          "delivery": null,
+          "action": "offer",
+          "item": "milk",
+          "venue": "Bhairon temple",
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 629,
+        "pdf_page": 633,
+        "section": "Ketu in house 11",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Book's quantity of 11 milk bags is paraphrased; remedy for a stillbirth is a ritual only, seek medical care."
+    },
+    {
+      "id": "ketu_h12",
+      "planet": "ketu",
+      "house": 12,
+      "status": "done",
+      "theme": "Comforts and inheritance: family and wealth grow; Mars unhelpful, son supportive.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Promotions without transfers; gardens, a decent house, journeys pay off; Saturn, Venus, Jupiter benefic; Mars and Rahu jealous.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "If Ketu gives no 12th-house results it gives the 2nd-house results: from the first son's birth or age 24, respect and wealth.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "rahu"
+                ],
+                "houses": [
+                  6
+                ]
+              }
+            }
+          ],
+          "effect": "Rahu alone in 6 (or 6 empty): wealthy, ancestral gains, comfortable family.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "rahu"
+                ],
+                "houses": [
+                  6
+                ]
+              }
+            }
+          ],
+          "effect": "With Rahu in 6 conjoined by Mars, Moon, Sun or Venus, no issue until 28 (Mars), 32 (Moon), 42 (Sun) or 25 (Venus).",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  2,
+                  6
+                ]
+              }
+            }
+          ],
+          "effect": "Progeny denied until about 32.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Building on land of an issueless person leaves the native issueless; buying such parents' property is unwise.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Do the remedy of Rahu for progeny.",
+          "delivery": null,
+          "action": "remedy of Rahu",
+          "item": null,
+          "venue": null,
+          "duration": null
+        },
+        {
+          "text": "Worship and establish Ketu for abundant wealth.",
+          "delivery": null,
+          "action": "worship",
+          "item": null,
+          "venue": null,
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 630,
+        "pdf_page": 634,
+        "section": "Ketu in house 12",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Omitted: remedies involving keeping, raising or breeding dogs, body piercing, or other animal-related instructions."
+    }
+  ]
+}

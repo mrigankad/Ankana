@@ -1,0 +1,73 @@
+# Dependencies & build
+node_modules/
+dist/
+build/
+.next/
+*.tsbuildinfo
+out/
+
+# Package managers — keep lockfile tracked for reproducible installs
+# (do NOT ignore pnpm-lock.yaml)
+
+# Environment & secrets — never commit real credentials
+.env
+.env.*
+!.env.example
+!**/.env.example
+
+# Databases — local client data must stay on your machine
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+
+# API generated reports / uploads
+apps/api/storage/
+apps/api/dev.db
+apps/api/test.db
+services/api-py/data/*.db
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+hip_main.dat
+*.bsp
+
+# Test / e2e artifacts
+test-results/
+playwright-report/
+coverage/
+.nyc_output/
+
+# IDE / agent local state
+.idea/
+.vscode/
+.cursor/
+.claude/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Large local design dumps (not part of the product runtime)
+assets/
+/images/
+# Keep product UI screenshots for README / docs tour
+!docs/images/
+# Report fonts (SIL OFL) are part of the product runtime
+!services/api-py/src/app/reports/assets/
+!docs/images/**
+
+# Optional local media not referenced by the app
+*.mp4
+!docs/**/*.mp4
+
+# Real personal charts for engine verification: never commit (see services/api-py/tests/real/README.md)
+services/api-py/tests/real/private/
+services/api-py/.storage/

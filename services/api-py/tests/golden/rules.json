@@ -1,0 +1,365 @@
+{
+ "natalLabel": "raiganj-2003",
+ "from": "2026-07-19T00:00:00.000Z",
+ "horizonYears": 5,
+ "predictions": [
+  {
+   "domain": "travel",
+   "window": {
+    "start": "2024-03-26T12:03:03.863Z",
+    "end": "2026-12-07T15:45:54.263Z"
+   },
+   "headline": "travel - rahu mahadasha / rahu antardasha (2024-03-26 to 2026-12-07)",
+   "narrative": "Rahu's mahadasha favors unconventional moves - foreign lands, new environments, and boundary-crossing opportunities. Rahu's antardasha favors unconventional moves - foreign lands, new environments, and boundary-crossing opportunities.",
+   "effect": "supportive",
+   "confidence": 0.33,
+   "evidence": [
+    "mahadasha lord is rahu (Rahu as videsha-karaka)",
+    "antardasha lord is rahu (Rahu as videsha-karaka)"
+   ],
+   "ruleIds": [
+    "travel-rahu-dasha"
+   ]
+  },
+  {
+   "domain": "career",
+   "window": {
+    "start": "2026-12-07T15:45:54.263Z",
+    "end": "2029-05-02T05:43:59.063Z"
+   },
+   "headline": "career - rahu mahadasha / jupiter antardasha (2026-12-07 to 2029-05-02)",
+   "narrative": "The antardasha lord jupiter sits well-placed in a career and profession house, giving direct results in career and profession.",
+   "effect": "supportive",
+   "confidence": 0.32,
+   "evidence": [
+    "jupiter occupies house 10 (Phaladeepika (placement of period lords))",
+    "jupiter is friend (Phaladeepika (placement of period lords))"
+   ],
+   "ruleIds": [
+    "career-lord-in-domain-house"
+   ]
+  },
+  {
+   "domain": "health",
+   "window": {
+    "start": "2026-12-07T15:45:54.263Z",
+    "end": "2029-05-02T05:43:59.063Z"
+   },
+   "headline": "health - rahu mahadasha / jupiter antardasha (2026-12-07 to 2029-05-02)",
+   "narrative": "The antardasha lord jupiter is combust in the natal chart, thinning its protective results; avoid overextension.",
+   "effect": "challenging",
+   "confidence": 0.19,
+   "evidence": [
+    "jupiter is combust in the natal chart (Combustion doctrine (asta graha))"
+   ],
+   "ruleIds": [
+    "health-combust-lord"
+   ]
+  },
+  {
+   "domain": "travel",
+   "window": {
+    "start": "2026-12-07T15:45:54.263Z",
+    "end": "2029-05-02T05:43:59.063Z"
+   },
+   "headline": "travel - rahu mahadasha / jupiter antardasha (2026-12-07 to 2029-05-02)",
+   "narrative": "Rahu's mahadasha favors unconventional moves - foreign lands, new environments, and boundary-crossing opportunities.",
+   "effect": "supportive",
+   "confidence": 0.2,
+   "evidence": [
+    "mahadasha lord is rahu (Rahu as videsha-karaka)"
+   ],
+   "ruleIds": [
+    "travel-rahu-dasha"
+   ]
+  },
+  {
+   "domain": "education",
+   "window": {
+    "start": "2029-05-02T05:43:59.063Z",
+    "end": "2032-03-08T04:19:12.263Z"
+   },
+   "headline": "education - rahu mahadasha / saturn antardasha (2029-05-02 to 2032-03-08)",
+   "narrative": "The antardasha lord saturn governs education and learning but operates from a dusthana without compensating strength, bringing obstacles first.",
+   "effect": "challenging",
+   "confidence": 0.33,
+   "evidence": [
+    "saturn rules house 4 (BPHS (dusthana placements of period lords))",
+    "saturn occupies house 8 (BPHS (dusthana placements of period lords))",
+    "saturn Shadbala ratio 0.97 < 1 (BPHS (dusthana placements of period lords))"
+   ],
+   "ruleIds": [
+    "education-lord-dusthana-weak"
+   ]
+  },
+  {
+   "domain": "health",
+   "window": {
+    "start": "2029-05-02T05:43:59.063Z",
+    "end": "2032-03-08T04:19:12.263Z"
+   },
+   "headline": "health - rahu mahadasha / saturn antardasha (2029-05-02 to 2032-03-08)",
+   "narrative": "The antardasha lord saturn sits well-placed in a health and vitality house, giving direct results in health and vitality.",
+   "effect": "supportive",
+   "confidence": 0.33,
+   "evidence": [
+    "saturn occupies house 8 (Phaladeepika (placement of period lords))",
+    "saturn is friend (Phaladeepika (placement of period lords))"
+   ],
+   "ruleIds": [
+    "health-lord-in-domain-house"
+   ]
+  },
+  {
+   "domain": "travel",
+   "window": {
+    "start": "2029-05-02T05:43:59.063Z",
+    "end": "2032-03-08T04:19:12.263Z"
+   },
+   "headline": "travel - rahu mahadasha / saturn antardasha (2029-05-02 to 2032-03-08)",
+   "narrative": "Rahu's mahadasha favors unconventional moves - foreign lands, new environments, and boundary-crossing opportunities. The antardasha lord saturn governs travel and relocation but operates from a dusthana without compensating strength, bringing obstacles first.",
+   "effect": "mixed",
+   "confidence": 0.43,
+   "evidence": [
+    "mahadasha lord is rahu (Rahu as videsha-karaka)",
+    "saturn rules house 3 (BPHS (dusthana placements of period lords))",
+    "saturn occupies house 8 (BPHS (dusthana placements of period lords))",
+    "saturn Shadbala ratio 0.97 < 1 (BPHS (dusthana placements of period lords))"
+   ],
+   "ruleIds": [
+    "travel-rahu-dasha",
+    "travel-lord-dusthana-weak"
+   ]
+  }
+ ],
+ "remedies": [
+  {
+   "kind": "mantra",
+   "planet": "moon",
+   "title": "Chandra / Shiva mantra for moon",
+   "practice": "Om Shram Shrim Shraum Sah Chandraya Namah - 11000 repetitions over 40 days.",
+   "rationale": "Mantra japa is the safest first remedy: it pacifies moon without amplifying it.",
+   "evidence": [
+    "moon in Virgo (house 11), dignity friend",
+    "Shadbala ratio 0.65 (required 1.00)"
+   ],
+   "strengthOfRecommendation": "moderate",
+   "cautions": []
+  },
+  {
+   "kind": "daan",
+   "planet": "moon",
+   "title": "Charity (daan) for moon",
+   "practice": "Donate rice, milk, or white cloth on a Monday.",
+   "rationale": "Daan discharges the karmic debt of an afflicted moon rather than strengthening it.",
+   "evidence": [
+    "moon in Virgo (house 11), dignity friend",
+    "Shadbala ratio 0.65 (required 1.00)"
+   ],
+   "strengthOfRecommendation": "moderate",
+   "cautions": []
+  },
+  {
+   "kind": "fasting",
+   "planet": "moon",
+   "title": "Monday observance",
+   "practice": "Light fasting or a simplified sattvic diet on Mondays.",
+   "rationale": "The weekday of moon concentrates its remediation.",
+   "evidence": [
+    "moon in Virgo (house 11), dignity friend",
+    "Shadbala ratio 0.65 (required 1.00)"
+   ],
+   "strengthOfRecommendation": "optional",
+   "cautions": [
+    "Skip fasting entirely if pregnant, diabetic, or medically advised against it."
+   ]
+  },
+  {
+   "kind": "gemstone",
+   "planet": "moon",
+   "title": "Pearl (moti) (only after trial)",
+   "practice": "Pearl (moti) may support moon as a functional benefic that lacks strength.",
+   "rationale": "moon rules a trikona for this lagna and is weak but unafflicted, the one case where a strengthening stone is classically sanctioned.",
+   "evidence": [
+    "moon in Virgo (house 11), dignity friend",
+    "Shadbala ratio 0.65 (required 1.00)"
+   ],
+   "strengthOfRecommendation": "optional",
+   "cautions": [
+    "Gemstones amplify a planet indiscriminately; wear only after a trial period and only if the planet is a functional benefic for this lagna.",
+    "Do not combine with gemstones of inimical planets already being worn.",
+    "Advisory only - consult a qualified astrologer before purchase; quality and setting matter more than size."
+   ]
+  },
+  {
+   "kind": "mantra",
+   "planet": "mercury",
+   "title": "Vishnu mantra for mercury",
+   "practice": "Om Bram Brim Braum Sah Budhaya Namah - 9000 repetitions over 40 days.",
+   "rationale": "Mantra japa is the safest first remedy: it pacifies mercury without amplifying it.",
+   "evidence": [
+    "mercury in Virgo (house 11), dignity exalted",
+    "Shadbala ratio 0.83 (required 1.00)"
+   ],
+   "strengthOfRecommendation": "moderate",
+   "cautions": []
+  },
+  {
+   "kind": "daan",
+   "planet": "mercury",
+   "title": "Charity (daan) for mercury",
+   "practice": "Donate green moong or education material on a Wednesday.",
+   "rationale": "Daan discharges the karmic debt of an afflicted mercury rather than strengthening it.",
+   "evidence": [
+    "mercury in Virgo (house 11), dignity exalted",
+    "Shadbala ratio 0.83 (required 1.00)"
+   ],
+   "strengthOfRecommendation": "moderate",
+   "cautions": []
+  },
+  {
+   "kind": "fasting",
+   "planet": "mercury",
+   "title": "Wednesday observance",
+   "practice": "Light fasting or a simplified sattvic diet on Wednesdays.",
+   "rationale": "The weekday of mercury concentrates its remediation.",
+   "evidence": [
+    "mercury in Virgo (house 11), dignity exalted",
+    "Shadbala ratio 0.83 (required 1.00)"
+   ],
+   "strengthOfRecommendation": "optional",
+   "cautions": [
+    "Skip fasting entirely if pregnant, diabetic, or medically advised against it."
+   ]
+  },
+  {
+   "kind": "mantra",
+   "planet": "venus",
+   "title": "Lakshmi mantra for venus",
+   "practice": "Om Dram Drim Draum Sah Shukraya Namah - 16000 repetitions over 40 days.",
+   "rationale": "Mantra japa is the safest first remedy: it pacifies venus without amplifying it.",
+   "evidence": [
+    "venus in Leo (house 10), dignity enemy",
+    "Shadbala ratio 0.77 (required 1.00)",
+    "venus is combust"
+   ],
+   "strengthOfRecommendation": "strong",
+   "cautions": []
+  },
+  {
+   "kind": "daan",
+   "planet": "venus",
+   "title": "Charity (daan) for venus",
+   "practice": "Donate white rice, curd, or white clothing on a Friday.",
+   "rationale": "Daan discharges the karmic debt of an afflicted venus rather than strengthening it.",
+   "evidence": [
+    "venus in Leo (house 10), dignity enemy",
+    "Shadbala ratio 0.77 (required 1.00)",
+    "venus is combust"
+   ],
+   "strengthOfRecommendation": "strong",
+   "cautions": []
+  },
+  {
+   "kind": "fasting",
+   "planet": "venus",
+   "title": "Friday observance",
+   "practice": "Light fasting or a simplified sattvic diet on Fridays.",
+   "rationale": "The weekday of venus concentrates its remediation.",
+   "evidence": [
+    "venus in Leo (house 10), dignity enemy",
+    "Shadbala ratio 0.77 (required 1.00)",
+    "venus is combust"
+   ],
+   "strengthOfRecommendation": "optional",
+   "cautions": [
+    "Skip fasting entirely if pregnant, diabetic, or medically advised against it."
+   ]
+  },
+  {
+   "kind": "mantra",
+   "planet": "jupiter",
+   "title": "Brihaspati / Dakshinamurthy mantra for jupiter",
+   "practice": "Om Gram Grim Graum Sah Gurave Namah - 19000 repetitions over 40 days.",
+   "rationale": "Mantra japa is the safest first remedy: it pacifies jupiter without amplifying it.",
+   "evidence": [
+    "jupiter in Leo (house 10), dignity friend",
+    "Shadbala ratio 0.86 (required 1.00)",
+    "jupiter is combust"
+   ],
+   "strengthOfRecommendation": "strong",
+   "cautions": []
+  },
+  {
+   "kind": "daan",
+   "planet": "jupiter",
+   "title": "Charity (daan) for jupiter",
+   "practice": "Donate chana dal, turmeric, or books on a Thursday.",
+   "rationale": "Daan discharges the karmic debt of an afflicted jupiter rather than strengthening it.",
+   "evidence": [
+    "jupiter in Leo (house 10), dignity friend",
+    "Shadbala ratio 0.86 (required 1.00)",
+    "jupiter is combust"
+   ],
+   "strengthOfRecommendation": "strong",
+   "cautions": []
+  },
+  {
+   "kind": "fasting",
+   "planet": "jupiter",
+   "title": "Thursday observance",
+   "practice": "Light fasting or a simplified sattvic diet on Thursdays.",
+   "rationale": "The weekday of jupiter concentrates its remediation.",
+   "evidence": [
+    "jupiter in Leo (house 10), dignity friend",
+    "Shadbala ratio 0.86 (required 1.00)",
+    "jupiter is combust"
+   ],
+   "strengthOfRecommendation": "optional",
+   "cautions": [
+    "Skip fasting entirely if pregnant, diabetic, or medically advised against it."
+   ]
+  },
+  {
+   "kind": "mantra",
+   "planet": "saturn",
+   "title": "Shani / Hanuman mantra for saturn",
+   "practice": "Om Pram Prim Praum Sah Shanaye Namah - 23000 repetitions over 40 days.",
+   "rationale": "Mantra japa is the safest first remedy: it pacifies saturn without amplifying it.",
+   "evidence": [
+    "saturn in Gemini (house 8), dignity friend",
+    "Shadbala ratio 0.97 (required 1.00)"
+   ],
+   "strengthOfRecommendation": "moderate",
+   "cautions": []
+  },
+  {
+   "kind": "daan",
+   "planet": "saturn",
+   "title": "Charity (daan) for saturn",
+   "practice": "Donate black sesame, mustard oil, or iron on a Saturday.",
+   "rationale": "Daan discharges the karmic debt of an afflicted saturn rather than strengthening it.",
+   "evidence": [
+    "saturn in Gemini (house 8), dignity friend",
+    "Shadbala ratio 0.97 (required 1.00)"
+   ],
+   "strengthOfRecommendation": "moderate",
+   "cautions": []
+  },
+  {
+   "kind": "fasting",
+   "planet": "saturn",
+   "title": "Saturday observance",
+   "practice": "Light fasting or a simplified sattvic diet on Saturdays.",
+   "rationale": "The weekday of saturn concentrates its remediation.",
+   "evidence": [
+    "saturn in Gemini (house 8), dignity friend",
+    "Shadbala ratio 0.97 (required 1.00)"
+   ],
+   "strengthOfRecommendation": "optional",
+   "cautions": [
+    "Skip fasting entirely if pregnant, diabetic, or medically advised against it."
+   ]
+  }
+ ]
+}

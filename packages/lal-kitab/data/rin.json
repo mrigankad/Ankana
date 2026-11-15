@@ -1,0 +1,393 @@
+{
+  "description": "The nine debts (rin). Detected when the planet sits in a placement house together with a listed enemy planet. Remedy is a collective family remedy.",
+  "rows": [
+    {
+      "id": "pitri_rin",
+      "planet": "jupiter",
+      "kind": "Debt to father and elders",
+      "placement_houses": [2, 5, 9, 12],
+      "enemy_planets_with": ["venus", "mercury"],
+      "cause": "A wrong done by elders, for example a family priest dismissed or childlessness caused by family quarrels.",
+      "symptoms": "Damage to Jupiter-type things: a nearby temple or a peepal tree harmed.",
+      "remedy": "Every blood relative contributes one rupee and the sum is given at a temple on one day; also honour a peepal tree or shrine within 16 paces of the house exit on the left.",
+      "remedy_cite": {
+        "vol": "I",
+        "printed_page": 138,
+        "pdf_page": 157,
+        "section": "Remedy for Jupiter debt",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "cite": {
+        "vol": "I",
+        "printed_page": 134,
+        "pdf_page": 153,
+        "section": "Debts table (planets 1-5)",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "atma_rin",
+      "planet": "sun",
+      "kind": "Personal debt",
+      "placement_houses": [5],
+      "enemy_planets_with": ["venus", "rahu", "ketu"],
+      "cause": "Disrespect of faith and old rituals.",
+      "symptoms": "A buried fire-place in the house or light shafts in the roof.",
+      "remedy": "A yajna (fire ritual) funded by equal, joint shares of all blood relatives.",
+      "remedy_cite": {
+        "vol": "I",
+        "printed_page": 139,
+        "pdf_page": 158,
+        "section": "Remedy for Sun debt",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "cite": {
+        "vol": "I",
+        "printed_page": 134,
+        "pdf_page": 153,
+        "section": "Debts table (planets 1-5)",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Enemy column on the page reads 'Venus or Sun Rahu-Ketu'; taken as Venus, Rahu, Ketu. Ambiguous."
+    },
+    {
+      "id": "matri_rin",
+      "planet": "moon",
+      "kind": "Debt to mother",
+      "placement_houses": [4],
+      "enemy_planets_with": ["ketu"],
+      "cause": "Neglecting a mother who was ill or mistreated, or sending her away from the house.",
+      "symptoms": "Dirty material dumped near the roof light inlet, or a neighbouring well, river or pond left unrespected.",
+      "remedy": "Each blood relative gives an equal share of silver, all thrown into flowing water on the same day.",
+      "remedy_cite": {
+        "vol": "I",
+        "printed_page": 139,
+        "pdf_page": 158,
+        "section": "Remedy for Moon debt",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "cite": {
+        "vol": "I",
+        "printed_page": 134,
+        "pdf_page": 153,
+        "section": "Debts table (planets 1-5)",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "stri_rin",
+      "planet": "venus",
+      "kind": "Debt to wife",
+      "placement_houses": [2, 7],
+      "enemy_planets_with": ["sun", "rahu", "moon"],
+      "cause": "Ending a pregnancy or hurting a woman through temptation.",
+      "symptoms": "Toothed animals reared in the house, especially cows, and a long-running family grudge.",
+      "remedy": "Feed good food to 100 healthy cows in one day at the joint, equal cost of the whole family.",
+      "remedy_cite": {
+        "vol": "I",
+        "printed_page": 139,
+        "pdf_page": 158,
+        "section": "Remedy for Venus debt",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "cite": {
+        "vol": "I",
+        "printed_page": 134,
+        "pdf_page": 153,
+        "section": "Debts table (planets 1-5)",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "bandhu_rin",
+      "planet": "mars",
+      "kind": "Debt to relations",
+      "placement_houses": [1, 8],
+      "enemy_planets_with": ["mercury", "ketu"],
+      "cause": "Betraying friends or relatives, poisoning or burning, or destroying a buffalo or a house.",
+      "symptoms": "Aversion to meeting relatives and to family celebrations such as children's birthdays.",
+      "remedy": "Give part of a job free of charge to a Saturn-type craftsman (builder, artisan, experienced hakim), funded by one rupee from each family member.",
+      "remedy_cite": {
+        "vol": "I",
+        "printed_page": 140,
+        "pdf_page": 159,
+        "section": "Remedy for Mars debt",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "cite": {
+        "vol": "I",
+        "printed_page": 134,
+        "pdf_page": 153,
+        "section": "Debts table (planets 1-5)",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Table row checked on the page image (placement 1 and 8, enemies Mercury and Ketu). The remedy on p.140 sits directly under the Mars symptom block and above the Mercury block, so the attribution to Mars is certain."
+    },
+    {
+      "id": "kanya_rin",
+      "planet": "mercury",
+      "kind": "Debt to daughter and sister",
+      "placement_houses": [3, 6],
+      "enemy_planets_with": ["moon"],
+      "cause": "Cheating by word, wrongs done to a daughter or sister, selling or trading children.",
+      "symptoms": "Selling a child or trading in misguided children.",
+      "remedy": "Collect one yellow shell (cowrie) from each blood relative, burn them to ash and flow the ash into a river on one day.",
+      "remedy_cite": {
+        "vol": "I",
+        "printed_page": 142,
+        "pdf_page": 161,
+        "section": "Remedy for Mercury debt",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "cite": {
+        "vol": "I",
+        "printed_page": 135,
+        "pdf_page": 154,
+        "section": "Debts table (planets 6-9)",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "ati_rin",
+      "planet": "saturn",
+      "kind": "Atrocious debt",
+      "placement_houses": [10, 11],
+      "enemy_planets_with": ["sun", "moon", "mars"],
+      "cause": "Taking a life, or taking a house or land by deceit or without payment.",
+      "symptoms": "A south-facing house, or a house built on land taken from a childless person or on levelled routes and wells.",
+      "remedy": "Feed 100 fish in one day, or feed 100 labourers, at the joint equal cost of the whole family.",
+      "remedy_cite": {
+        "vol": "I",
+        "printed_page": 143,
+        "pdf_page": 162,
+        "section": "Remedy for Saturn debt",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "cite": {
+        "vol": "I",
+        "printed_page": 135,
+        "pdf_page": 154,
+        "section": "Debts table (planets 6-9)",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "ajanma_rin",
+      "planet": "rahu",
+      "kind": "Debt to the unborn",
+      "placement_houses": [12],
+      "enemy_planets_with": ["sun", "venus", "mars"],
+      "cause": "Betraying associates or in-laws so that other families are ruined.",
+      "symptoms": "A sewer or abandoned cremation ground or grain-roasting shop below the exit threshold or along the south wall.",
+      "remedy": "Each blood relative contributes one coconut and all are floated in a river on one day.",
+      "remedy_cite": {
+        "vol": "I",
+        "printed_page": 144,
+        "pdf_page": 163,
+        "section": "Remedy for Rahu debt",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "cite": {
+        "vol": "I",
+        "printed_page": 135,
+        "pdf_page": 154,
+        "section": "Debts table (planets 6-9)",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "daiva_rin",
+      "planet": "ketu",
+      "kind": "Debt to gods and nature",
+      "placement_houses": [6],
+      "enemy_planets_with": ["moon"],
+      "cause": "Ill intent or foul play towards a dog or beggar, secretly ruining another family or having dogs killed without cause.",
+      "symptoms": "Harm to dogs or to things of Ketu, or destruction of the family.",
+      "remedy": "Feed good food to 100 dogs at the joint equal cost of the family, and seek the blessing of a widow living in the house on the left at the entrance.",
+      "remedy_cite": {
+        "vol": "I",
+        "printed_page": 145,
+        "pdf_page": 164,
+        "section": "Remedy for Ketu debt",
+        "ocr_confidence": "low",
+        "verified_from_image": true
+      },
+      "cite": {
+        "vol": "I",
+        "printed_page": 135,
+        "pdf_page": 154,
+        "section": "Debts table (planets 6-9)",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Enemy column ends 'Moon,' with a trailing comma; list may be incomplete. Ambiguous."
+    }
+  ],
+  "first_degree_father": {
+    "description": "Planet in H9 together with Mercury in the listed house indicates first-degree debt to father (Mercury at the root).",
+    "rows": [
+      {
+        "planet": "jupiter",
+        "mercury_house": [12]
+      },
+      {
+        "planet": "sun",
+        "mercury_house": [5]
+      },
+      {
+        "planet": "moon",
+        "mercury_house": [4]
+      },
+      {
+        "planet": "venus",
+        "mercury_house": [2, 7]
+      },
+      {
+        "planet": "mars",
+        "mercury_house": [1, 8]
+      },
+      {
+        "planet": "saturn",
+        "mercury_house": [10, 11]
+      },
+      {
+        "planet": "rahu",
+        "mercury_house": [12]
+      },
+      {
+        "planet": "ketu",
+        "mercury_house": [6]
+      }
+    ],
+    "cite": {
+      "vol": "I",
+      "printed_page": 136,
+      "pdf_page": 155,
+      "section": "First degree debt to father",
+      "ocr_confidence": "medium",
+      "verified_from_image": true
+    },
+    "needs_review": true,
+    "note": "Table (p.136, image checked) is headed 'planet in H9 / Mercury position (when Mercury is posited at the root)'. p.137 adds that in both degrees the house 2, 5, 9 or 12 must be in a debilitated condition, otherwise there is no debt to father; we do not test that extra condition, so findings stay flagged. The second-degree table is now transcribed in second_degree_father."
+  },
+  "general_indicator": {
+    "description": "Malefic planets (Saturn, Rahu, Ketu) in houses 2, 5, 9 or 12 hint at father's debt.",
+    "planets": ["saturn", "rahu", "ketu"],
+    "houses": [2, 5, 9, 12],
+    "cite": {
+      "vol": "I",
+      "printed_page": 132,
+      "pdf_page": 151,
+      "section": "Debts: opening lines",
+      "ocr_confidence": "high",
+      "verified_from_image": true
+    },
+    "needs_review": true,
+    "note": "p.132 bold line: malefic planets in H2, 5, 9, 12 indicate father's debt. p.137 narrows this to debilitated houses. Used only as a soft indicator."
+  },
+  "scope_note": {
+    "text": "Debt to father is judged from the natal chart only, not the annual chart.",
+    "cite": {
+      "vol": "I",
+      "printed_page": 137,
+      "pdf_page": 156,
+      "section": "Debt to father only from natal chart",
+      "ocr_confidence": "high",
+      "verified_from_image": true
+    }
+  },
+  "second_degree_father": {
+    "description": "Second degree debt to father (p.136, right half): an enemy planet sits at the root of the concerned planet. Transcribed from the page image, not yet used by detectRin because the reading of 'outside H.No.' is not clear.",
+    "rows": [
+      {
+        "planet": "jupiter",
+        "not_in_houses": [2, 3, 5, 6, 9, 12],
+        "enemy_condition": "Saturn in H2 as evil, or Venus in H5, or Mercury in H9, or Rahu in H12, or Mercury/Venus/Saturn as evil in H3 and H6 (printed in a scrambled block)",
+        "scrambled": true
+      },
+      {
+        "planet": "sun",
+        "not_in_houses": [1, 11],
+        "enemies": ["venus", "rahu", "ketu"],
+        "enemy_houses": [5]
+      },
+      {
+        "planet": "moon",
+        "not_in_houses": [4],
+        "enemies": ["venus", "mercury", "saturn"],
+        "enemy_houses": [4]
+      },
+      {
+        "planet": "venus",
+        "not_in_houses": [1, 8],
+        "enemies": ["sun", "moon", "rahu"],
+        "enemy_houses": [2, 7],
+        "any_one_or_more": true
+      },
+      {
+        "planet": "mars",
+        "not_in_houses": [7],
+        "enemies": ["mercury", "ketu"],
+        "enemy_houses": [1, 8]
+      },
+      {
+        "planet": "mercury",
+        "not_in_houses": [2, 12],
+        "enemies": ["moon"],
+        "enemy_houses": [3, 6]
+      },
+      {
+        "planet": "saturn",
+        "not_in_houses": [3, 4],
+        "enemies": ["sun", "moon", "mars"],
+        "enemy_houses": [10, 11]
+      },
+      {
+        "planet": "rahu",
+        "not_in_houses": [6],
+        "enemies": ["sun", "venus", "mars"],
+        "enemy_houses": [12]
+      },
+      {
+        "planet": "ketu",
+        "not_in_houses": [2],
+        "enemies": ["moon", "mars"],
+        "enemy_houses": [6]
+      }
+    ],
+    "cite": {
+      "vol": "I",
+      "printed_page": 136,
+      "pdf_page": 155,
+      "section": "Second degree debt to father",
+      "ocr_confidence": "high",
+      "verified_from_image": true
+    },
+    "needs_review": true
+  }
+}

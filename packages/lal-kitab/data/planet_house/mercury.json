@@ -1,0 +1,1183 @@
+{
+  "description": "Mercury in houses 1-12 from Vol II, paraphrased. Same row schema as planet_house.json.",
+  "planet": "mercury",
+  "rows": [
+    {
+      "id": "mercury_h1",
+      "planet": "mercury",
+      "house": 1,
+      "status": "done",
+      "theme": "A ruler type, self-willed and mischievous; Saturn leads, Rahu-Ketu follow.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Mercurial, independent temper with the capacity of the Sun; gain from government and superiors; income does not fail.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Linked with the Sun, or Mars in H12: Mercury is never malefic; wife from a wealthy, sober family.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn",
+                  "venus"
+                ],
+                "houses": [
+                  7
+                ]
+              }
+            }
+          ],
+          "effect": "A planet (especially Saturn or Venus) in H7 makes it extremely benefic, particularly for a dark-complexioned native.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                7
+              ]
+            }
+          ],
+          "effect": "Alone with H7 empty: a royal combination but troubled; Moon in H7 leads to heavy eating and drinking.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Weak or afflicted Mercury: mischief and ill repute; in-laws and children suffer if the native drinks or eats non-vegetarian.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Green goods, trades and medical work do not pay for malefic Mercury; restless roaming in youth.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Keep away from the colour green.",
+          "delivery": null
+        },
+        {
+          "text": "Keep distance from the sister-in-law.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 515,
+        "pdf_page": 525,
+        "section": "Mercury in house 1",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mercury_h2",
+      "planet": "mercury",
+      "house": 2,
+      "status": "done",
+      "theme": "Knowledgeable, selfish, king-like; words and writing like jewels.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Broad forehead, intelligent, long life, confident; Jupiter highly benefic; helps in-laws; conquers enemies.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                6,
+                8
+              ]
+            }
+          ],
+          "effect": "H6 and H8 blank: sharp mind, firm determination, children troublesome but not denied.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter"
+                ],
+                "houses": [
+                  9,
+                  12
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  6
+                ]
+              }
+            }
+          ],
+          "effect": "Jupiter in H9 or H12 gives respect and a long-lived mother; Saturn in H6 gives self-made wealth.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "rahu",
+                  "ketu",
+                  "mars"
+                ],
+                "houses": [
+                  8,
+                  9
+                ]
+              }
+            }
+          ],
+          "effect": "Rahu or Ketu in H8 or H9 gives quick wit and sweet, forceful speech; Mars in H8/H9 gives profit from speech or a strong will.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Bundle of ash: father's earnings are lost, losses in gambling and speculation; father may die at 16-21 or 34-46.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "venus"
+                ],
+                "houses": [
+                  3,
+                  8,
+                  9,
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Venus in H3/8/9/12, or rearing a sheep or parrot, harms the first wife and home.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter"
+                ],
+                "houses": [
+                  8
+                ]
+              }
+            }
+          ],
+          "effect": "Jupiter in H8, or Moon and Saturn in H12: relations and grandfather suffer, family wealth wasted 17 to 35.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Serve maidens; take help of Moon and Jupiter remedies.",
+          "delivery": null
+        },
+        {
+          "text": "Donate Moon items (rice, silver, milk) during the 17-35 age loss.",
+          "delivery": null
+        },
+        {
+          "text": "Avoid rearing parrot or sheep.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 517,
+        "pdf_page": 527,
+        "section": "Mercury in house 2",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Source's nose-piercing remedy omitted (body modification)."
+    },
+    {
+      "id": "mercury_h3",
+      "planet": "mercury",
+      "house": 3,
+      "status": "done",
+      "theme": "Extremely malefic for others; the native survives.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  1
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "sun"
+                ],
+                "houses": [
+                  11
+                ]
+              }
+            }
+          ],
+          "effect": "At least 80 years; relatives help; wealthy and victorious; Mars in H1 or Sun in H11 makes Mercury benefic.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                9,
+                11
+              ]
+            }
+          ],
+          "effect": "H9 and H11 empty: all-round benefic; Venus alive helps Ketu and Moon, with good writing.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Weak Mercury: quarrels with relatives, unproductive spending, settling away from the ancestral place; moong dal is a cause of illness.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "A planet in H3, 4, 5, 9 or 11 hurts Ketu's relatives; a south-facing door gives H8 results.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "venus"
+                ],
+                "houses": [
+                  4
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  8
+                ]
+              }
+            }
+          ],
+          "effect": "Venus in H4 delays progeny; Moon in H8 with no friends in H6 hurts Venus, Saturn, Rahu; Rahu-Ketu-Saturn in H6/H7 costs father's wealth.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Clean teeth daily with alum.",
+          "delivery": null
+        },
+        {
+          "text": "Soak whole moong overnight and feed it to birds in the morning for 43 days.",
+          "delivery": "birds, 43 days"
+        },
+        {
+          "text": "Wash dhak leaves with milk and bury them in a quiet pit covered with stone; do not bring the digging tools home.",
+          "delivery": null
+        },
+        {
+          "text": "Serve green lentils to birds; donate Mercury items; keep a dog.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 520,
+        "pdf_page": 530,
+        "section": "Mercury in house 3",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Source's nose-piercing remedy omitted (body modification). Goat donation and burning shells omitted."
+    },
+    {
+      "id": "mercury_h4",
+      "planet": "mercury",
+      "house": 4,
+      "status": "done",
+      "theme": "Royal combination; mother's life and wealth flow.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "alone": true
+            }
+          ],
+          "effect": "Alone, Mercury turns companion planets to gold; Moon in H2 or in H3/H6 gives bountiful wealth and parental bliss.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "moon"
+                ],
+                "houses": [
+                  3,
+                  5,
+                  11
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "jupiter"
+                ],
+                "houses": [
+                  9
+                ]
+              }
+            }
+          ],
+          "effect": "Sun-Moon in H3, H5 or H11 with Jupiter in H9: no evil planet works; wealth, family and age excellent.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter"
+                ],
+                "houses": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Benefic Jupiter gives royal prosperity and help from government.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Live Mercury things (parrot, sheep, goat) at home endanger the mother; family wealth falters.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "venus",
+                  "rahu",
+                  "saturn"
+                ],
+                "houses": [
+                  2,
+                  5,
+                  9,
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Venus, Rahu or Saturn in H2, 5, 9, 12 (Father's Debt) or Moon in H6: males suffer, loss of female wealth, despair.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Silver chain for peace of mind; gold chain for wealth.",
+          "delivery": null
+        },
+        {
+          "text": "Saffron tilak or eating saffron for 43 days.",
+          "delivery": null
+        },
+        {
+          "text": "Use Sun remedies for malefic Mercury and Jupiter remedies for wealth.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 523,
+        "pdf_page": 533,
+        "section": "Mercury in house 4",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mercury_h5",
+      "planet": "mercury",
+      "house": 5,
+      "status": "done",
+      "theme": "Happy; his words are prophetic.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "moon",
+                  "jupiter"
+                ],
+                "houses": [
+                  3,
+                  9
+                ]
+              }
+            }
+          ],
+          "effect": "Prophetic speech; Sun, Moon, Jupiter in H3 or H9 give wealth and comfort after 34.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Dormant Mercury (H aspect blank): humane, good ancestral house, family life and progeny.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  1,
+                  2,
+                  4,
+                  6,
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Moon in H1, 2, 4, 6 or 12 lets Mercury control the harm of planets in H4, 6-9.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Malefic Mercury hurts H1, 3, 4, 5, 7, 9 unless Moon or Jupiter sit in H3 or H9; unfavourable for father but not children; own words cause loss.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Weak Moon or Jupiter, especially Moon before Mercury, gives Mercury's evil results.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Wear a copper coin with a hole on a thread around the neck.",
+          "delivery": null
+        },
+        {
+          "text": "Keep pearls and silver.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 525,
+        "pdf_page": 535,
+        "section": "Mercury in house 5",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Source's nose-piercing remedy omitted (body modification)."
+    },
+    {
+      "id": "mercury_h6",
+      "planet": "mercury",
+      "house": 6,
+      "status": "done",
+      "theme": "An unknown yogi, king at heart; kind words help, greed harms.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Forceful speech, self-made wealth, gains by voyage and honest business; lawsuits go in his favour; Mercury follows other benefic planets (especially in H2) and doubles their good.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "alone": true
+            }
+          ],
+          "effect": "Alone and unaspected: printing, paper and Moon items profit; Sun, Jupiter or Saturn in H1 is a royal combination.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Greed; a north-facing house is inauspicious; a daughter married to the north is unhappy; mother may die or suffer around 34.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  4,
+                  8
+                ]
+              }
+            }
+          ],
+          "effect": "Mars in H4 or H8, or Venus in H4 with malefic Ketu, or Moon-Jupiter in H2: early death of mother, children after 34, bad eyesight.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Propitiate the Moon; wear gold; wife wears a silver ring on the left hand.",
+          "delivery": null
+        },
+        {
+          "text": "When Venus is malefic, bury a bottle of Ganges water under farmland; when Mercury is malefic, bury a milk container in a forest.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 527,
+        "pdf_page": 537,
+        "section": "Mercury in house 6",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mercury_h7",
+      "planet": "mercury",
+      "house": 7,
+      "status": "done",
+      "theme": "Good for others; alive is a diamond, dormant is malefic.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Alive Mercury helps other planets; comfortable old age; Venus items help; indulging the wife helps.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  1
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  3
+                ]
+              }
+            }
+          ],
+          "effect": "Moon in H1 brings gain by sea voyage; Saturn in H3 makes in-laws rich; a planet in H1 and H10 neutralises malefics.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Sister, aunt and sister-in-law lead troubled lives; defamation through the sister-in-law.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "ketu"
+                ],
+                "houses": [
+                  1,
+                  8
+                ]
+              }
+            }
+          ],
+          "effect": "Ketu in H1 or H8, H1 empty, or Jupiter in H9: loss in business or childhood trouble, but comfortable old age; Venus malefic until 34.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  1,
+                  7,
+                  8
+                ]
+              }
+            }
+          ],
+          "effect": "Mars in H1, 7 or 8, or Moon in H7, obstruct; troubled until 34 but business stays good.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Serve (feed and care for) a black cow that is handicapped.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 529,
+        "pdf_page": 539,
+        "section": "Mercury in house 7",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mercury_h8",
+      "planet": "mercury",
+      "house": 8,
+      "status": "done",
+      "theme": "Disease, blame and trap; honour and wealth at risk.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "mars",
+                  "jupiter"
+                ],
+                "houses": [
+                  8
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "With a male planet (Sun, Mars, Jupiter) or Mars in H12, Mercury is not malefic; Sun in H4 or a benefic Moon washes off its poison.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "alone": true
+            }
+          ],
+          "effect": "Alone it can make one learned and intelligent; Mars with it gives excellent results.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Health trouble in teeth and intestines; sudden losses, punishment without fault, half the wealth lost; 34th year troublesome.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                2
+              ]
+            }
+          ],
+          "effect": "H2 blank: bad 34 years, father's age and wealth hurt at 16-21; a planet in H2 poisons further.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Changing the place of worship or the stairs raises malefic effect; transit through H8 in the annual chart is very malefic.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Around the birthday (34 days before and after, and a day either side), bury an earthen bowl of honey in a forest.",
+          "delivery": "forest"
+        },
+        {
+          "text": "Throw a copper pot of moong dal into a river within 34 to 42 days of the birthday.",
+          "delivery": "river"
+        },
+        {
+          "text": "Keep rain water or milk on the roof; avoid red clothes.",
+          "delivery": null
+        },
+        {
+          "text": "Worship the Goddess; serve maidens; wash yellow clothes; wear silver; donate mushrooms in an earthen pot at a temple; flow whole moong in a sealed copper pot.",
+          "delivery": null
+        },
+        {
+          "text": "For Moon in H2: give 24 sugarless milk-sweet cakes to a dog or float them in water; similar donation for another planet in H2.",
+          "delivery": "running water"
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 531,
+        "pdf_page": 541,
+        "section": "Mercury in house 8",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Remedies using kohl on the hips, a nose ring for a daughter, and Sun items to Saturn animals (buffalo, fish) omitted. Debilitation table in source not stored."
+    },
+    {
+      "id": "mercury_h9",
+      "planet": "mercury",
+      "house": 9,
+      "status": "done",
+      "theme": "A king and a leper: mysterious birth, benefit depends on companions.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon",
+                  "ketu",
+                  "jupiter"
+                ],
+                "houses": [
+                  1,
+                  3,
+                  6,
+                  7,
+                  11
+                ]
+              }
+            }
+          ],
+          "effect": "Moon, Ketu and Jupiter in H1, 3, 6, 7 or 11 make Mercury benefic: lucky, wealthy, religious, big family.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Troublesome years 1, 4, 13, 15, 17, 28, 34; father suffers; after 34 acts like negative Mars; Mars or Sun malefic.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "alone": true
+            }
+          ],
+          "effect": "Alone: unfaithful, taking charms from a fakir brings misery; H1 blank gives a quarrelsome nature.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter"
+                ],
+                "houses": [
+                  6,
+                  8,
+                  10
+                ]
+              }
+            }
+          ],
+          "effect": "Jupiter alone in H6, 8 or 10 gives about 64 years and wife and progeny suffer.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon",
+                  "ketu"
+                ],
+                "houses": [
+                  11
+                ]
+              }
+            }
+          ],
+          "effect": "Moon-Ketu in H11 gives a deceitful, vice-prone person.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Keep a red-coated round iron ball on you.",
+          "delivery": null
+        },
+        {
+          "text": "Wear yellow cloth washed in river water by day; do not wear green.",
+          "delivery": null
+        },
+        {
+          "text": "Bury silver under the house floor; feed a cow.",
+          "delivery": null
+        },
+        {
+          "text": "Donate mushrooms in an earthen pot at a temple for favour of superiors.",
+          "delivery": null
+        },
+        {
+          "text": "Flow rice and dal in water.",
+          "delivery": "running water"
+        },
+        {
+          "text": "Do not accept charms or ash, keep idols, basil plants, parrots or goats; do not keep brass utensils empty or inverted.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 534,
+        "pdf_page": 544,
+        "section": "Mercury in house 9",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Source's nose-piercing remedy omitted (body modification). Table of which planet Mercury destroys by position not stored."
+    },
+    {
+      "id": "mercury_h10",
+      "planet": "mercury",
+      "house": 10,
+      "status": "done",
+      "theme": "Subservient to Saturn; either twice benefic or twice malefic.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "empty": [
+                2
+              ]
+            }
+          ],
+          "effect": "H2 empty: gain through voyages; benefic H2 doubles money flow; benefic Saturn makes Mercury excellent.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  1,
+                  3,
+                  4,
+                  5
+                ]
+              }
+            }
+          ],
+          "effect": "Skilful, musical, wealthy; Moon in H1, 3, 4, 5 gives lion-house effect (arms dealing profits but family suffers).",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Liquor or heavy eating turns Saturn malefic: ruin until 43; father's life and sight at risk.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "H8 malefic doubles the trouble and may harm eyesight.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Propitiate Saturn; keep sober conduct.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 537,
+        "pdf_page": 547,
+        "section": "Mercury in house 10",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mercury_h11",
+      "planet": "mercury",
+      "house": 11,
+      "status": "done",
+      "theme": "Rich since birth but troubled until 34, a diamond after.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "empty": [
+                2
+              ]
+            }
+          ],
+          "effect": "After 34 wealth and comfort; condition decided by Jupiter; H2 empty: skilful and respected.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Transiting H1 in the annual chart (ages 11, 23, 36, 48, 57...) brings big gain.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Foolish and unlucky before 34; Moon, Saturn and Jupiter results poor until then.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Accepting a charm from a fakir when Mercury from H9 comes to H11 is destructive.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Wear a copper coin around the neck; keep a red iron ball.",
+          "delivery": null
+        },
+        {
+          "text": "Float any charm at home in water.",
+          "delivery": "running water"
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 538,
+        "pdf_page": 548,
+        "section": "Mercury in house 11",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mercury_h12",
+      "planet": "mercury",
+      "house": 12,
+      "status": "done",
+      "theme": "Long, comfortable life but peace is disturbed in transit; destroyer of H2,3,4,6,9,12.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter",
+                  "saturn"
+                ],
+                "houses": [
+                  2,
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Jupiter or Saturn in H2 or H12 give honour, wealth and family; Jupiter and Saturn together in H7 (Fish Line) make Mercury excellent.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "With Ketu's support, wealth and progeny grow.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Changeable and obstinate; trouble begins with drinking; loss in speculation and air travel agents; wife troubled; marriage at 25 hurts wife and father.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "mars",
+                  "jupiter",
+                  "moon",
+                  "saturn",
+                  "rahu"
+                ],
+                "houses": [
+                  6
+                ]
+              }
+            }
+          ],
+          "effect": "Planets in H6 are destroyed; Sun or Mars in H6: early death of mother; Jupiter in H6: father's wealth lost; Moon, Rahu or Saturn in H6, 5 or 2 bring particular harm.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Worship Lord Ganesh; do not drink; be truthful and calm.",
+          "delivery": null
+        },
+        {
+          "text": "Wear a gold ring or a jointless iron or platinum ring (not received free); saffron or turmeric tilak.",
+          "delivery": null
+        },
+        {
+          "text": "Throw an empty earthen pot in running water; feed three street dogs.",
+          "delivery": "running water"
+        },
+        {
+          "text": "Worship daily at a temple to offset an empty H2.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 539,
+        "pdf_page": 549,
+        "section": "Mercury in house 12",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Source's nose-piercing remedy omitted (body modification)."
+    }
+  ]
+}

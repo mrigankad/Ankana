@@ -1,0 +1,1285 @@
+{
+  "description": "Moon in houses 1-12 from Vol II, paraphrased. Same row schema as planet_house.json.",
+  "planet": "moon",
+  "rows": [
+    {
+      "id": "moon_h1",
+      "planet": "moon",
+      "house": 1,
+      "status": "done",
+      "theme": "Like pure milk; wealth and honour tied to the mother's blessing.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Respecting the mother brings long life and plenty; dutiful service to relatives and guests builds wealth.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "mars",
+                  "jupiter"
+                ],
+                "houses": [
+                  4,
+                  10
+                ]
+              }
+            }
+          ],
+          "effect": "Friendly planets in H4 and H10 give profitable journeys, especially by sea; benefic planets in H7 and H8 make one very wealthy.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter"
+                ],
+                "houses": [
+                  4
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  10
+                ]
+              }
+            }
+          ],
+          "effect": "Jupiter in H4 with Saturn in H10 adds comforts, conveyance and wealth.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "venus"
+                ],
+                "houses": [
+                  7
+                ]
+              }
+            }
+          ],
+          "effect": "Venus in H7 gives a good home; Mercury in H7 with no malefic aspect gives wealth through voyages.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Loss of honour through deceit or evil deeds; selling milk is unlucky; a spouse stays unhappy whatever Venus does.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn",
+                  "sun"
+                ],
+                "houses": [
+                  2,
+                  6
+                ]
+              }
+            }
+          ],
+          "effect": "Saturn or Sun in H2 or H6 brings poverty; Jupiter in H11 gives a troubled, unhappy life.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Marrying before about 28 can harm the mother and her side.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "A soldered silver vessel or much green (Mercury) material can harm health, especially the mother's eyes.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Use silver vessels for milk and drink water from a silver glass; avoid plain glass.",
+          "delivery": null
+        },
+        {
+          "text": "Water a peepal or banyan tree now and then; fit four copper nails to the bed legs.",
+          "delivery": null
+        },
+        {
+          "text": "Bury items of Mars (red, copper) outside the house; deal in red goods and round silver utensils instead of milk trade.",
+          "delivery": null
+        },
+        {
+          "text": "When travelling more than about 100 days, drop a copper coin in running water.",
+          "delivery": "running water"
+        },
+        {
+          "text": "If H7 is empty, marry before 24 or keep a maid or cow at home; keep a dog after marriage for children's welfare.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 405,
+        "pdf_page": 419,
+        "section": "Moon in house 1",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Dormant/awakening ages and annual-chart ages in footnotes not captured. Animal-keeping remedies kept only as non-harmful care."
+    },
+    {
+      "id": "moon_h2",
+      "planet": "moon",
+      "house": 2,
+      "status": "done",
+      "theme": "Self-earned wealth; blessing holds while Moon items stay at home.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "empty": [
+                4,
+                6,
+                9,
+                10,
+                12
+              ]
+            }
+          ],
+          "effect": "Mother lives long (to about the native's 48th year) when Rahu, Ketu and Saturn avoid H4, 6, 9, 10, 12.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Moon here gives the good results of Jupiter wherever Jupiter sits; keeping rice and silver at home brings ancestral property.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Moon passing through H1 in transit cleans the chart's poison; those years (2,14,26,38,50,62...) are lucky.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Strong benefic Venus gives good in-laws and success in love.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Temple bells rung in the house are said to cost the native children.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun"
+                ],
+                "houses": [
+                  1
+                ]
+              }
+            }
+          ],
+          "effect": "Sun in H1, Saturn in H10, Jupiter in H11, Ketu in H12 or Mercury in H6 bring trouble: poor eyesight, hard old age, a choice between education and children.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "rahu",
+                  "ketu",
+                  "saturn"
+                ],
+                "houses": [
+                  9,
+                  10,
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Rahu, Ketu or Saturn in H9, 10 or 12 puts the mother's health at risk around ages 9, 18, 36.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Give green cloth to young girls for 40 or 43 days to wash off Mercury's poison.",
+          "delivery": "donate to girls"
+        },
+        {
+          "text": "Embed silver foil in the foundation of the bed.",
+          "delivery": null
+        },
+        {
+          "text": "Keep the house floor kuchcha (unpaved), serve elders, donate rice and silver through the mother.",
+          "delivery": null
+        },
+        {
+          "text": "Take some silver from the mother when leaving on a journey; bury silver in the foundation of a self-built house or flow it in water.",
+          "delivery": "bury or running water"
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 408,
+        "pdf_page": 422,
+        "section": "Moon in house 2",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Benefic condition about strong Venus is not tied to a house in the source. Keeping a horse omitted as impractical."
+    },
+    {
+      "id": "moon_h3",
+      "planet": "moon",
+      "house": 3,
+      "status": "done",
+      "theme": "Protector against theft and untimely death; wealth if brothers and sisters are cared for.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "empty": [
+                9,
+                11
+              ]
+            }
+          ],
+          "effect": "Wealth is unbounded if one looks after brothers and sisters; with H9 and H11 empty there is no harm from the Moon.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "A strong Mercury and a living Moon give a pious, brave, victorious life with no theft; Venus and Mars give their own good results.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun"
+                ],
+                "houses": [
+                  1
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  11
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  5
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "jupiter"
+                ],
+                "houses": [
+                  9
+                ]
+              }
+            }
+          ],
+          "effect": "Sun in H1, Saturn in H11, Mercury in H5 and Jupiter in H9 together form a royal combination with ancestral gain.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Favourable years come every third day, month or year; one parent stays alive to support.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "A malefic lord of the 8th, or the 8th year, brings loss of wealth; Mars polluted by Saturn leads to downfall.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  10
+                ]
+              }
+            }
+          ],
+          "effect": "Mars or Mercury with Mars in H10 makes Mars items unfavourable to mother and brother, giving separation or jealousy; H3 then acts like Moon in H11.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Serve every guest at least milk or water.",
+          "delivery": null
+        },
+        {
+          "text": "At a daughter's birth donate Moon items (milk, rice, silver); at a son's birth donate Sun items (jaggery, wheat, not glittering).",
+          "delivery": null
+        },
+        {
+          "text": "Propitiate Mercury (green cloth to girls).",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 411,
+        "pdf_page": 425,
+        "section": "Moon in house 3",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Remedy of marrying off a daughter to ward off calamity omitted (coercive); birth-donation remedies paraphrased loosely."
+    },
+    {
+      "id": "moon_h4",
+      "planet": "moon",
+      "house": 4,
+      "status": "done",
+      "theme": "As one spends, wealth grows; milk and charity are auspicious.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "alone": true
+            }
+          ],
+          "effect": "Alone in H4, wealth keeps coming despite spending; the mother is favourable and work with her help does well.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter",
+                  "sun"
+                ],
+                "houses": [
+                  5
+                ]
+              }
+            }
+          ],
+          "effect": "Jupiter or Sun in H5 brings wealth from the birth of a son; Jupiter in H2 or 9 with Sun in H5 forms a royal combination.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Moon with three other planets gives fourfold wealth.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  9,
+                  11
+                ]
+              }
+            }
+          ],
+          "effect": "Saturn in H9 or H11 makes one gentle and a jewel of the family; Jupiter in H6 gives ancestral property.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "rahu"
+                ],
+                "houses": [
+                  10
+                ]
+              }
+            }
+          ],
+          "effect": "Selling milk is unfavourable; Rahu in H10 gives head injury and troubles Mercury matters.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter"
+                ],
+                "houses": [
+                  10
+                ]
+              }
+            }
+          ],
+          "effect": "Jupiter in H10 may bring a false accusation and imprisonment; Jupiter with Ketu in H2 needs a religious remedy.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Moon conjoined with exactly two other planets makes all three malefic.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Donate milk instead of selling it.",
+          "delivery": null
+        },
+        {
+          "text": "Keep a jug of milk beside you when starting a task.",
+          "delivery": null
+        },
+        {
+          "text": "Grandfather and grandson visiting a holy place together, or a havan, to wash away Jupiter-Ketu evils.",
+          "delivery": "holy place or havan"
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 414,
+        "pdf_page": 428,
+        "section": "Moon in house 4",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "moon_h5",
+      "planet": "moon",
+      "house": 5,
+      "status": "done",
+      "theme": "Mother's milk, a spiritual river; long life and brave, but sharp-tempered.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Wealthy, charitable and respected, with about 100 years of life; building wells or hand pumps for the public blesses children.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  7,
+                  11
+                ]
+              }
+            },
+            {
+              "empty": [
+                9
+              ]
+            }
+          ],
+          "effect": "Mercury in H7 or H11 helps; Ketu favourable (in H6) with H9 empty gives at least five sons; Rahu is dormant.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Greed, a loose tongue and keeping no secrets spoil the Moon; a rash, ruinous nature if some planet is in H10 or H12.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Saturn, Rahu or Ketu in H2/H3 or Sun with Mercury in H9/H11 leave Moon unfavourable.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Afflicted Mercury can bring a very short life in the worst cases.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Float rice and sugar cubes tied in a white cloth in flowing water on Mondays.",
+          "delivery": "running water, Mondays"
+        },
+        {
+          "text": "Eat something sweet and carry some when leaving for work.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 417,
+        "pdf_page": 431,
+        "section": "Moon in house 5",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "moon_h6",
+      "planet": "moon",
+      "house": 6,
+      "status": "done",
+      "theme": "Deceptive position, sour water; one gets back what one gives.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "alone": true
+            }
+          ],
+          "effect": "Moon alone gives excellent youth and old age; enemies turn friends; Mercury in H2/H8 or Mars in H12 does not harm wealth.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter"
+                ],
+                "houses": [
+                  2
+                ]
+              }
+            }
+          ],
+          "effect": "Jupiter in H2 is favourable; a benefic H2/4/8/12 helps.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "If H4, H8 and H12 are malefic, the Moon is malefic until about 34; weak Venus harms in-laws, Mercury the mother's side, Ketu the father's.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun"
+                ],
+                "houses": [
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Boring a well at Moon ages (6,12,24) harms wealth and health; Sun in H12 risks eyesight.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  4,
+                  8
+                ]
+              }
+            }
+          ],
+          "effect": "Mars in H4 or H8 with Mercury in H8 may cost the mother early.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Donate Sun, Mars or Jupiter items (jaggery, wheat, copper, etc.) at a temple and worship there.",
+          "delivery": null
+        },
+        {
+          "text": "Take milk by day, not at night; do not donate milk.",
+          "delivery": "daytime"
+        },
+        {
+          "text": "Dig a well, if at all, at a hospital or cremation ground, not for travellers or farming.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 419,
+        "pdf_page": 433,
+        "section": "Moon in house 6",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Remedy of giving water to a dying person for 6 days omitted (medical claim)."
+    },
+    {
+      "id": "moon_h7",
+      "planet": "moon",
+      "house": 7,
+      "status": "done",
+      "theme": "Mother of children; wealth like a goddess, wife brings abundance.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "alone": true
+            },
+            {
+              "empty": [
+                8
+              ]
+            }
+          ],
+          "effect": "Alone in H7 the Moon is a goddess of wealth; benefic Venus or Mercury with H8 empty gives wealth, family and domestic bliss.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  3
+                ]
+              }
+            }
+          ],
+          "effect": "Saturn in H3 or Jupiter in H7 keeps Moon from acting badly; very wealthy and respected if Rahu-Ketu are not malefic.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Marrying at 6, 12 or 24 makes Venus, Mercury and Rahu-Ketu negative; quarrelling with the mother brings ruin.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Selling milk or water means loss of wealth; Mercury goods are not profitable.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "venus",
+                  "mercury"
+                ],
+                "houses": [
+                  1
+                ]
+              }
+            }
+          ],
+          "effect": "Venus or Mercury in H1 with Saturn linked, or Venus with Rahu-Ketu-Saturn, causes early deaths of children or loss of property.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Keep Moon items at home: silver, milk, river water.",
+          "delivery": null
+        },
+        {
+          "text": "Honour and obey the mother; do not sell milk or water.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 421,
+        "pdf_page": 435,
+        "section": "Moon in house 7",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Source also mentions weapon death after long life; not stored."
+    },
+    {
+      "id": "moon_h8",
+      "planet": "moon",
+      "house": 8,
+      "status": "done",
+      "theme": "Dead mother, burnt milk; service to elders brings long life.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter",
+                  "saturn"
+                ],
+                "houses": [
+                  2
+                ]
+              }
+            }
+          ],
+          "effect": "Jupiter and Saturn in H2 make Rahu and Mars helpful and the Moon fully alive.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Benefic Mercury or Sun or Venus gives about 80 years; mother's life protects the native.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  2
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "jupiter"
+                ],
+                "houses": [
+                  9,
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Mercury in H2 with Jupiter in H9 or H12 gives parents long life.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "If Venus or Mercury or Saturn is malefic, loss of wealth, in-laws and children and sudden attacks; a well near the ancestral house worsens it.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                2
+              ]
+            }
+          ],
+          "effect": "The 12th, 24th and 48th years are troublesome; mother's death possible at 4, 8, 24 when planets sit in H11 and H2 is empty.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  4,
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Mercury in H4 or H12 or Saturn-Rahu in H12 harms eyesight; hard luck till 34.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Donate milk in the names of elders and take their blessings by touching their feet.",
+          "delivery": null
+        },
+        {
+          "text": "Wash the feet of children and elders for gain and success; do not enter the jewellery trade.",
+          "delivery": null
+        },
+        {
+          "text": "Establish Moon items (milk, wells) again and again for long life.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 423,
+        "pdf_page": 437,
+        "section": "Moon in house 8",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Remedies on a nose piercing and well water from a funeral site omitted (body modification / unhygienic)."
+    },
+    {
+      "id": "moon_h9",
+      "planet": "moon",
+      "house": 9,
+      "status": "done",
+      "theme": "A potful of pearls; protector in adversity; nine times effective for progeny and wealth.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Learned, religious, a good mathematician, pilgrim and helper of the poor.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "jupiter"
+                ],
+                "houses": [
+                  5
+                ]
+              }
+            }
+          ],
+          "effect": "Sun or Jupiter in H5 or friendly planets in H3 and H4 give wealth, children and comforts; Jupiter in H9 gives rank and conveyance.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Planets in H3 and H5 come under the Moon's control; even Rahu-Ketu-Saturn there do not damage H5.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "ketu"
+                ],
+                "houses": [
+                  2
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  5
+                ]
+              }
+            }
+          ],
+          "effect": "Rahu malefic or linked gives results of companions; Ketu in H2 with Mercury in H5 clouds judgement and delays success to 34 or 48.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "venus"
+                ],
+                "houses": [
+                  3
+                ]
+              }
+            }
+          ],
+          "effect": "Venus in H3 can trouble the mother's eyes around 24 or 25.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Keep good company; serve the poor and the religious.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 426,
+        "pdf_page": 440,
+        "section": "Moon in house 9",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "moon_h10",
+      "planet": "moon",
+      "house": 10,
+      "status": "done",
+      "theme": "Poisonous water, useless milk: needs religion and clean conduct.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "empty": [
+                2
+              ]
+            }
+          ],
+          "effect": "Long life (about 90) for a religious person; blank H2 with a male planet in H4 helps, especially in surgery started at 24.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "jupiter",
+                  "mars"
+                ],
+                "houses": [
+                  4
+                ]
+              }
+            }
+          ],
+          "effect": "Sun, Jupiter or Mars in H4: very wealthy and comfortable.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  1,
+                  4
+                ]
+              }
+            }
+          ],
+          "effect": "Irreligious conduct or contact with the opposite sex brings ruin; Saturn in H1 or H4 gives gain by forgery or deceit.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun"
+                ],
+                "houses": [
+                  7
+                ]
+              }
+            }
+          ],
+          "effect": "Sun in H7 risks drowning by day; Rahu-Ketu-Saturn in H4 with Venus in H7 risks children's deaths.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "A planet in H5 or H6 damages Moon items; blank H2 risks lung and chest disease.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Do not drink milk at night; use water from hand pump, well, river or canal for about ten years.",
+          "delivery": null
+        },
+        {
+          "text": "Doctors: do not treat at night or dilute medicines.",
+          "delivery": null
+        },
+        {
+          "text": "Take Jupiter's help (yellow items, guru's blessing).",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 428,
+        "pdf_page": 442,
+        "section": "Moon in house 10",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Several H10 clauses imply crime/cheating; only conduct-oriented guidance kept."
+    },
+    {
+      "id": "moon_h11",
+      "planet": "moon",
+      "house": 11,
+      "status": "done",
+      "theme": "As good as zero; milk donation brings a surviving son.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  5
+                ]
+              }
+            }
+          ],
+          "effect": "Jupiter or Saturn benefic, or Mercury in H5, brings wealth, children and long life; Sun and Mercury in H4 gives comforts and favour of authorities.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Ordinary results; Ketu wherever it sits is malefic, and a male child may not survive in the grandmother's sight.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn",
+                  "ketu"
+                ],
+                "houses": [
+                  3
+                ]
+              }
+            }
+          ],
+          "effect": "Saturn or Ketu in H3 or weak H3 can bring the mother's ill health, or a troubled childhood.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Five day-based errors ruin the native, e.g. Mercury trade on Wednesday, Friday marriage, Saturday construction.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Donate milk at a temple (Bhairon temple in the text); feed milk to eleven persons.",
+          "delivery": null
+        },
+        {
+          "text": "Make 121 milk-sweet balls and distribute to children or float in a river.",
+          "delivery": "children or running water"
+        },
+        {
+          "text": "Mother may wash head and eyes with milk.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 431,
+        "pdf_page": 445,
+        "section": "Moon in house 11",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Remedies on separating mother and newborn for 43 days and a hot gold bar quenched in milk for virility omitted as harmful/unsafe."
+    },
+    {
+      "id": "moon_h12",
+      "planet": "moon",
+      "house": 12,
+      "status": "done",
+      "theme": "River in spate: destroys inhabited areas; forgotten goals.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "together": [
+                "sun",
+                "mercury"
+              ]
+            }
+          ],
+          "effect": "Sun-Mercury in H3 salvage the clan; benefic Jupiter or Sun makes the Moon give milk instead of water.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "When Moon transits H1 it salvages all fronts.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Ancestral property is lost though own earnings stay; gifts from parents are inauspicious.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Anxiety and discomfort at night; addiction risk; losses to in-laws when Moon returns to H1 (ages 12, 24, 35 ...).",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  1
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "sun"
+                ],
+                "houses": [
+                  2
+                ]
+              }
+            }
+          ],
+          "effect": "Mars in H1 with Sun in H2 gives a poor unhappy life until 48; Sun in H6 risks an eye.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Rahu-Ketu-Saturn, Venus or Mercury in H2, H6, H12 bring destruction.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Do not drink water unless it is clean and potable.",
+          "delivery": null
+        },
+        {
+          "text": "Jupiter's help acts as a soothing balm (donate yellow items, serve gurus).",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 434,
+        "pdf_page": 448,
+        "section": "Moon in house 12",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Source ends with a Moon-in-12th table for Mars/Ketu/Mercury in H1-H12, not stored."
+    }
+  ]
+}

@@ -1,0 +1,1165 @@
+{
+  "description": "Mars in houses 1-12 from Vol II, paraphrased. Same row schema as planet_house.json.",
+  "planet": "mars",
+  "rows": [
+    {
+      "id": "mars_h1",
+      "planet": "mars",
+      "house": 1,
+      "status": "done",
+      "theme": "Sword of the battlefield: royal connections if conduct is clean, a tailed star if negative.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Brave, kind and truthful; more brothers; wealth from about 28; Saturn-type work (iron, wood, machinery, building) pays.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "After the Rahu-Ketu-Saturn period (around 48) a royal or high position and victory over enemies.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  3
+                ]
+              }
+            },
+            {
+              "empty": [
+                2
+              ]
+            }
+          ],
+          "effect": "Mercury in H3 with H2 empty: the sister may be missing, or lives royally; brother's fortune swings between rich and poor.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Vice, bribes and free gifts lead to ruin; an unlucky influence on parents in the first years, up to the Saturn period (36/39).",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun"
+                ],
+                "houses": [
+                  7
+                ]
+              }
+            }
+          ],
+          "effect": "Sun in H7, or Moon/Jupiter joined to Rahu-Ketu-Saturn, or Sun and Moon in H12/H2: trouble for parents up to 13, 15 or 28.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  12
+                ]
+              }
+            },
+            {
+              "empty": [
+                11
+              ]
+            }
+          ],
+          "effect": "Mercury in H12 with H11 empty, or Mercury in H3 with H7 and H11 empty: company of sadhus and living with in-laws harm home and brother up to 36-39.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Take help of the Sun and Moon items (wheat, jaggery; milk, rice).",
+          "delivery": null
+        },
+        {
+          "text": "Use Jupiter's remedy for H9 and H11 matters, Venus remedy for H7 matters.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 479,
+        "pdf_page": 490,
+        "section": "Mars in house 1",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mars_h2",
+      "planet": "mars",
+      "house": 2,
+      "status": "done",
+      "theme": "Protector of brothers, worldly assets; a deceptive snake if negative.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Eldest brother type; prospers while he supports brothers, otherwise only average; strong gains from in-laws and a dowry.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter",
+                  "sun",
+                  "saturn",
+                  "mercury"
+                ],
+                "houses": [
+                  8,
+                  9,
+                  10,
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Jupiter, Sun, Mercury or Saturn in H8, 9, 10 or 12 (Mercury not in H2) gives a self-made, comfortable, powerful life.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Quarrel with brothers brings misfortune; with H8/9/10/12 affected, Mercury matters suffer and resolve is weak.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Negative Mars brings death in a quarrel or battle context (read as violent conflict).",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Keep solid silver on you; wear a jointless silver ring on the left hand.",
+          "delivery": null
+        },
+        {
+          "text": "Flow sugar cakes and sugar-sesame balls in running water.",
+          "delivery": "running water"
+        },
+        {
+          "text": "Work with electricity or electrical goods; take brothers' and friends' support.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 481,
+        "pdf_page": 492,
+        "section": "Mars in house 2",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Source refers to Mars H4 remedies; cross-reference only."
+    },
+    {
+      "id": "mars_h3",
+      "planet": "mars",
+      "house": 3,
+      "status": "done",
+      "theme": "Useful to others but not to oneself; a caged lion if negative.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon",
+                  "sun",
+                  "jupiter"
+                ],
+                "houses": [
+                  7,
+                  9,
+                  11
+                ]
+              }
+            }
+          ],
+          "effect": "Moon or Sun in H9 or H11 keeps Mars positive; Jupiter, Sun or Moon in H7, H9 or H11 gives a happy home and wealthy in-laws.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  9
+                ]
+              }
+            }
+          ],
+          "effect": "Saturn in H9 gives robust health and property; modesty ensures rise and can ward off death.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "When benefic, 90 years of life, good eyesight, intelligence and kindness; a house wider at the front is lucky.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter",
+                  "mercury"
+                ],
+                "houses": [
+                  3
+                ]
+              }
+            }
+          ],
+          "effect": "Jupiter or Mercury in H3 makes Mars negative (a pious life is needed); proud, aggressive nature gives losses and misery.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury",
+                  "saturn"
+                ],
+                "houses": [
+                  3,
+                  9,
+                  11
+                ]
+              }
+            }
+          ],
+          "effect": "Mercury or Saturn in H3, H9 or H11 brings troubles and money strain, yet the native supports family.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Negative Mars: 90 years but unlucky, few sons, and sons not favourable.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Wear a jointless silver ring or bangle.",
+          "delivery": null
+        },
+        {
+          "text": "Keep an ivory item (original text).",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 483,
+        "pdf_page": 494,
+        "section": "Mars in house 3",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Remedies involving deer skin, ivory or similar animal products omitted as harmful; only non-harmful care kept."
+    },
+    {
+      "id": "mars_h4",
+      "planet": "mars",
+      "house": 4,
+      "status": "done",
+      "theme": "Burning fire, chief of evil if negative; strongly shaped by house and companions.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon",
+                  "venus"
+                ],
+                "houses": [
+                  3,
+                  4,
+                  8
+                ]
+              }
+            }
+          ],
+          "effect": "Two malefics joined (Saturn-Rahu, Saturn-Ketu, Mercury-Ketu) turn Mars benefic; Moon or Venus alone or joined in H3, H4 or H8 does the same.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "moon",
+                  "jupiter"
+                ],
+                "houses": [
+                  3,
+                  4,
+                  8,
+                  9
+                ]
+              }
+            }
+          ],
+          "effect": "Sun, Moon, Jupiter in H3, H4, H8 or H9 help Mars; bold, kind, buried wealth possible.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Unhelped Mars: rash, quarrelsome, obscure; mother, grandmother and sister-in-law suffer up to 28; elder brothers unlucky.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Household factors worsen it: south-facing door, underground chamber with fire and water, kikar or berry tree in yard, cemetery or sweet shop next door.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  3,
+                  4,
+                  8
+                ]
+              }
+            }
+          ],
+          "effect": "Mars alone in H3/4/8 with Mercury and Ketu in two other houses: widowhood and hard luck.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "rahu",
+                  "ketu",
+                  "saturn"
+                ],
+                "houses": [
+                  9
+                ]
+              }
+            }
+          ],
+          "effect": "Rahu-Ketu-Saturn in H9, Mercury in H12, Jupiter in H8 or Saturn in H1 hurt the family.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Brush teeth with water each morning; apply a tilak of earth mixed with sweetened milk.",
+          "delivery": null
+        },
+        {
+          "text": "Keep sugar on the roof for fire protection; donate honey at a cremation ground or sugar to a horse.",
+          "delivery": null
+        },
+        {
+          "text": "Establish or donate Sun items (copper, jaggery, wheat), Moon items (silver, wells), Jupiter items (gold, service to elders).",
+          "delivery": null
+        },
+        {
+          "text": "Flow about 400 g sugar-sesame balls in running water; wear a three-metal ring.",
+          "delivery": "running water"
+        },
+        {
+          "text": "Offer sweets to sparrows.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 485,
+        "pdf_page": 496,
+        "section": "Mars in house 4",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Remedies involving deer skin, ivory or similar animal products omitted as harmful; only non-harmful care kept."
+    },
+    {
+      "id": "mars_h5",
+      "planet": "mars",
+      "house": 5,
+      "status": "done",
+      "theme": "Extremely wealthy; Mars reverses planets' aspects here.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Planets in H3, H5 and H9 are favourable; Moon and Venus always give good results; wealth grows with age.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                10
+              ]
+            }
+          ],
+          "effect": "H10 empty with a planet in H9 (or elder brother alive): Mars is benefic; wealth after the birth of a son.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Doctor, hakim or medicine leanings; just and fair nature.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Loss by fire, little comfort from children, deaths among male relatives; living away from the ancestral house risks childlessness.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "A beloved can be the cause of ruin; Mercury or Ketu in H9/H10 disturb sleep.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Keep a glass of water under the bed or at the head side to improve sleep and calm Rahu.",
+          "delivery": null
+        },
+        {
+          "text": "Donate in the names of departed parents for relief.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 490,
+        "pdf_page": 501,
+        "section": "Mars in house 5",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Aspect-reversal list in the source not encoded."
+    },
+    {
+      "id": "mars_h6",
+      "planet": "mars",
+      "house": 6,
+      "status": "done",
+      "theme": "Offspring after long waiting; a hermit-like, but quarrelsome if negative.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "venus"
+                ],
+                "houses": [
+                  7
+                ]
+              }
+            }
+          ],
+          "effect": "Brave, strong, controlled, religious; Sun always favourable; Venus benefic or a strong H7 gives long life and wealth.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter",
+                  "sun",
+                  "mercury"
+                ],
+                "houses": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Jupiter, Sun and Mercury benefic: favourable for children, brothers grow with the native.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Weak Jupiter, Sun or Mercury: only one son; Ketu malefic: little happiness from children up to 34.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "ketu"
+                ],
+                "houses": [
+                  8
+                ]
+              }
+            }
+          ],
+          "effect": "Ketu in H8 or Saturn in H5: unfavourable for progeny; Mercury in H8 or H4: early death of mother or native.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Brothers' wealth tends to stay below the native's; if it rises they should share.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Treat Saturn and Mercury; donate Moon items (milk, silver).",
+          "delivery": null
+        },
+        {
+          "text": "Obtain blessings of girls and daughters; worship maidens for mother's welfare.",
+          "delivery": null
+        },
+        {
+          "text": "Do not let children wear gold; give salty rather than sweet things on birthdays.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 492,
+        "pdf_page": 503,
+        "section": "Mars in house 6",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mars_h7",
+      "planet": "mars",
+      "house": 7,
+      "status": "done",
+      "theme": "Sweet pudding; royal position with good company, miserable if negative.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Wealth extremes, generous, strong-willed, mathematical; domestic happiness and gains from brothers' children.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter",
+                  "venus"
+                ],
+                "houses": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6
+                ]
+              }
+            }
+          ],
+          "effect": "Jupiter or Venus in H1 gives desired gains; Jupiter and Venus in H1 to H6 give a royal position.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  1,
+                  7,
+                  8
+                ]
+              }
+            }
+          ],
+          "effect": "Mercury with Mars, or Mercury in H1, H7, H8 or weak: a widowed sister at home, loss through Mercury items.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury",
+                  "saturn"
+                ],
+                "houses": [
+                  6,
+                  7
+                ]
+              }
+            }
+          ],
+          "effect": "Mercury and Saturn in H6 or H7: entangled in others' affairs.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Offer sweets to a visiting sister; offer sweets daily to a widowed sister living with you.",
+          "delivery": null
+        },
+        {
+          "text": "Keep solid silver at home; give red clothes to sister or aunt.",
+          "delivery": null
+        },
+        {
+          "text": "Repeatedly build and take down a low wall in the house (Saturn remedy).",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 494,
+        "pdf_page": 505,
+        "section": "Mars in house 7",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mars_h8",
+      "planet": "mars",
+      "house": 8,
+      "status": "done",
+      "theme": "Death trap in name, but not malefic for self; blessings of a widow help.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "empty": [
+                2
+              ]
+            }
+          ],
+          "effect": "Moon and Jupiter in H2, or H2 empty: Mars is benefic; Moon in H1, 3, 4, 8, 9 or Mercury in H8 also helps (a small dark room at the end of the house).",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Strong-willed, hard-working, victorious over enemies, long life and wealth.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Malefic for relations: younger brother may not live or be ill; sole or distant-age siblings.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury",
+                  "ketu"
+                ],
+                "houses": [
+                  2
+                ]
+              }
+            }
+          ],
+          "effect": "Mercury or Ketu in H2, or Moon/Sun/Jupiter not in H1,3,4,8: poor, miserable life till 28.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  6
+                ]
+              }
+            }
+          ],
+          "effect": "Mercury in H6 can mean early death of mother.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Ovens and south-facing doors damage the family.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Feed eight sweet cakes to dogs; or a sweet loaf baked in an oven (not touched by iron) to a dog for 40 or 43 days.",
+          "delivery": null
+        },
+        {
+          "text": "Wear a silver necklace and a three-metal ring.",
+          "delivery": null
+        },
+        {
+          "text": "Flow about 800 g sugar cakes and sugar-sesame balls in running water.",
+          "delivery": "running water"
+        },
+        {
+          "text": "Sprinkle cold water on the cooking plate before cooking.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 496,
+        "pdf_page": 507,
+        "section": "Mars in house 8",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Remedies involving deer skin, ivory or similar animal products omitted as harmful; only non-harmful care kept."
+    },
+    {
+      "id": "mars_h9",
+      "planet": "mars",
+      "house": 9,
+      "status": "done",
+      "theme": "Continued royal family; atheism and ill repute if negative.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Royal support: prosperity from 13, kingship by 28; brothers together are invincible; Sun gives strong support.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "venus",
+                  "moon"
+                ],
+                "houses": [
+                  9
+                ]
+              }
+            }
+          ],
+          "effect": "Venus or Moon with Mars forms a Fish Line (strong good sign); Moon decides mother's state, Jupiter father's.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "All planets except Mercury give benefic results if H3 and H5 are good (no asthma).",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Mercury malefic with negative Mars: slight, disease, dependence on lowly people; harmful to parents.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Keep a red handkerchief.",
+          "delivery": null
+        },
+        {
+          "text": "Apply red vermilion to a Hanuman idol on Tuesdays and offer food there.",
+          "delivery": "temple, Tuesdays"
+        },
+        {
+          "text": "Do not separate from the elder brother; keep Mars items and relatives close.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 498,
+        "pdf_page": 509,
+        "section": "Mars in house 9",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mars_h10",
+      "planet": "mars",
+      "house": 10,
+      "status": "done",
+      "theme": "Lord in the house of an ant; Saturn decides its nature.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  4
+                ]
+              }
+            }
+          ],
+          "effect": "Moon in H4 gives comfort and a growing family; Saturn in H9, H10, H11 with H5 empty is very auspicious.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "alone": true
+            }
+          ],
+          "effect": "Alone and unaspected: kingly life but mostly landed property, little cash; Saturn in H3 good for self.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Selling gold ornaments is inauspicious: risk to children and wealth.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon",
+                  "jupiter",
+                  "sun"
+                ],
+                "houses": [
+                  3,
+                  6
+                ]
+              }
+            }
+          ],
+          "effect": "Moon, Jupiter, Sun in H3 or H6, Sun in H4, Moon in H6: damage to wealth, children, parents, eyes, or false imprisonment.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Venus, Moon or Rahu-Ketu-Saturn in H2 delay a son; a planet in H5 is malefic for others.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Serve Hanuman (temple service); eat sweets.",
+          "delivery": null
+        },
+        {
+          "text": "Do not sell gold ornaments.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 499,
+        "pdf_page": 510,
+        "section": "Mars in house 10",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Remedy of rearing a deer omitted (keeping a wild animal); serving a one-eyed person with no children not kept."
+    },
+    {
+      "id": "mars_h11",
+      "planet": "mars",
+      "house": 11,
+      "status": "done",
+      "theme": "Caged lion, under Jupiter's court; Jupiter decides the outcome.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "After 13 acts like Mars in H9; bold, wealthy, authoritative, spiritual; Ketu highly benefic.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury",
+                  "saturn"
+                ],
+                "houses": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Mercury and Saturn benefic: wealth from 24 to 28; Jupiter's house indicates number of brothers.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                3
+              ]
+            }
+          ],
+          "effect": "H3 empty, weak or ill-aspected: debt and loss of ancestral property despite income.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Negative Mars: risk to children around 42, 45 or 48; Mars and Ketu items harmful.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Keep a pot of honey at home.",
+          "delivery": null
+        },
+        {
+          "text": "Keep or care for a pet dog; serve street dogs.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 501,
+        "pdf_page": 512,
+        "section": "Mars in house 11",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "mars_h12",
+      "planet": "mars",
+      "house": 12,
+      "status": "done",
+      "theme": "If one gives sweets, no shortage of wealth; Mars in Jupiter's house gives a kingly standing.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter",
+                  "ketu"
+                ],
+                "houses": [
+                  1,
+                  2,
+                  3,
+                  8,
+                  11
+                ]
+              }
+            }
+          ],
+          "effect": "Jupiter with Mars, or Jupiter in H2, or Ketu in H1/3/8/11 gives a Fish Line: wealth, status, long life, protection.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun"
+                ],
+                "houses": [
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11
+                ]
+              }
+            }
+          ],
+          "effect": "Sun in H3 to H11 protects from sickness and death; ages 24 and 28, or birth of first son, bring excellent results.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Mercury, Rahu, Ketu and Saturn are held in check; Mars gives a lion-like, independent life with comfortable nights.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  3,
+                  8,
+                  9,
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Mercury in H3, H8, H9, H12 keeps its own malefic effect; Mercury in H4-H8 with no Sun-Moon link shortens life then mother's.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                3
+              ]
+            }
+          ],
+          "effect": "Negative Mars hurts breath, wife's comfort, brother's happiness and business; two or more planets in H3 or H3 empty hurts the elder brother until 28.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Offer sweetened water to the Sun; give sweet loaves to dogs and the poor; eat or serve sweets.",
+          "delivery": null
+        },
+        {
+          "text": "Brothers should give milk rather than water to the native and keep Moon items (rice, silver).",
+          "delivery": null
+        },
+        {
+          "text": "Wear headgear in Sun or Jupiter colours, not Mars red.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 502,
+        "pdf_page": 513,
+        "section": "Mars in house 12",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    }
+  ]
+}

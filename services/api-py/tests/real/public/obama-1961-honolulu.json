@@ -1,0 +1,28 @@
+{
+  "id": "obama-1961-honolulu",
+  "consent": "public-domain",
+  "label": "Barack Obama, politician",
+  "source": {
+    "software": "pending JHora entry",
+    "rodden": "AA (as recorded in Astro-Databank; confirm on the page before relying on it)",
+    "citation": "Astro-Databank (astro.com/astro-databank), entry for Barack Obama; birth certificate 7:24 PM HST",
+    "note": ""
+  },
+  "input": {
+    "birthDate": "1961-08-04",
+    "birthTime": "19:24",
+    "latitude": 21.3069,
+    "longitude": -157.8583,
+    "placeLabel": "Honolulu, Hawaii, USA",
+    "timezoneName": "Pacific/Honolulu"
+  },
+  "settings": {
+    "ayanamsa": "lahiri",
+    "ayanamsaMean": false,
+    "node": "mean",
+    "houseSystem": "whole_sign"
+  },
+  "observed": {
+    "status": "pending"
+  }
+}

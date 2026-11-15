@@ -1,0 +1,100 @@
+[project]
+name = "nakshatra-api"
+license = "AGPL-3.0-only"
+version = "0.1.0"
+description = "Nakshatra FastAPI backend and Python Vedic engine"
+requires-python = ">=3.13"
+dependencies = [
+    # Same library (Don Cross's Astronomy Engine) the TS engine uses via npm,
+    # so planetary longitudes match the golden fixtures almost exactly.
+    "astronomy-engine>=2.1",
+    # IANA tz database for zoneinfo on Windows (no system tzdata there).
+    "tzdata>=2024.1",
+    "sqlmodel>=0.0.22",
+    "httpx>=0.28",
+    # lat/lon -> IANA timezone (Nominatim results carry no timezone).
+    "tzfpy>=1.0",
+    # Tenant layer: Postgres 16 + RLS, migrations, JWT auth.
+    "sqlalchemy>=2.0.30",
+    "alembic>=1.13",
+    "psycopg[binary]>=3.2",
+    "pyjwt[crypto]>=2.9",
+    "argon2-cffi>=23.1",
+    # Hosted Claude for the AI assistant (ankana_ai). Never imported unless used.
+    "anthropic>=0.75",
+    # Service runtime + reports/worker (Jinja2 HTML -> Chromium PDF, object storage).
+    "fastapi>=0.121",
+    "uvicorn>=0.32",
+    "jinja2>=3.1",
+    "playwright>=1.48",
+    "azure-storage-blob>=12.23",
+    # Metrics instruments are no-ops until an exporter is configured (app.metrics).
+    "opentelemetry-api>=1.27",
+]
+
+[project.optional-dependencies]
+# Independent cross-validation engine (Skyfield + JPL DE421); tests skip if absent.
+crossval = [
+    "jyotishganit",
+]
+# Swiss Ephemeris provider (ANKANA_EPHEMERIS=swiss). AGPL: see LICENSING.md.
+swiss = [
+    "pyswisseph>=2.10.3",
+]
+# Tracing and error reporting; all opt-in via env (see app/observability.py).
+observability = [
+    "opentelemetry-sdk>=1.27",
+    "opentelemetry-exporter-otlp-proto-http>=1.27",
+    "opentelemetry-instrumentation-fastapi>=0.48b0",
+    "azure-monitor-opentelemetry-exporter>=1.0.0b30",
+    "sentry-sdk[fastapi]>=2.14",
+]
+# Managed-identity (user delegation SAS) for AzureBlobStorage without an account key.
+azure-identity = [
+    "azure-identity>=1.19",
+]
+# Send email through the Azure SDK instead of the built-in REST client (ACS_EMAIL_USE_SDK=1).
+azure-email = [
+    "azure-communication-email>=1.0",
+]
+dev = [
+    "pyswisseph>=2.10.3",
+    "pytest>=8",
+    "ruff>=0.8,<1",
+    "fastapi>=0.121",
+    "uvicorn>=0.32",
+    "httpx>=0.28",
+    "testcontainers[postgres]>=4.8",
+]
+
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"app.reports" = ["templates/*.j2", "assets/*"]
+"app.billing" = ["templates/*.j2"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+markers = [
+    "pg: needs a real Postgres (testcontainers or API_TEST_ADMIN_URL)",
+    "live: calls the hosted Claude API (needs ANTHROPIC_API_KEY and ANKANA_LIVE_EVAL=1)",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+# Explicit rule set so CI does not drift when ruff changes its defaults.
+select = ["E", "F", "W", "I", "UP", "B"]
+ignore = [
+    "B008",  # FastAPI Depends()/Query() in argument defaults is the framework idiom
+    "E501",  # line length is advisory; long literal tables and fixtures are intentional
+    "B905",  # zip() strictness is not needed for the fixed-length ephemeris tables
+]

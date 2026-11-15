@@ -1,0 +1,34 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import Nav from '../../layouts/Nav.astro';
+import Footer from '../../layouts/Footer.astro';
+
+const entries = (await getCollection('docs')).sort((a, b) => a.data.order - b.data.order);
+const ids = (id: string) => id.replace(/^\d+-/, '');
+const rendered = await Promise.all(entries.map(async (e) => ({ e, Content: (await render(e)).Content })));
+---
+<Base title="Docs: Ankana" description="Getting started, self-hosting with docker compose, configuration, AI providers, Lal Kitab notes and licence for Ankana." path="/docs/">
+  <div class="docs-top">
+    <Nav />
+    <div class="wrap">
+      <h1>Docs</h1>
+      <p>Everything you need to run Ankana on your own server.</p>
+    </div>
+  </div>
+  <main id="main" class="wrap docs-shell">
+    <nav class="docs-nav" aria-label="Docs sections">
+      {rendered.map(({ e }) => <a href={`#${ids(e.id)}`}>{e.data.title}</a>)}
+    </nav>
+    <article class="prose">
+      {rendered.map(({ e, Content }) => (
+        <section id={ids(e.id)} aria-labelledby={`h-${ids(e.id)}`}>
+          <h2 id={`h-${ids(e.id)}`}>{e.data.title}</h2>
+          <p class="summary">{e.data.summary}</p>
+          <Content />
+        </section>
+      ))}
+    </article>
+  </main>
+  <Footer />
+</Base>

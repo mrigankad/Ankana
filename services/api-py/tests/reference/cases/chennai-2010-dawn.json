@@ -1,0 +1,76 @@
+{
+  "id": "chennai-2010-dawn",
+  "note": "Birth minutes before sunrise",
+  "source": "swisseph-provisional",
+  "settings": {
+    "ayanamsa": "lahiri",
+    "ayanamsaMean": false,
+    "node": "mean",
+    "sunriseRule": "hindu",
+    "houseSystem": "whole_sign",
+    "ephemerisFiles": "swisseph 2.10.03, sepl/semo/seas_18.se1"
+  },
+  "input": {
+    "birthDate": "2010-05-05",
+    "birthTime": "05:38",
+    "timezoneName": "Asia/Kolkata",
+    "latitude": 13.0827,
+    "longitude": 80.2707
+  },
+  "expected": {
+    "ayanamsa": 24.00585728417405,
+    "planets": {
+      "sun": 20.40475309297807,
+      "moon": 277.6248239621427,
+      "mercury": 10.440025844185286,
+      "venus": 47.88120089248094,
+      "mars": 110.15382773776281,
+      "jupiter": 330.5724561028212,
+      "saturn": 154.381083336391,
+      "rahu": 261.06281688091445,
+      "ketu": 81.06281688091445
+    },
+    "ascendant": 17.06618571063173,
+    "midheaven": 278.74891966274674,
+    "sunrise": "2010-05-04T00:20:34.719032+00:00",
+    "sunset": "2010-05-04T12:50:59.855944+00:00",
+    "vimshottariStarts": [
+      {
+        "planet": "sun",
+        "start": "2005-05-29"
+      },
+      {
+        "planet": "moon",
+        "start": "2011-05-30"
+      },
+      {
+        "planet": "mars",
+        "start": "2021-05-29"
+      },
+      {
+        "planet": "rahu",
+        "start": "2028-05-29"
+      },
+      {
+        "planet": "jupiter",
+        "start": "2046-05-29"
+      },
+      {
+        "planet": "saturn",
+        "start": "2062-05-29"
+      },
+      {
+        "planet": "mercury",
+        "start": "2081-05-29"
+      },
+      {
+        "planet": "ketu",
+        "start": "2098-05-29"
+      },
+      {
+        "planet": "venus",
+        "start": "2105-05-30"
+      }
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "id": "newyork-2003",
+  "note": "New York winter",
+  "source": "swisseph-provisional",
+  "settings": {
+    "ayanamsa": "lahiri",
+    "ayanamsaMean": false,
+    "node": "mean",
+    "sunriseRule": "hindu",
+    "houseSystem": "whole_sign",
+    "ephemerisFiles": "swisseph 2.10.03, sepl/semo/seas_18.se1"
+  },
+  "input": {
+    "birthDate": "2003-01-20",
+    "birthTime": "22:47",
+    "timezoneName": "America/New_York",
+    "latitude": 40.7128,
+    "longitude": -74.006
+  },
+  "expected": {
+    "ayanamsa": 23.8958270730456,
+    "planets": {
+      "sun": 276.7785355951822,
+      "moon": 131.53393676557707,
+      "mercury": 258.65186258019986,
+      "venus": 230.21581665663228,
+      "mars": 218.66663402052347,
+      "jupiter": 110.80695114143644,
+      "saturn": 59.177292647408024,
+      "rahu": 42.06648289079179,
+      "ketu": 222.0664828907918
+    },
+    "ascendant": 166.29487489115976,
+    "midheaven": 77.92120107554531,
+    "sunrise": "2003-01-20T12:20:34.384614+00:00",
+    "sunset": "2003-01-20T21:53:49.119238+00:00",
+    "vimshottariStarts": [
+      {
+        "planet": "ketu",
+        "start": "1996-12-31"
+      },
+      {
+        "planet": "venus",
+        "start": "2004-01-01"
+      },
+      {
+        "planet": "sun",
+        "start": "2024-01-01"
+      },
+      {
+        "planet": "moon",
+        "start": "2029-12-31"
+      },
+      {
+        "planet": "mars",
+        "start": "2039-12-31"
+      },
+      {
+        "planet": "rahu",
+        "start": "2046-12-31"
+      },
+      {
+        "planet": "jupiter",
+        "start": "2064-12-30"
+      },
+      {
+        "planet": "saturn",
+        "start": "2080-12-30"
+      },
+      {
+        "planet": "mercury",
+        "start": "2099-12-31"
+      }
+    ]
+  }
+}

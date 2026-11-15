@@ -1,0 +1,1313 @@
+{
+  "description": "Jupiter in houses 1-12 from Vol II, paraphrased. Same row schema as planet_house.json.",
+  "planet": "jupiter",
+  "rows": [
+    {
+      "id": "jupiter_h1",
+      "planet": "jupiter",
+      "house": 1,
+      "status": "done",
+      "theme": "A king or a hermit; learning, long life and fortune.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Fortune rises through own diligence and powerful company; calm, generous, fearless; Moon, Ketu, Venus and Sun items favourable.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "moon",
+                  "mars",
+                  "mercury",
+                  "venus",
+                  "saturn",
+                  "rahu",
+                  "ketu"
+                ],
+                "houses": [
+                  7
+                ]
+              }
+            }
+          ],
+          "effect": "A planet in H7 and no enemy planet of Jupiter in H1 gives good education; Mercury, Ketu or Moon exalted adds learning, fortune and public welfare work.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "moon",
+                  "mars"
+                ],
+                "houses": [
+                  1,
+                  2,
+                  4
+                ]
+              }
+            }
+          ],
+          "effect": "Sun, Moon or Mars in H1, 2 or 4 gives high earnings from authority; benefic planets in H2, 3, 4, 8 give 75+ years.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury",
+                  "venus",
+                  "saturn",
+                  "rahu"
+                ],
+                "houses": [
+                  2,
+                  5,
+                  9,
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Father's Debt (Mercury, Venus, Rahu or Saturn as evil in H2, 5, 9, 12): illiteracy in the clan and Jupiter items spoiled; abstain from asking favours.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "together": [
+                "jupiter",
+                "rahu"
+              ]
+            }
+          ],
+          "effect": "Rahu, Venus, Mercury or Saturn with Jupiter bring losses at specific ages (Rahu 8/12, Venus 13/15, Mercury 16-21, Saturn after 36/42).",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                7
+              ]
+            }
+          ],
+          "effect": "H7 empty with the native marrying before 28 can harm the father; building a house or having a child in the 24th or 27th year also warned.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "rahu"
+                ],
+                "houses": [
+                  8,
+                  11
+                ]
+              }
+            }
+          ],
+          "effect": "Rahu in H8 or H11: father may die of heart failure or asthma around 42.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Do not ask others for favours; stay content; do not curse or speak ill of anyone.",
+          "delivery": null
+        },
+        {
+          "text": "If H7 is empty, marry early (before 22 in one case) and bury Mars items (red, copper) under the ground.",
+          "delivery": null
+        },
+        {
+          "text": "Use remedies for the enemy planets involved (Rahu, Venus, Mercury, Saturn) as given in their entries.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 327,
+        "pdf_page": 343,
+        "section": "Jupiter in house 1",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "jupiter_h2",
+      "planet": "jupiter",
+      "house": 2,
+      "status": "done",
+      "theme": "Jupiter's best house; cowshed, hospitality, a worldly guru.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Wealth, honour and prosperity; no planet can debilitate Jupiter here; grows with hospitality and service of visitors and in-laws; government favour at 27.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Hidden wealth, lottery or inheritance, independence and a clean heart; wealth from 16 to 32.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars",
+                  "rahu",
+                  "ketu"
+                ],
+                "houses": [
+                  8,
+                  9
+                ]
+              }
+            }
+          ],
+          "effect": "A planet in H8, 9, 10 or 12 (friend or enemy) does not spoil; Mars, Rahu or Ketu in H8 or H9 give quick wit, power or honour.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Business in gold does not pay; earthwork, agriculture, and women's goods do.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  2,
+                  8
+                ]
+              }
+            }
+          ],
+          "effect": "H2 and H8 polluted (Moon-Mars in H8, or negative Mars in H2): the family or tribe is hurt; Ketu is the first sign.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  2
+                ]
+              }
+            },
+            {
+              "empty": [
+                8
+              ]
+            }
+          ],
+          "effect": "Saturn in H2 (natal or transit): health and in-laws' finances suffer; H8 blank makes Jupiter unlucky to those it visits.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "venus"
+                ],
+                "houses": [
+                  8
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  10
+                ]
+              }
+            }
+          ],
+          "effect": "Venus in H8 with Saturn in H10 gives unhappy nights; Mercury in H8 with Saturn in H10 gives losses and prison risk.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Treat planets in H8 (Mercury, Venus, Rahu, Saturn) with their own remedies; use Jupiter's own remedy when malefic.",
+          "delivery": null
+        },
+        {
+          "text": "Treat the Sun when Mercury and Rahu sit in H1; the Moon when Venus is in H1; Saturn when Mercury or Rahu are in H10.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 332,
+        "pdf_page": 348,
+        "section": "Jupiter in house 2",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Remedy of giving milk to serpents when Saturn transits H2 omitted (harmful to animals)."
+    },
+    {
+      "id": "jupiter_h3",
+      "planet": "jupiter",
+      "house": 3,
+      "status": "done",
+      "theme": "Roaring lion, family guru, writer; Durga worship matters.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  2
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  9
+                ]
+              }
+            }
+          ],
+          "effect": "Learned, comfortable, long-lived, with government respect; brothers and in-laws happy; Mars in H2 or Saturn in H9 salvages.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "moon",
+                  "mars"
+                ],
+                "houses": [
+                  2,
+                  5
+                ]
+              }
+            }
+          ],
+          "effect": "Friendly Sun, Moon or Mars in H2 or H5, with a planet in H9 or H11: prosperity between 26 and 46; gains after birth of a child.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  7
+                ]
+              }
+            }
+          ],
+          "effect": "Saturn exalted or Mercury in H7: foreign connections, cleverness, good judgement.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Dormant or with enemies: single-track mind, extremes of generosity and enmity; self-praise causes ruin.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  12
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  4
+                ]
+              }
+            }
+          ],
+          "effect": "Moon in H12 or Saturn in H4 with malefic Mercury: cowardice, unhappiness, poor health; may become treacherous and licentious.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Worship Durga or minor girls; serve sweet food to girls regularly.",
+          "delivery": null
+        },
+        {
+          "text": "Seek blessings of maidens; recite Durga path.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 337,
+        "pdf_page": 353,
+        "section": "Jupiter in house 3",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "jupiter_h4",
+      "planet": "jupiter",
+      "house": 4,
+      "status": "done",
+      "theme": "Exalted in the Moon's house; prosperity, fame, palatial home.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Famous, powerful, with agriculture, milk and comforts; wealth without effort; planets in H3 never give malefic results.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                2,
+                5,
+                9,
+                11,
+                12
+              ]
+            }
+          ],
+          "effect": "No enemy planets (Mercury, Venus, Saturn, Rahu) in H2, 5, 9, 11, 12: learning until 24, government favour, hidden wealth.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  1
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  10
+                ]
+              }
+            }
+          ],
+          "effect": "Moon in H1 with Saturn in H10 gives conveyance; Moon in H2 makes fortune depend on Saturn and Rahu; exalted Rahu or benefic Ketu bring fame.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "venus",
+                  "mercury",
+                  "saturn",
+                  "rahu"
+                ],
+                "houses": [
+                  10
+                ]
+              }
+            }
+          ],
+          "effect": "Venus, Mercury, Saturn or Rahu in H10 (or Mercury in H10 from age 34): illicit liaisons, alcohol, loss of repute; money and respect at risk.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                10
+              ]
+            }
+          ],
+          "effect": "H10 empty makes Jupiter dormant; poor Ketu can reduce a king to a pauper; Moon alive can obstruct education.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Listen to elders' advice; avoid illicit relationships.",
+          "delivery": null
+        },
+        {
+          "text": "Keep silver items modestly; avoid silver items if Rahu is poor.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 339,
+        "pdf_page": 355,
+        "section": "Jupiter in house 4",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Remedies about not exposing the body and killing snakes (a trigger for Saturn weakness) noted only as warnings, not as remedies."
+    },
+    {
+      "id": "jupiter_h5",
+      "planet": "jupiter",
+      "house": 5,
+      "status": "done",
+      "theme": "Lord of humanity; honour grows with children.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Progeny brings status; a son born on Thursday adds power; Sun, Moon, Mars in H2, 9, 11, 12 support; knowledgeable, dutiful.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  9
+                ]
+              }
+            }
+          ],
+          "effect": "Saturn in H9 (natal or transit) or exalted gives Jupiter H9 benefits; a son born on Saturday brings prosperity for about 60 years.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "rahu"
+                ],
+                "houses": [
+                  5,
+                  9
+                ]
+              }
+            }
+          ],
+          "effect": "Rahu benefic: senior rank or command; Sun-Moon-Mars in H9 help.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Taking money in the name of religion or charity: issueless and penniless; poor or malefic Ketu: poor progeny.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury",
+                  "venus",
+                  "saturn",
+                  "rahu"
+                ],
+                "houses": [
+                  2,
+                  5,
+                  9,
+                  11,
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Enemy planets in H2, 5, 9, 11 or 12 keep trouble until 25 (Venus), 34 (Mercury), 42 (Rahu), 36-39 (Saturn); improves after.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "rahu"
+                ],
+                "houses": [
+                  9
+                ]
+              }
+            }
+          ],
+          "effect": "Rahu in H9 silences Jupiter without removing it; malefic Rahu: like a sadhu begging.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Treat Ketu (for poor Ketu or Ketu in H11).",
+          "delivery": null
+        },
+        {
+          "text": "Do not take money for religion or charity; stay honest in business.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 342,
+        "pdf_page": 358,
+        "section": "Jupiter in house 5",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "jupiter_h6",
+      "planet": "jupiter",
+      "house": 6,
+      "status": "done",
+      "theme": "Seeker of free things, saintly nature; Saturn decides.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "empty": [
+                2,
+                5,
+                9,
+                12
+              ]
+            }
+          ],
+          "effect": "Gets things unsolicited; maternal family prosperous; acts like Moon in H2 if H2, 5, 9, 12 are free of enemy planets.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury",
+                  "ketu"
+                ],
+                "houses": [
+                  6
+                ]
+              }
+            }
+          ],
+          "effect": "Mercury and Ketu excellent: honour, well-placed children, self provided for but not much wealth.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Good conduct brings a good life; luck tied to Saturn's strength.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Malefic Mercury: hardship to 34; malefic Ketu: like a beggar.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Father may die early or leave nothing; maternal uncles unfriendly until about 40.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Treat Ketu when it is malefic.",
+          "delivery": null
+        },
+        {
+          "text": "Keep conduct clean; accept gifts only in the name of elders.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 344,
+        "pdf_page": 360,
+        "section": "Jupiter in house 6",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "jupiter_h7",
+      "planet": "jupiter",
+      "house": 7,
+      "status": "done",
+      "theme": "A detached householder: pomp outside, hollow within for a man; good for a woman's chart.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  7,
+                  9
+                ]
+              }
+            }
+          ],
+          "effect": "Saturn in H7 or H9 forms a Fish Line (clever natives gain greatly); Moon decides wealth; dies at home; son born at 34 or 45 removes discomfort.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "ketu",
+                  "mercury",
+                  "rahu",
+                  "sun"
+                ],
+                "houses": [
+                  1,
+                  7
+                ]
+              }
+            }
+          ],
+          "effect": "Exalted Ketu, Mercury, Rahu or Sun in H1 give spirituality, learning or a comfortable youth, not guaranteed wealth.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Building a temple in the house destroys the family; male chart: denial of progeny, neglected by sons, no brothers' help.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                1
+              ]
+            }
+          ],
+          "effect": "H1 or H2 empty makes Jupiter dormant; Venus malefic: loss of a son; enemy planets in H1, 2, 5, 7, 9, 12: dust instead of gold.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn",
+                  "mercury"
+                ],
+                "houses": [
+                  2,
+                  6,
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Saturn or Mercury in H2, 6 or 12 gives yearning for a son until 45; in H9 or 11 malefic: stammer, bad fortune.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Treat the Moon when Jupiter is malefic.",
+          "delivery": null
+        },
+        {
+          "text": "Keep red ratti seeds in a yellow cloth with gold (excess Mars items signal malefic Jupiter).",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 346,
+        "pdf_page": 362,
+        "section": "Jupiter in house 7",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "jupiter_h8",
+      "planet": "jupiter",
+      "house": 8,
+      "status": "done",
+      "theme": "Master of divinity; help in adversity; wearing gold protects.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Strong spiritual support; hidden secrets known; family lives long; grandfather lives 80+ but apart; death is held off while the native is present.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                2
+              ]
+            }
+          ],
+          "effect": "H2 and H4 excellent, or Moon benefic with H2, 5, 9, 12 excellent: rags to riches, long life.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "venus"
+                ],
+                "houses": [
+                  2,
+                  6,
+                  8
+                ]
+              }
+            }
+          ],
+          "effect": "Venus in H2, 6 or 8: prosperity, long-lived sons; Mercury not in H9: long life for self and father.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn",
+                  "mars"
+                ],
+                "houses": [
+                  4,
+                  7
+                ]
+              }
+            }
+          ],
+          "effect": "Saturn or Mars in H4 or H7: adversity and deathly storms; Mars negative or Mercury/Venus/Rahu/Saturn as evil in H2, 5, 9, 12: debts, poor health, short life.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Jupiter conjoined by enemies: disrepute through illegal liaisons; poor Mercury, empty H12, poor Sun, malefic Rahu or Ketu: poverty and narrow-mindedness.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Keep gold on the body (ring or chain).",
+          "delivery": null
+        },
+        {
+          "text": "Give Jupiter or Venus items in a temple; give Mercury and Venus items in a temple.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 348,
+        "pdf_page": 364,
+        "section": "Jupiter in house 8",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "jupiter_h9",
+      "planet": "jupiter",
+      "house": 9,
+      "status": "done",
+      "theme": "Golden prosperity; religiosity, conduct and elders always help.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Wealth follows keeping one's word and religiosity; 75+ years; parents wealthy; high character, no alcohol; H3 and H5 show wealth.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                2,
+                5,
+                9,
+                11
+              ]
+            }
+          ],
+          "effect": "No enemy planets in H2, 5, 9, 11; Mercury in H4 or H5 makes a yogic king; benefic Sun brings no shortage.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "mars"
+                ],
+                "houses": [
+                  3,
+                  5
+                ]
+              }
+            }
+          ],
+          "effect": "Male planets in H3 and H5 aspecting H9 make Jupiter three times powerful.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                1
+              ]
+            }
+          ],
+          "effect": "Enemy aspect weakens it: atheism, poverty; enemy planets in H5: selfish, poor children; H1 blank: heart trouble; H3 and H5 both blank: struggle; malefic Mercury: short life.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Bathe in the Ganges (holy river); keep your promises.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 350,
+        "pdf_page": 366,
+        "section": "Jupiter in house 9",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "jupiter_h10",
+      "planet": "jupiter",
+      "house": 10,
+      "status": "done",
+      "theme": "Head of a hilly family; destiny depends on conduct; Saturn helps.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  1,
+                  4,
+                  10
+                ]
+              }
+            }
+          ],
+          "effect": "Saturn benefic with Sun or Moon in H2 or H6: even iron becomes gold; Saturn-based work profits; luck at 36-39.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars",
+                  "venus",
+                  "sun"
+                ],
+                "houses": [
+                  4
+                ]
+              }
+            }
+          ],
+          "effect": "Mars or Venus in H4 turns dust to gold; Sun in H4 lifts debilitation and gives exaltation.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Goodness brings no wealth: poverty, false hopes; both childhood and old age hard; father leaves little.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  4
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  4,
+                  9,
+                  10
+                ]
+              }
+            }
+          ],
+          "effect": "Moon in H4 or Saturn in H1/4/10: blamed for helping the poor; Mercury in H4/9/10: father's poverty and early death.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "H2, 4, 5, 6 all blank: lonely, deaths of wives, child lost or separates; Sun in H5: wives die after delivering a son.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Throw a copper coin in running water for 40 or 43 days.",
+          "delivery": "running water, 40-43 days"
+        },
+        {
+          "text": "Keep nostrils clean; apply a saffron tilak on the forehead.",
+          "delivery": null
+        },
+        {
+          "text": "Establish Jupiter or Ketu remedies.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 352,
+        "pdf_page": 368,
+        "section": "Jupiter in house 10",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Source's nose-piercing remedy omitted (body modification)."
+    },
+    {
+      "id": "jupiter_h11",
+      "planet": "jupiter",
+      "house": 11,
+      "status": "done",
+      "theme": "Under Saturn's reign; religiosity makes Jupiter 11 times good.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  10,
+                  11
+                ]
+              }
+            }
+          ],
+          "effect": "Pity for the poor; stays well within the family; Mercury or Saturn benefic: good; Saturn in H10 with Mercury in H2: both give benefit.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "moon",
+                  "mars"
+                ],
+                "houses": [
+                  5
+                ]
+              }
+            }
+          ],
+          "effect": "Sun, Moon, Mars in H5: relatives' support, auspicious 12 years; Sun in H1, 4, 5: copper work good and ill effects go to grandfather.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Immoral conduct, excess romance or illicit liaisons destroy Jupiter; after father's death, power declines; may die outside with no coffin.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  1
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  3
+                ]
+              }
+            }
+          ],
+          "effect": "Moon in H1 or Jupiter dormant: bad old age and poor sight; Mercury in H3 or depressed: debts despite earnings; Mars in H3: deaths in the family.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                3
+              ]
+            }
+          ],
+          "effect": "H3 blank: Jupiter dormant (good for self, no help to others); friendly planets in H3 give a good life for 23 years.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Keep a yellow handkerchief; establish Jupiter.",
+          "delivery": null
+        },
+        {
+          "text": "Help bury or provide a coffin or last rites for others (service to the dead).",
+          "delivery": null
+        },
+        {
+          "text": "Keep promises and conduct clean.",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 355,
+        "pdf_page": 371,
+        "section": "Jupiter in house 11",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    },
+    {
+      "id": "jupiter_h12",
+      "planet": "jupiter",
+      "house": 12,
+      "status": "done",
+      "theme": "Helpful, benevolent, detached; blessings and curses carry weight.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Wealth flows without anxiety; philanthropy gives night comfort; Venus benefic wherever it is; good years 9, 11, 19, 31, 42, 57, 84.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  9,
+                  12
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "rahu"
+                ],
+                "houses": [
+                  6
+                ]
+              }
+            }
+          ],
+          "effect": "Saturn alone, adjoining or in H9 gives Saturn-type benefits (machinery, motors, royal position); exalted Rahu in H6 makes master of both worlds.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "ketu"
+                ],
+                "houses": [
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Ketu exalted gives religiosity, wealth and comfort.",
+          "tone": "benefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Habit of wearing necklaces or gems, company of sadhus and peepal are signs of malefic Jupiter; father hurt around age 10.5.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "Dormant or polluted Jupiter, or malefic Mercury: unlucky for others, evil works shorten life, begs only to receive ash.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": null,
+          "effect": "False evidence or deception spoils Jupiter.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Do not give false evidence or deceive; distribute wealth to others; worship at a temple.",
+          "delivery": null
+        },
+        {
+          "text": "Begin work when the right nostril is flowing (breath practice in source).",
+          "delivery": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 357,
+        "pdf_page": 373,
+        "section": "Jupiter in house 12",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true
+    }
+  ]
+}

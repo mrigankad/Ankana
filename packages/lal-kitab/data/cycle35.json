@@ -1,0 +1,276 @@
+{
+  "description": "The 35 year circulation: planets rule in this order for the given years. Within each planet's period the three parts (beginning, middle, last) are ruled by the listed planets for the listed months. Cycle can repeat up to three times in a life.",
+  "sequence_assumption": "Order Jupiter 6, Sun 2, Moon 1, Venus 3, Mars 6, Mercury 2, Saturn 6, Rahu 6, Ketu 3 is given both in the p.78 table and in words on p.77. The book also says the circulation may start from another planet (e.g. Saturn, so Jupiter then begins in the 7th year); the engine always starts with Jupiter at birth, which is an assumption (expert question).",
+  "rows": [
+    {
+      "planet": "jupiter",
+      "years": 6,
+      "parts": [
+        {
+          "part": "beginning",
+          "ruler": "ketu",
+          "months": 24
+        },
+        {
+          "part": "middle",
+          "ruler": "jupiter",
+          "months": 24
+        },
+        {
+          "part": "last",
+          "ruler": "sun",
+          "months": 24
+        }
+      ],
+      "cite": {
+        "vol": "I",
+        "printed_page": 78,
+        "pdf_page": 97,
+        "section": "Period of each planet during the 35 year cycle",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "planet": "sun",
+      "years": 2,
+      "parts": [
+        {
+          "part": "beginning",
+          "ruler": "sun",
+          "months": 8
+        },
+        {
+          "part": "middle",
+          "ruler": "moon",
+          "months": 8
+        },
+        {
+          "part": "last",
+          "ruler": "mars",
+          "months": 8
+        }
+      ],
+      "cite": {
+        "vol": "I",
+        "printed_page": 78,
+        "pdf_page": 97,
+        "section": "Period of each planet during the 35 year cycle",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "planet": "moon",
+      "years": 1,
+      "parts": [
+        {
+          "part": "beginning",
+          "ruler": "jupiter",
+          "months": 4
+        },
+        {
+          "part": "middle",
+          "ruler": "sun",
+          "months": 4
+        },
+        {
+          "part": "last",
+          "ruler": "moon",
+          "months": 4
+        }
+      ],
+      "cite": {
+        "vol": "I",
+        "printed_page": 78,
+        "pdf_page": 97,
+        "section": "Period of each planet during the 35 year cycle",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "planet": "venus",
+      "years": 3,
+      "parts": [
+        {
+          "part": "beginning",
+          "ruler": "mars",
+          "months": 12
+        },
+        {
+          "part": "middle",
+          "ruler": "venus",
+          "months": 12
+        },
+        {
+          "part": "last",
+          "ruler": "mercury",
+          "months": 12
+        }
+      ],
+      "cite": {
+        "vol": "I",
+        "printed_page": 78,
+        "pdf_page": 97,
+        "section": "Period of each planet during the 35 year cycle",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "planet": "mars",
+      "years": 6,
+      "parts": [
+        {
+          "part": "beginning",
+          "ruler": "mars",
+          "months": 24
+        },
+        {
+          "part": "middle",
+          "ruler": "saturn",
+          "months": 24
+        },
+        {
+          "part": "last",
+          "ruler": "venus",
+          "months": 24
+        }
+      ],
+      "cite": {
+        "vol": "I",
+        "printed_page": 78,
+        "pdf_page": 97,
+        "section": "Period of each planet during the 35 year cycle",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "planet": "mercury",
+      "years": 2,
+      "parts": [
+        {
+          "part": "beginning",
+          "ruler": "moon",
+          "months": 8
+        },
+        {
+          "part": "middle",
+          "ruler": "mars",
+          "months": 8
+        },
+        {
+          "part": "last",
+          "ruler": "jupiter",
+          "months": 8
+        }
+      ],
+      "cite": {
+        "vol": "I",
+        "printed_page": 78,
+        "pdf_page": 97,
+        "section": "Period of each planet during the 35 year cycle",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "planet": "saturn",
+      "years": 6,
+      "parts": [
+        {
+          "part": "beginning",
+          "ruler": "rahu",
+          "months": 24
+        },
+        {
+          "part": "middle",
+          "ruler": "mercury",
+          "months": 24
+        },
+        {
+          "part": "last",
+          "ruler": "saturn",
+          "months": 24
+        }
+      ],
+      "cite": {
+        "vol": "I",
+        "printed_page": 78,
+        "pdf_page": 97,
+        "section": "Period of each planet during the 35 year cycle",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "planet": "rahu",
+      "years": 6,
+      "parts": [
+        {
+          "part": "beginning",
+          "ruler": "mars",
+          "months": 24
+        },
+        {
+          "part": "middle",
+          "ruler": "ketu",
+          "months": 24
+        },
+        {
+          "part": "last",
+          "ruler": "rahu",
+          "months": 24
+        }
+      ],
+      "cite": {
+        "vol": "I",
+        "printed_page": 78,
+        "pdf_page": 97,
+        "section": "Period of each planet during the 35 year cycle",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "planet": "ketu",
+      "years": 3,
+      "parts": [
+        {
+          "part": "beginning",
+          "ruler": "saturn",
+          "months": 12
+        },
+        {
+          "part": "middle",
+          "ruler": "rahu",
+          "months": 12
+        },
+        {
+          "part": "last",
+          "ruler": "ketu",
+          "months": 12
+        }
+      ],
+      "cite": {
+        "vol": "I",
+        "printed_page": 78,
+        "pdf_page": 97,
+        "section": "Period of each planet during the 35 year cycle",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    }
+  ]
+}

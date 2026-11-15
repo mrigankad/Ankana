@@ -1,0 +1,211 @@
+---
+import Base from '../layouts/Base.astro';
+import Nav from '../layouts/Nav.astro';
+import Footer from '../layouts/Footer.astro';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const features = [
+  ['Charts and a client book', 'Swiss Ephemeris charts, dashas and a transit timeline, kept beside consent records, consultations and notes. Charts are immutable: the same birth data always gives the same record.'],
+  ['AI that cites the chart', 'Nine connection types, one claim verifier. Every sentence carries structured claims that a deterministic check compares with the chart before you see them.'],
+  ['Lal Kitab with the page number', '108 planet and house rules, varshphal, lagna as house 1 and the one-remedy-at-a-time rule, each traced to a page of the source edition.'],
+  ['Your team, your clients', 'Owner, astrologer and assistant roles, a client portal, and sign-in that is built in, with optional OIDC for Google or Keycloak.'],
+  ['Remedies and reminders', 'Caution-aware remedies tied to the planet and house, with reminders over email, WhatsApp and SMS. Hindi throughout.'],
+  ['Reports in your brand', 'Your logo, colours and wording on every PDF, with an advisory line you control. A Today feed shows what needs attention each day.'],
+  ['Privacy by design', 'Client fields are encrypted per practice with AES-256-GCM, with tooling for DPDP requests such as export and erasure.'],
+];
+const shipped = ['Swiss Ephemeris charts', 'Lal Kitab and varshphal', 'AI assistant and claim verifier', 'Built-in auth and OIDC', 'Team roles and client portal', 'Reminders', 'Hindi', 'Branded PDF reports', 'Today feed', 'Transit timeline', 'Azure deploy'];
+const upcoming = ['Planets depth', 'Ashtakavarga', 'Dasha drill-down', 'Sade sati', 'Consult notes'];
+const prov = [
+  ['claude', 'Claude Code', 'Built in. Uses your local Claude Code login, no API key needed.'],
+  ['ollama', 'Ollama', 'Local or Ollama Cloud. Open models on your own hardware, nothing leaves the machine.'],
+  ['googlegemini', 'Gemini', 'Through a Gemini API key or your local Gemini CLI login.'],
+  ['openai', 'Codex', 'Uses your local Codex CLI login.'],
+  ['anthropic', 'Anthropic API', 'Claude models with an API key.'],
+  ['openrouter', 'Any OpenAI-style API', 'OpenAI, OpenRouter, Groq, LiteLLM, LM Studio or vLLM.'],
+];
+const repo = 'https://github.com/mrigankad/Ankana';
+---
+<Base title="Ankana: the Jyotish practice workspace" description="Open source workspace for practicing Jyotishis. Swiss Ephemeris charts, Lal Kitab with page citations, an AI that must cite the chart, and reports in your own brand. Self-hosted, AGPL-3.0." path="/">
+  <div class="hero">
+    <Nav home />
+    <main id="main">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <span class="chip">Open source, AGPL-3.0</span>
+          <h1>The Jyotish practice workspace.</h1>
+          <p class="sub">Charts from the Swiss Ephemeris, Lal Kitab with page citations, an AI that must cite the chart, and reports in your own brand. Self-hosted, so your clients stay yours.</p>
+          <div class="cta">
+            <a class="btn btn-accent" href="#self-host">Self-host it</a>
+            <a class="btn btn-ghost" href={`${base}/docs/`}>Read the docs</a>
+          </div>
+        </div>
+        <div class="panel" role="img" aria-label="An answer from the assistant, shown with the chart facts it was checked against">
+          <svg class="panel-mark" viewBox="0 0 64 64" aria-hidden="true"><path d="M13 56 V31 A19 19 0 0 1 51 31 V56" fill="none" stroke="#F44B2F" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="32" cy="40" r="6.5" fill="#F44B2F"/></svg>
+          <div class="claim">
+            <span class="k">Answer, checked against the chart</span>
+            <p>Saturn sits in the 10th house, so career asks for patience this year.</p>
+            <div class="tags"><span>Saturn in house 10</span><span>Claim verified</span></div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <section class="trust" aria-label="At a glance">
+    <div class="wrap">
+      <ul>
+        <li><strong>Swiss Ephemeris</strong><span>Arcsecond-level planets, houses and dashas.</span></li>
+        <li><strong>AGPL-3.0</strong><span>Read it, run it, change it. Source stays public.</span></li>
+        <li><strong>Runs locally</strong><span>Your server, your database. No client data leaves.</span></li>
+        <li><strong>Any AI provider</strong><span>Nine connection types, one verifier.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="works" aria-label="Works with these AI providers">
+    <div class="wrap">
+      <p class="works-label">Works with</p>
+      <ul>
+        {prov.map(([f, t]) => <li><span class="plogo" style={`--logo:url(${base}/providers/${f}.svg);--c:#221E1D`} role="img" aria-label={`${t} logo`}></span><span>{t}</span></li>)}
+      </ul>
+    </div>
+  </section>
+
+  <section class="sec tall wedges" id="features" aria-labelledby="h-features">
+    <div class="wrap grid">
+      <div class="head">
+        <p class="eyebrow">What it does</p>
+        <h2 class="title" id="h-features">Built for the practice, not the horoscope.</h2>
+        <p class="lede">Seven decisions that set Ankana apart from chart software and from chatbots.</p>
+      </div>
+      <ol class="wedge-list">
+        {features.map(([t, d], i) => (
+          <li><span class="n">{String(i + 1).padStart(2, '0')}</span><div><h3>{t}</h3><p>{d}</p></div></li>
+        ))}
+      </ol>
+    </div>
+  </section>
+
+  <section class="sec wash" id="how-it-works" aria-labelledby="h-how">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow">How it works</p>
+        <h2 class="title" id="h-how">The model never has the last word on a fact.</h2>
+      </div>
+      <ol class="steps">
+        <li class="step"><span class="n">1</span><div><h3>Birth data</h3><p>Goes in with the client's consent recorded.</p></div></li>
+        <li class="step"><span class="n">2</span><div><h3>Swiss Ephemeris</h3><p>Sidereal positions, houses, nakshatras and dashas.</p></div></li>
+        <li class="step"><span class="n">3</span><div><h3>Chart artifact</h3><p>Stored immutable and versioned. Everything downstream cites it.</p></div></li>
+        <li class="step s4"><span class="n">4</span><div><h3>Rule engines</h3><p>Lal Kitab and Parashari rules fire on the artifact. Each result carries its source.</p></div></li>
+        <li class="step verifier"><span class="n">5 · The claim verifier</span><h3>AI narrator, then a check that calls no model</h3><p>Every claim is compared with the chart. A claim that fails is rewritten once. If it still fails, the sentence is replaced by the verified chart fact and flagged as not verified.</p></li>
+        <li class="step s6"><span class="n">6</span><div><h3>Branded PDF</h3><p>Rendered from the same artifact, with your name on it.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="sec tall night" id="lal-kitab" aria-labelledby="h-lk">
+    <div class="wrap lk">
+      <div class="lk-board">
+        <svg viewBox="0 0 120 120" role="img" aria-label="North Indian chart with house 1, the lagna, marked in sindoor"><rect x="5" y="5" width="110" height="110" fill="none" stroke="#fff" stroke-width="1.4"/><path d="M5 5 L115 115 M115 5 L5 115" stroke="#fff" stroke-width="1.2" fill="none"/><path d="M60 5 L115 60 L60 115 L5 60 Z" fill="none" stroke="#fff" stroke-width="1.2"/><path d="M60 5 L88 32.5 L60 60 L32 32.5 Z" fill="#D32704"/><text x="60" y="34" text-anchor="middle" font-family="Urbanist,sans-serif" font-weight="800" font-size="12" fill="#fff">House 1</text><text x="60" y="44" text-anchor="middle" font-family="Urbanist,sans-serif" font-weight="600" font-size="5" fill="#fff">Lagna</text></svg>
+      </div>
+      <div>
+        <div class="head">
+          <p class="eyebrow">Lal Kitab</p>
+          <h2 class="title" id="h-lk">Lal Kitab, with the page number.</h2>
+          <p class="lede">Follows the 1952 Goswami edition. Rules are paraphrased, never quoted, and every row carries its volume and page.</p>
+        </div>
+        <ul class="facts">
+          <li><b>House 1</b><span>The lagna is house 1 by default. An Aries option exists.</span></li>
+          <li><b>108 rules</b><span>Every planet in every house, each with a page citation, plus varshphal for the year chart.</span></li>
+          <li><b>Excluded</b><span>Remedies that harm people or animals, or involve liquor, piercing or medicine doses.</span></li>
+          <li><b>In review</b><span>Expert review is in progress. Rows flagged needs_review are not yet checked against the scan.</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec tall" id="accuracy" aria-labelledby="h-acc">
+    <div class="wrap acc">
+      <div class="acc-l">
+        <div class="head">
+          <p class="eyebrow">Accuracy</p>
+          <h2 class="title" id="h-acc">Honest about what is proven.</h2>
+          <p class="lede">Lahiri ayanamsa, mean node, whole-sign houses and Vimshottari dashas from the Moon by default. A suite of reference charts spans hemispheres, eras, daylight-saving cases and a Moon-nakshatra boundary.</p>
+        </div>
+        <div class="note"><h3>What is still pending</h3><p>Reference values are Swiss Ephemeris outputs marked provisional. Exports from JHora, the independent check, have not arrived. Until they do, the suite proves consistency, not agreement with a second program.</p></div>
+      </div>
+      <div class="acc-r">
+        <ul class="tol" aria-label="Tolerances the engine is held to">
+          <li><span>Planet longitudes</span><b>5 arcsec</b></li>
+          <li><span>Moon and ascendant</span><b>10 arcsec</b></li>
+          <li><span>Ayanamsa</span><b>1 arcsec</b></li>
+          <li><span>Dasha dates</span><b>Exact</b></li>
+        </ul>
+        <div class="pills"><span class="pill ok">12 reference cases, passing</span><span class="pill wait">JHora exports pending</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec wash2" id="ai" aria-labelledby="h-ai">
+    <div class="wrap">
+      <div class="ai-head">
+        <div class="head">
+          <p class="eyebrow">Bring your own AI</p>
+          <h2 class="title" id="h-ai">Your model, your keys, your machine.</h2>
+        </div>
+        <p class="lede">Whichever provider you pick, its answers pass through the same claim verifier. In the live evaluation, Claude Haiku passed 115 of 118 cases and a Sonnet sample passed 30 of 30. <a class="lnk" href={`${repo}/blob/main/docs/ai-live-eval.md`}>Read the results</a>.</p>
+      </div>
+      <div class="ai">
+        {prov.map(([f, t, d], i) => (
+          <div class={i === 1 ? 'prov local' : 'prov'}><div class="prov-top"><span class="plogo" style={`--logo:url(${base}/providers/${f}.svg);--c:${i === 1 ? '#FFFFFF' : '#221E1D'}`} role="img" aria-label={`${t} logo`}></span>{i === 1 && <span class="tag">Fully local</span>}</div><h3>{t}</h3><p>{d}</p></div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="sec night" id="self-host" aria-labelledby="h-sh">
+    <div class="wrap qs">
+      <div class="qs-copy">
+        <p class="eyebrow">Self-host</p>
+        <h2 class="title" id="h-sh">Your server. Your database.</h2>
+        <p class="lede">Docker brings up Postgres 16, Redis and the API. A Bicep template deploys the same stack to Azure, covered in the deploy guide. You need Docker and, for the web app, Node.js 22 with pnpm 10.</p>
+        <a class="btn btn-accent" href={`${base}/docs/#self-hosting`}>Full guide in the docs</a>
+      </div>
+      <div class="term" role="group" aria-label="Quick start commands">
+        <div class="dots" aria-hidden="true"><i></i><i></i><i></i></div>
+        <pre><code>git clone https://github.com/mrigankad/Ankana.git
+cd Ankana
+docker compose up -d --build migrate api worker
+pnpm install && pnpm --filter @astro/web-practitioner dev</code></pre>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec wash" id="roadmap" aria-labelledby="h-rd">
+    <div class="wrap">
+      <div class="head">
+        <p class="eyebrow">Status</p>
+        <h2 class="title" id="h-rd">Where it stands today.</h2>
+      </div>
+      <div class="road2">
+        <div class="col"><span class="status done">Shipped</span><ul>{shipped.map((x) => <li>{x}</li>)}</ul></div>
+        <div class="col cur"><span class="status prog">In progress</span><ul>{upcoming.map((x) => <li>{x}</li>)}</ul></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec tall" id="faq" aria-labelledby="h-faq">
+    <div class="wrap faq">
+      <div class="head">
+        <p class="eyebrow">FAQ</p>
+        <h2 class="title" id="h-faq">Straight answers.</h2>
+      </div>
+      <div class="faq-list">
+        <div><h3>Is this medical, legal or financial advice?</h3><p>No. Ankana is advisory only. Charts, timing and readings are interpretive guidance for practitioners, and reports carry an advisory line by default. Practitioners remain responsible for what they tell clients.</p></div>
+        <div><h3>Where does my client data live?</h3><p>On your server, in your Postgres database. Secrets, configuration and client data are not source and stay private. With a local model such as Ollama, nothing leaves your machine.</p></div>
+        <div><h3>What does AGPL-3.0 mean for me?</h3><p>You can run, study and change Ankana freely. If you run a modified version for other people over a network, you must publish your changes under the same licence. Using it for your own practice needs nothing more.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <Footer />
+</Base>

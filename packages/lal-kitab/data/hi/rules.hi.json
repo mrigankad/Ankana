@@ -1,0 +1,396 @@
+{
+ "description": "Hindi overlay for the Lal Kitab rule tables (rin, masnui, remedy delivery, dormant rules). Keyed by exact English string. Machine-generated first draft.",
+ "needs_review_hi": true,
+ "entries": [
+  {
+   "id": "rin:pitri_rin:remedy",
+   "en": "Every blood relative contributes one rupee and the sum is given at a temple on one day; also honour a peepal tree or shrine within 16 paces of the house exit on the left.",
+   "hi": "हर रक्त संबंधी एक रुपया देता है और यह राशि एक दिन मंदिर में दी जाती है; साथ ही घर के निकास से बाईं ओर 16 कदम के भीतर पीपल के वृक्ष या देवस्थान का सम्मान करें।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:pitri_rin:kind",
+   "en": "Debt to father and elders",
+   "hi": "पिता और बड़ों का ऋण",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:pitri_rin:cause",
+   "en": "A wrong done by elders, for example a family priest dismissed or childlessness caused by family quarrels.",
+   "hi": "बड़ों द्वारा किया गया अनुचित कार्य, जैसे कुल पुरोहित को हटा देना या पारिवारिक झगड़ों से संतानहीनता।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:pitri_rin:symptoms",
+   "en": "Damage to Jupiter-type things: a nearby temple or a peepal tree harmed.",
+   "hi": "गुरु जैसी वस्तुओं को क्षति: पास के मंदिर या पीपल के वृक्ष को हानि।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:atma_rin:note",
+   "en": "Enemy column reads 'Venus or Sun Rahu-Ketu' on the page; taken as Venus, Rahu, Ketu.",
+   "hi": "पृष्ठ पर शत्रु स्तंभ में 'शुक्र या सूर्य राहु-केतु' लिखा है; इसे शुक्र, राहु, केतु माना गया है।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:atma_rin:remedy",
+   "en": "A yajna (fire ritual) funded by equal, joint shares of all blood relatives.",
+   "hi": "सभी रक्त संबंधियों के समान, संयुक्त अंशदान से किया गया यज्ञ (अग्नि अनुष्ठान)।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:atma_rin:kind",
+   "en": "Personal debt",
+   "hi": "आत्म ऋण",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:atma_rin:cause",
+   "en": "Disrespect of faith and old rituals.",
+   "hi": "आस्था और पुराने अनुष्ठानों का अनादर।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:atma_rin:symptoms",
+   "en": "A buried fire-place in the house or light shafts in the roof.",
+   "hi": "घर में दबा हुआ चूल्हा या छत में प्रकाश के लिए बने रोशनदान।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:matri_rin:remedy",
+   "en": "Each blood relative gives an equal share of silver, all thrown into flowing water on the same day.",
+   "hi": "हर रक्त संबंधी चाँदी का समान अंश देता है, सब एक ही दिन बहते जल में प्रवाहित किया जाता है।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:matri_rin:kind",
+   "en": "Debt to mother",
+   "hi": "माता का ऋण",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:matri_rin:cause",
+   "en": "Neglecting a mother who was ill or mistreated, or sending her away from the house.",
+   "hi": "बीमार या दुर्व्यवहार झेल रही माता की उपेक्षा करना, या उसे घर से निकाल देना।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:matri_rin:symptoms",
+   "en": "Dirty material dumped near the roof light inlet, or a neighbouring well, river or pond left unrespected.",
+   "hi": "छत के रोशनदान के पास गंदगी फेंकना, या पड़ोस के कुएँ, नदी या तालाब का अनादर।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:stri_rin:remedy",
+   "en": "Feed good food to 100 healthy cows in one day at the joint, equal cost of the whole family.",
+   "hi": "पूरे परिवार के संयुक्त, समान खर्च से एक ही दिन में 100 स्वस्थ गायों को अच्छा भोजन खिलाएँ।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:stri_rin:kind",
+   "en": "Debt to wife",
+   "hi": "पत्नी का ऋण",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:stri_rin:cause",
+   "en": "Ending a pregnancy or hurting a woman through temptation.",
+   "hi": "गर्भ समाप्त कराना या प्रलोभन में किसी स्त्री को कष्ट पहुँचाना।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:stri_rin:symptoms",
+   "en": "Toothed animals reared in the house, especially cows, and a long-running family grudge.",
+   "hi": "घर में दाँत वाले पशु पालना, विशेषकर गायें, और लंबे समय से चला आ रहा पारिवारिक बैर।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:bandhu_rin:note",
+   "en": "Remedy paragraph sits in a scrambled layout; attribution to Mars inferred from reading order.",
+   "hi": "उपाय का अनुच्छेद बिगड़े हुए विन्यास में है; मंगल से संबंध पढ़ने के क्रम से अनुमानित है।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:bandhu_rin:remedy",
+   "en": "Give part of a job free of charge to a Saturn-type craftsman (builder, artisan, experienced hakim), funded by one rupee from each family member.",
+   "hi": "शनि प्रकृति के शिल्पकार (राजमिस्त्री, कारीगर, अनुभवी हकीम) को किसी कार्य का एक भाग निःशुल्क दें, जिसका खर्च परिवार के प्रत्येक सदस्य से एक रुपया लेकर उठाया जाए।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:bandhu_rin:kind",
+   "en": "Debt to relations",
+   "hi": "संबंधियों का ऋण",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:bandhu_rin:cause",
+   "en": "Betraying friends or relatives, poisoning or burning, or destroying a buffalo or a house.",
+   "hi": "मित्रों या संबंधियों से विश्वासघात, विष देना या जलाना, या भैंस या घर को नष्ट करना।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:bandhu_rin:symptoms",
+   "en": "Aversion to meeting relatives and to family celebrations such as children's birthdays.",
+   "hi": "संबंधियों से मिलने और बच्चों के जन्मदिन जैसे पारिवारिक उत्सवों से अरुचि।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:kanya_rin:remedy",
+   "en": "Collect one yellow shell (cowrie) from each blood relative, burn them to ash and flow the ash into a river on one day.",
+   "hi": "हर रक्त संबंधी से एक पीली कौड़ी इकट्ठा करें, उन्हें जलाकर राख बनाएँ और एक ही दिन उस राख को नदी में प्रवाहित करें।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:kanya_rin:kind",
+   "en": "Debt to daughter and sister",
+   "hi": "पुत्री और बहन का ऋण",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:kanya_rin:cause",
+   "en": "Cheating by word, wrongs done to a daughter or sister, selling or trading children.",
+   "hi": "वाणी से छल, पुत्री या बहन के साथ अन्याय, संतान को बेचना या उसका सौदा करना।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:kanya_rin:symptoms",
+   "en": "Selling a child or trading in misguided children.",
+   "hi": "संतान को बेचना या भटके हुए बच्चों का व्यापार करना।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:ati_rin:remedy",
+   "en": "Feed 100 fish in one day, or feed 100 labourers, at the joint equal cost of the whole family.",
+   "hi": "पूरे परिवार के संयुक्त, समान खर्च से एक ही दिन में 100 मछलियों को या 100 मज़दूरों को भोजन कराएँ।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:ati_rin:kind",
+   "en": "Atrocious debt",
+   "hi": "घोर ऋण",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:ati_rin:cause",
+   "en": "Taking a life, or taking a house or land by deceit or without payment.",
+   "hi": "प्राण लेना, या छल से अथवा बिना भुगतान के घर या भूमि लेना।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:ati_rin:symptoms",
+   "en": "A south-facing house, or a house built on land taken from a childless person or on levelled routes and wells.",
+   "hi": "दक्षिणमुखी घर, या निःसंतान व्यक्ति से ली गई भूमि पर या समतल किए गए रास्तों और कुओं पर बना घर।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:ajanma_rin:remedy",
+   "en": "Each blood relative contributes one coconut and all are floated in a river on one day.",
+   "hi": "हर रक्त संबंधी एक नारियल देता है और सब एक ही दिन नदी में प्रवाहित किए जाते हैं।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:ajanma_rin:kind",
+   "en": "Debt to the unborn",
+   "hi": "अजन्मे का ऋण",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:ajanma_rin:cause",
+   "en": "Betraying associates or in-laws so that other families are ruined.",
+   "hi": "साथियों या ससुराल पक्ष से विश्वासघात, जिससे अन्य परिवार बर्बाद हो जाएँ।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:ajanma_rin:symptoms",
+   "en": "A sewer or abandoned cremation ground or grain-roasting shop below the exit threshold or along the south wall.",
+   "hi": "निकास की देहरी के नीचे या दक्षिणी दीवार के साथ गंदा नाला, छोड़ा हुआ श्मशान या भाड़ (अनाज भूनने की दुकान)।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:daiva_rin:note",
+   "en": "Enemy column ends with a trailing comma after Moon; list may be incomplete.",
+   "hi": "शत्रु स्तंभ चंद्र के बाद अंत में अल्पविराम के साथ समाप्त होता है; सूची अधूरी हो सकती है।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:daiva_rin:remedy",
+   "en": "Feed good food to 100 dogs at the joint equal cost of the family, and seek the blessing of a widow living in the house on the left at the entrance.",
+   "hi": "परिवार के संयुक्त, समान खर्च से 100 कुत्तों को अच्छा भोजन खिलाएँ, और प्रवेश पर बाईं ओर के घर में रहने वाली विधवा का आशीर्वाद लें।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:daiva_rin:kind",
+   "en": "Debt to gods and nature",
+   "hi": "देवताओं और प्रकृति का ऋण",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:daiva_rin:cause",
+   "en": "Ill intent or foul play towards a dog or beggar, secretly ruining another family or having dogs killed without cause.",
+   "hi": "कुत्ते या भिखारी के प्रति बुरी नीयत या छल, चुपके से किसी अन्य परिवार को बर्बाद करना या बिना कारण कुत्तों को मरवाना।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:daiva_rin:symptoms",
+   "en": "Harm to dogs or to things of Ketu, or destruction of the family.",
+   "hi": "कुत्तों या केतु की वस्तुओं को हानि, या परिवार का विनाश।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "rin:_:description",
+   "en": "The nine debts (rin). Detected when the planet sits in a placement house together with a listed enemy planet. Remedy is a collective family remedy.",
+   "hi": "नौ ऋण (रिन)। ये तब पहचाने जाते हैं जब ग्रह स्थिति वाले भाव में किसी सूचीबद्ध शत्रु ग्रह के साथ बैठा हो। उपाय पूरे परिवार का सामूहिक उपाय है।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "masnui:masnui_jupiter:note",
+   "en": "when in a hollow condition",
+   "hi": "खोखली अवस्था में होने पर",
+   "needs_review_hi": true
+  },
+  {
+   "id": "remedy_delivery:1:method",
+   "en": "Wear the planet's article around the neck or on the body.",
+   "hi": "ग्रह की वस्तु गले में या शरीर पर धारण करें।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "remedy_delivery:2:method",
+   "en": "Give the planet's article at a place of worship (temple, gurdwara, church, mosque).",
+   "hi": "ग्रह की वस्तु पूजा स्थल (मंदिर, गुरुद्वारा, गिरजाघर, मस्जिद) में दें।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "remedy_delivery:3:method",
+   "en": "Wear the planet's metal or stone on the hand.",
+   "hi": "ग्रह की धातु या रत्न हाथ में पहनें।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "remedy_delivery:4:method",
+   "en": "Float the planet's article in running water.",
+   "hi": "ग्रह की वस्तु बहते जल में प्रवाहित करें।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "remedy_delivery:5:method",
+   "en": "Donate the planet's article to a school.",
+   "hi": "ग्रह की वस्तु किसी विद्यालय को दान करें।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "remedy_delivery:6:method",
+   "en": "Drop the planet's article into a well.",
+   "hi": "ग्रह की वस्तु कुएँ में डालें।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "remedy_delivery:7:method",
+   "en": "Bury the planet's article in the ground.",
+   "hi": "ग्रह की वस्तु भूमि में गाड़ दें।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "remedy_delivery:8:method",
+   "en": "Bury the planet's article at a cremation ground.",
+   "hi": "ग्रह की वस्तु श्मशान में गाड़ें।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "remedy_delivery:9:method",
+   "en": "Donate the planet's article at a temple, or wear it on the body.",
+   "hi": "ग्रह की वस्तु मंदिर में दान करें, या शरीर पर धारण करें।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "remedy_delivery:10:method",
+   "en": "Give the article to the father, or bury it near a government office where the building's shadow falls.",
+   "hi": "वस्तु पिता को दें, या किसी सरकारी कार्यालय के पास जहाँ भवन की छाया पड़ती हो वहाँ गाड़ दें।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "remedy_delivery:11:note",
+   "en": "Planets in H11 are neither exalted nor debilitated; the book gives no remedy.",
+   "hi": "भाव 11 के ग्रह न उच्च होते हैं न नीच; पुस्तक में कोई उपाय नहीं दिया गया है।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "remedy_delivery:12:method",
+   "en": "Keep the planet's article on the roof.",
+   "hi": "ग्रह की वस्तु छत पर रखें।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "dormant:own_pakka_ghar:text",
+   "en": "A planet in its own fixed house is always awake.",
+   "hi": "अपने पक्के घर में बैठा ग्रह सदा जाग्रत रहता है।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "dormant:prior_side_empty:text",
+   "en": "If houses 1-6 hold no planet, planets in houses 7-12 are dormant.",
+   "hi": "यदि भाव 1-6 में कोई ग्रह न हो, तो भाव 7-12 के ग्रह सुप्त होते हैं।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "dormant:latter_side_empty:text",
+   "en": "If houses 7-12 hold no planet, planets in houses 1-6 are dormant.",
+   "hi": "यदि भाव 7-12 में कोई ग्रह न हो, तो भाव 1-6 के ग्रह सुप्त होते हैं।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "dormant:no_opposite_planet:text",
+   "en": "A planet in houses 1-6 with no planet in the opposite (7th-from) house is dormant.",
+   "hi": "भाव 1-6 का वह ग्रह जिसके सामने के (सातवें) भाव में कोई ग्रह न हो, सुप्त होता है।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "dormant:unaspected:text",
+   "en": "A planet in houses 7-12 that receives no aspect from an occupied house is dormant.",
+   "hi": "भाव 7-12 का वह ग्रह जिस पर किसी आबाद भाव की दृष्टि न पड़ती हो, सुप्त होता है।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "dormant:h10_empty_h2:text",
+   "en": "If house 10 is empty, planets in house 2 are dormant.",
+   "hi": "यदि भाव 10 खाली हो, तो भाव 2 के ग्रह सुप्त होते हैं।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "dormant:h2_empty_h10:text",
+   "en": "If house 2 is empty, planets in house 10 are dormant.",
+   "hi": "यदि भाव 2 खाली हो, तो भाव 10 के ग्रह सुप्त होते हैं।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "dormant:h2_empty_h9:text",
+   "en": "If house 2 is empty, planets in house 9 are dormant.",
+   "hi": "यदि भाव 2 खाली हो, तो भाव 9 के ग्रह सुप्त होते हैं।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "dormant:empty_unaspected_house:text",
+   "en": "A house with no planet and no incoming aspect is a dormant house; it is awakened by the planet named in the awakening map.",
+   "hi": "जिस भाव में कोई ग्रह न हो और कोई दृष्टि भी न आती हो, वह सुप्त भाव है; उसे जाग्रत करने वाला ग्रह जागरण तालिका में बताया गया है।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "extra:0",
+   "en": "When a planet is malefic, remove (neutralise) the malefic component of its artificial combination so the planet turns benefic. For Mars negative, items of the deer and worship of the Moon are suggested.",
+   "hi": "जब कोई ग्रह अशुभ हो, तो उसके मसनुई (कृत्रिम) संयोग का अशुभ घटक हटाएँ (शांत करें), ताकि ग्रह शुभ फल देने लगे। मंगल के अशुभ होने पर हिरण से जुड़ी वस्तुएँ और चंद्र की उपासना सुझाई जाती है।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "extra:1",
+   "en": "Run only one remedy at a time. Observe it for 40 or 43 consecutive days (or weeks, per the book), leave a gap of a few days, then start the next. Running two at once is said to nullify both.",
+   "hi": "एक समय में केवल एक उपाय करें। उसे लगातार 40 या 43 दिन (या पुस्तक के अनुसार सप्ताह) तक करें, कुछ दिनों का अंतराल दें, फिर अगला आरंभ करें। दो उपाय एक साथ करने से दोनों निष्फल हो जाते हैं, ऐसा माना जाता है।",
+   "needs_review_hi": true
+  },
+  {
+   "id": "extra:2",
+   "en": "a few days",
+   "hi": "कुछ दिन",
+   "needs_review_hi": true
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "sydney-1988",
+  "note": "Southern hemisphere, DST",
+  "source": "swisseph-provisional",
+  "settings": {
+    "ayanamsa": "lahiri",
+    "ayanamsaMean": false,
+    "node": "mean",
+    "sunriseRule": "hindu",
+    "houseSystem": "whole_sign",
+    "ephemerisFiles": "swisseph 2.10.03, sepl/semo/seas_18.se1"
+  },
+  "input": {
+    "birthDate": "1988-12-25",
+    "birthTime": "03:30",
+    "timezoneName": "Australia/Sydney",
+    "latitude": -33.8688,
+    "longitude": 151.2093
+  },
+  "expected": {
+    "ayanamsa": 23.705004682607033,
+    "planets": {
+      "sun": 249.39388626163046,
+      "moon": 87.01587910494388,
+      "mercury": 262.38910704249184,
+      "venus": 224.95278849682694,
+      "mars": 352.86984437392005,
+      "jupiter": 33.57980607532857,
+      "saturn": 251.02374729397891,
+      "rahu": 314.47035808389995,
+      "ketu": 134.47035808389995
+    },
+    "ascendant": 214.6466785246765,
+    "midheaven": 105.97871903939003,
+    "sunrise": "1988-12-23T18:46:56.085751+00:00",
+    "sunset": "1988-12-24T09:02:26.113390+00:00",
+    "vimshottariStarts": [
+      {
+        "planet": "jupiter",
+        "start": "1980-07-24"
+      },
+      {
+        "planet": "saturn",
+        "start": "1996-07-24"
+      },
+      {
+        "planet": "mercury",
+        "start": "2015-07-25"
+      },
+      {
+        "planet": "ketu",
+        "start": "2032-07-24"
+      },
+      {
+        "planet": "venus",
+        "start": "2039-07-24"
+      },
+      {
+        "planet": "sun",
+        "start": "2059-07-24"
+      },
+      {
+        "planet": "moon",
+        "start": "2065-07-24"
+      },
+      {
+        "planet": "mars",
+        "start": "2075-07-24"
+      },
+      {
+        "planet": "rahu",
+        "start": "2082-07-24"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1526 @@
+{
+  "description": "Planet-in-house entries for rahu (Vol II), paraphrased. Same row schema as data/planet_house.json; remedies carry optional structured action/item/venue/duration.",
+  "planet": "rahu",
+  "rows": [
+    {
+      "id": "rahu_h1",
+      "planet": "rahu",
+      "house": 1,
+      "status": "done",
+      "theme": "Elephant on the throne; eclipses the Sun and the house the Sun sits in; Mercury and Ketu carry its effect.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Rahu in 1 darkens the house holding the Sun (not the Sun itself, except with Sun or Mercury in 3); doubts, obstruction, lack of help, losses; malefic effect lasts to age 42; years 2 to 18 and 11, 21, 42 are heavy.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Mercury (the trunk) carries Rahu's effect into houses 1 to 6 and Ketu (the body) into houses 7 to 12.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Prosperous but spends on good things; Sun compensates after the eclipse; Sun, Moon not poisoned during eclipses.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "venus"
+                ],
+                "houses": [
+                  7
+                ]
+              }
+            }
+          ],
+          "effect": "Rich but wife's health doubtful.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Rahu is silent, neither malefic nor benefic.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun"
+                ],
+                "houses": [
+                  2
+                ]
+              }
+            }
+          ],
+          "effect": "Irreligious, disrespectful to in-laws and places of worship.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun"
+                ],
+                "houses": [
+                  5
+                ]
+              }
+            }
+          ],
+          "effect": "Sun helps Rahu; a child is born despite obstacles.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun"
+                ],
+                "houses": [
+                  7,
+                  8,
+                  9
+                ]
+              }
+            }
+          ],
+          "effect": "Court and household losses (7), lost investments (8), loss of ancestral religious merit (9).",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Frequent transfers, rare promotions; theft temptation in official posts; receiving Saturn or Rahu items (electric goods) after marriage hurts career.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Give alms of Sun items (wheat, jaggery, copper).",
+          "delivery": null,
+          "action": "donate",
+          "item": "wheat, jaggery, copper",
+          "venue": "needy",
+          "duration": null
+        },
+        {
+          "text": "Use the remedy of the Moon when Sun is in 8 or 10.",
+          "delivery": null,
+          "action": "remedy of Moon",
+          "item": null,
+          "venue": null,
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 586,
+        "pdf_page": 592,
+        "section": "Rahu in house 1",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": true,
+      "note": "Omitted: remedies involving animal parts, keeping or sacrificing animals, lead items, or arranging a second marriage. The book's cat-placenta remedy was dropped."
+    },
+    {
+      "id": "rahu_h2",
+      "planet": "rahu",
+      "house": 2,
+      "status": "done",
+      "theme": "Under Jupiter's control: wheel of destiny; speed of results, theft by day, wealth rains when Saturn is helpful.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "This is Rahu's real seat; it moves as Jupiter dictates; excellent home life; wealth follows Jupiter; wealth for about 25 years; generous, long-lived, temper of a contented king.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  1
+                ]
+              }
+            }
+          ],
+          "effect": "With benefic Saturn or Saturn in 1 and exalted Jupiter, a rain of wealth.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Thefts happen by day, even before the native's eyes, but not at night; a solid silver ball protects against theft and helps in-laws.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Accepting donations leads to false accusations of theft; may lose status but not imprisoned.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  2
+                ]
+              }
+            }
+          ],
+          "effect": "Malefic Saturn: unhappy, troubled life, misfortune all round.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "A new kitchen built in the north-west or east of the ancestral house at 10, 21 or 42 destroys fortunes; ages 36 to 42 are especially bad.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Results of Rahu and Ketu turn malefic at 26.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Keep a solid ball of silver or gold and saffron at home; keep Moon items in the north-west.",
+          "delivery": null,
+          "action": "keep",
+          "item": "silver ball, gold, saffron",
+          "venue": "home, north-west",
+          "duration": null
+        },
+        {
+          "text": "Seek the mother's blessings.",
+          "delivery": null,
+          "action": "service",
+          "item": null,
+          "venue": null,
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 589,
+        "pdf_page": 595,
+        "section": "Rahu in house 2",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "rahu_h3",
+      "planet": "rahu",
+      "house": 3,
+      "status": "done",
+      "theme": "Wealthy for life, an armed sentry; foresight in dreams, never issueless.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Wealthy, property, bold, long life, dream-based premonitions two years ahead, promotions, victory over enemies, Sun doubly benefic; leaves property behind.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  3
+                ]
+              }
+            }
+          ],
+          "effect": "Kingly status.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "venus",
+                  "mars"
+                ],
+                "houses": [
+                  3
+                ]
+              }
+            }
+          ],
+          "effect": "Happiness all round and women's comforts; enemies cannot pollute Rahu.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Brothers and relatives are a source of loss: they may deny debts or cheat.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  3
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "sun"
+                ],
+                "houses": [
+                  3
+                ]
+              }
+            }
+          ],
+          "effect": "Sister may become widowed or unhappy between 21 and 36; native stays happy and honoured by government.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "A planet in 3 or 12 other than Mars keeps Mercury and Ketu malefic until 34.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Treatment of the Moon helps with relatives' losses.",
+          "delivery": null,
+          "action": "remedy of Moon",
+          "item": null,
+          "venue": null,
+          "duration": null
+        },
+        {
+          "text": "Do not keep ivory pieces at home.",
+          "delivery": null,
+          "action": "avoid",
+          "item": "ivory",
+          "venue": null,
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 591,
+        "pdf_page": 597,
+        "section": "Rahu in house 3",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "rahu_h4",
+      "planet": "rahu",
+      "house": 4,
+      "status": "done",
+      "theme": "Religious but short of wealth; wealth rains by age 24 if the Moon is benefic.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Wealthy, intelligent, religious chart; bathing at home is as good as the Ganges; Rahu helps in education.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  1
+                ]
+              }
+            }
+          ],
+          "effect": "Large wealth; moves to the house of Mercury; in-laws prosper after marriage.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  10
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  1
+                ]
+              }
+            }
+          ],
+          "effect": "Full income from royal sources; coffers of relatives fill.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "mars"
+                ],
+                "houses": [
+                  2
+                ]
+              }
+            }
+          ],
+          "effect": "Rahu gets the support of Sun and Mars; gain from the birth of a son or years 12, 24, 48.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Rahu alone or with Moon: Saturn and Ketu give their own results and do no harm.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Inanimate Moon items (silver, rice, milk, pearl) cause loss between ages 24 and 48; maternal uncle ruined by 24; Rahu and Ketu help from 45.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  10
+                ]
+              }
+            }
+          ],
+          "effect": "All planets suffer until 24, then a rain of wealth recovers losses.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Replace a damaged roof so old and new parts are mixed, or change roof and walls.",
+          "delivery": null,
+          "action": "repair",
+          "item": null,
+          "venue": "home roof",
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 592,
+        "pdf_page": 598,
+        "section": "Rahu in house 4",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "rahu_h5",
+      "planet": "rahu",
+      "house": 5,
+      "status": "done",
+      "theme": "Mischievous, damages children but exalts the Sun; children and mother key.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Strong for religion, respect, wisdom, income and health; royal favour; male child likely; with mother alive a Fish Line of prosperity.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  5
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "sun"
+                ],
+                "houses": [
+                  1,
+                  5,
+                  11
+                ]
+              }
+            }
+          ],
+          "effect": "Rahu helps Moon and Sun; deeply religious with intuition.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "moon",
+                  "mars"
+                ],
+                "houses": [
+                  4,
+                  6
+                ]
+              }
+            }
+          ],
+          "effect": "Many children, long life, lucky brothers.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  5
+                ]
+              }
+            }
+          ],
+          "effect": "Malefic Saturn: first wife sees no offspring; delay in male child; first son at 21 and second at 42, after which father-in-law or father may die.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Ill health and medical expenses; children weak until 12; conflict between grandfather and child.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter"
+                ],
+                "houses": [
+                  5
+                ]
+              }
+            }
+          ],
+          "effect": "Jupiter with Rahu: child's health poor till 12; native and father unlucky.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Hold birthday celebrations for children at night.",
+          "delivery": null,
+          "action": "celebrate",
+          "item": null,
+          "venue": null,
+          "duration": "at night"
+        },
+        {
+          "text": "Place a silver piece in each of the four corners of the house before entering, or keep a small silver elephant or cow at home.",
+          "delivery": null,
+          "action": "keep",
+          "item": "silver pieces / small silver figure",
+          "venue": "home corners",
+          "duration": null
+        },
+        {
+          "text": "Avoid Saturn's misdeeds (liquor, womanising, meat).",
+          "delivery": null,
+          "action": "conduct",
+          "item": null,
+          "venue": null,
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 594,
+        "pdf_page": 600,
+        "section": "Rahu in house 5",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Omitted: remedies involving animal parts, keeping or sacrificing animals, lead items, or arranging a second marriage."
+    },
+    {
+      "id": "rahu_h6",
+      "planet": "rahu",
+      "house": 6,
+      "status": "done",
+      "theme": "A helpful elephant: saves one from hanging; fearless and fiery.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Comfortable life, good clothes, proud and intelligent, victorious over enemies, many promotions but few transfers; acts like Saturn in house 12; can free people from punishment.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Rahu becomes fiery.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury",
+                  "ketu"
+                ],
+                "houses": [
+                  6
+                ]
+              }
+            }
+          ],
+          "effect": "Persistent undiagnosed diseases and recurring financial loss.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun"
+                ],
+                "houses": [
+                  2
+                ]
+              }
+            },
+            {
+              "in": {
+                "planets": [
+                  "mercury"
+                ],
+                "houses": [
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Disrespect, irreligion, in-laws with fluctuating luck, house 2 and 7 results bad.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Quarrelling with elder siblings brings bad luck; killing or harming brothers damages progeny.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Install black glass in the office or home.",
+          "delivery": null,
+          "action": "install",
+          "item": "black glass",
+          "venue": "home/office",
+          "duration": null
+        },
+        {
+          "text": "Keep a small round lead or black glass ball (use black glass only).",
+          "delivery": null,
+          "action": "keep",
+          "item": "black glass ball",
+          "venue": "home",
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 596,
+        "pdf_page": 602,
+        "section": "Rahu in house 6",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Omitted: remedies involving animal parts, keeping or sacrificing animals, lead items, or arranging a second marriage."
+    },
+    {
+      "id": "rahu_h7",
+      "planet": "rahu",
+      "house": 7,
+      "status": "done",
+      "theme": "Destroyer of wealth: powerful but domestic life disturbed; marriage timing matters.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Wealthy, powerful, ranked, government and superiors help, enemies fall; but married life is disturbed and the wife or in-laws suffer.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury",
+                  "venus"
+                ],
+                "houses": [
+                  2,
+                  11
+                ]
+              }
+            }
+          ],
+          "effect": "Fish Line of prosperity.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Marriage at 21 or earlier is very unlucky: divorce, separation or widowhood; the couple may be ill-famed; marry after 21.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Working in Rahu's professions (electricity, jails, police) leaves fortunes uncertain.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mercury",
+                  "saturn",
+                  "ketu"
+                ],
+                "houses": [
+                  11
+                ]
+              }
+            }
+          ],
+          "effect": "The traits of that planet become a source of ruin.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn",
+                  "mars"
+                ],
+                "houses": [
+                  5
+                ]
+              }
+            }
+          ],
+          "effect": "Second son is born in the 42nd year.",
+          "tone": "neutral",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Bride's parents gift a solid piece of silver at marriage; she keeps it and does not sell it.",
+          "delivery": null,
+          "action": "gift",
+          "item": "solid silver piece",
+          "venue": "at marriage",
+          "duration": null
+        },
+        {
+          "text": "Keep a sealed pot of water with a silver piece in the house; refill and reseal if water dries.",
+          "delivery": null,
+          "action": "keep",
+          "item": "pot of water with silver piece",
+          "venue": "home",
+          "duration": null
+        },
+        {
+          "text": "If married before 21, keep a round silver pot with river water and silver; donate one similar piece at a temple.",
+          "delivery": null,
+          "action": "keep/donate",
+          "item": "silver pot with river water",
+          "venue": "home / temple",
+          "duration": null
+        },
+        {
+          "text": "Throw a coconut into running water.",
+          "delivery": null,
+          "action": "float",
+          "item": "coconut",
+          "venue": "running water",
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 597,
+        "pdf_page": 603,
+        "section": "Rahu in house 7",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Book says keeping a dog in this case causes ruin; omitted."
+    },
+    {
+      "id": "rahu_h8",
+      "planet": "rahu",
+      "house": 8,
+      "status": "done",
+      "theme": "Trumpet of departure: ups and downs, depends on Mars and Saturn; keep silver.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Changeable luck; outwardly innocent, bad deeds; dishonest wealth backfires; Rahu acts like Rahu in 2.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Benefic Rahu; losses made up.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars",
+                  "saturn"
+                ],
+                "houses": [
+                  1,
+                  8
+                ]
+              }
+            }
+          ],
+          "effect": "Luck in the 28th year; losses recovered.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars",
+                  "mercury"
+                ],
+                "houses": [
+                  8
+                ]
+              }
+            }
+          ],
+          "effect": "Unlucky period at 21 if the native enters enemy professions (marriage, electric department, forest service) or cheats.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  2,
+                  3
+                ]
+              }
+            }
+          ],
+          "effect": "Uncle suffers loss of wealth and children from 9 to 11.",
+          "tone": "malefic",
+          "needs_review": true
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  6
+                ]
+              }
+            }
+          ],
+          "effect": "Saturn in 6 with Rahu in 8 is very malefic, indicating legal punishment.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Changing the house roots or entrance brings litigation and quarrels.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Carry a rectangular silver piece for 40 to 43 days.",
+          "delivery": null,
+          "action": "carry",
+          "item": "rectangular silver piece",
+          "venue": null,
+          "duration": "40-43 days"
+        },
+        {
+          "text": "Take almonds to a temple daily, bring half back, continue until next birthday, starting in the 8th month after birthday.",
+          "delivery": null,
+          "action": "offer",
+          "item": "almonds",
+          "venue": "temple",
+          "duration": "until next birthday"
+        },
+        {
+          "text": "Put copper coins into a furnace.",
+          "delivery": null,
+          "action": "burn",
+          "item": "copper coins",
+          "venue": "furnace",
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 599,
+        "pdf_page": 605,
+        "section": "Rahu in house 8",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Omitted: remedies involving animal parts, keeping or sacrificing animals, lead items, or arranging a second marriage."
+    },
+    {
+      "id": "rahu_h9",
+      "planet": "rahu",
+      "house": 9,
+      "status": "done",
+      "theme": "A doctor of mental diseases, but dishonest: harms children and religion.",
+      "conditions": [
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "jupiter"
+                ],
+                "houses": [
+                  5,
+                  11
+                ]
+              }
+            }
+          ],
+          "effect": "A renowned doctor of mental diseases; greed spoils the gift.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Unneeded expenses on sadhus; male child lost or aborted; father, in-laws and grandfather unlucky; Moon obliterated; houses 5 and 11 hurt.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Fights and litigation with kin lead to childlessness; planets of house 4 entering house 1 at 6, 16, 28, 40, 52, 64, 76, 88, 100, 114 bring malefic Rahu effects.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "empty": [
+                1
+              ]
+            }
+          ],
+          "effect": "Disease, disrespect, worries from elders.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  5
+                ]
+              }
+            }
+          ],
+          "effect": "Malefic combination for progeny.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Do the Ketu remedy; live in a joint family; keep good relations with in-laws.",
+          "delivery": null,
+          "action": "conduct",
+          "item": null,
+          "venue": null,
+          "duration": null
+        },
+        {
+          "text": "Propitiate Jupiter and pacify a malefic Mars.",
+          "delivery": null,
+          "action": "remedy of Jupiter/Mars",
+          "item": null,
+          "venue": null,
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 601,
+        "pdf_page": 607,
+        "section": "Rahu in house 9",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Omitted: remedies involving animal parts, keeping or sacrificing animals, lead items, or arranging a second marriage. Book says a dog must be kept; omitted."
+    },
+    {
+      "id": "rahu_h10",
+      "planet": "rahu",
+      "house": 10,
+      "status": "done",
+      "theme": "Jewel of the snake: both harmful and helpful; Saturn and Mars decide.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Wealthy, respected, kind, benefic to father though still doubtful; bold, good businessman, long life.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  10
+                ]
+              }
+            }
+          ],
+          "effect": "Benefic Saturn makes Rahu doubly benefic for wealth and power.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  10
+                ]
+              }
+            }
+          ],
+          "effect": "Benefic Mars makes Rahu ineffective.",
+          "tone": "neutral",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Malefic Saturn: poor health for native and mother, loss of eyesight and longevity, ancestral property destroyed.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "venus",
+                  "mars"
+                ],
+                "houses": [
+                  10
+                ]
+              }
+            }
+          ],
+          "effect": "The blind chart: fear of enemies, self-destruction.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "moon"
+                ],
+                "houses": [
+                  4
+                ]
+              }
+            }
+          ],
+          "effect": "Eye problems and loss of wealth.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "alone": true
+            }
+          ],
+          "effect": "Alone, without Mars, wealth is lost if the native goes bareheaded.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Cover the head when going out.",
+          "delivery": null,
+          "action": "habit",
+          "item": null,
+          "venue": null,
+          "duration": null
+        },
+        {
+          "text": "Use the remedy of Mars (Mars items) when the Moon is in 4.",
+          "delivery": null,
+          "action": "remedy of Mars",
+          "item": null,
+          "venue": null,
+          "duration": null
+        },
+        {
+          "text": "Keep doors broad and large.",
+          "delivery": null,
+          "action": "housekeeping",
+          "item": null,
+          "venue": null,
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 602,
+        "pdf_page": 608,
+        "section": "Rahu in house 10",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "id": "rahu_h11",
+      "planet": "rahu",
+      "house": 11,
+      "status": "done",
+      "theme": "Plague that destroys other planets and the father; self-made wealth.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Father's life is short; the native does not rely on parents; Rahu bad for Jupiter, Ketu and Saturn; life fine until 16 or while father lives.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  3,
+                  5
+                ]
+              }
+            }
+          ],
+          "effect": "Makes a yogi; Rahu not malefic for the father.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn",
+                  "ketu"
+                ],
+                "houses": [
+                  1,
+                  3
+                ]
+              }
+            }
+          ],
+          "effect": "Lucky, self-made rich person.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Birth may bring loss of wealth, fire, fines, disease and strained relations to the father; loss at 11 months, 11 or 21 years.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "No gain from wealth of father, father-in-law or maternal grandfather.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "ketu"
+                ],
+                "houses": [
+                  5
+                ]
+              }
+            }
+          ],
+          "effect": "Loss of three male children, troubles in ears, legs, spine, urinary and joints; maternal uncle's family suffers.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  3
+                ]
+              }
+            }
+          ],
+          "effect": "Elder brother of father may become lame or childless.",
+          "tone": "malefic",
+          "needs_review": true
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Pray in a temple and donate; avoid blue.",
+          "delivery": null,
+          "action": "donate",
+          "item": null,
+          "venue": "temple",
+          "duration": null
+        },
+        {
+          "text": "Wear gold; do not wear Rahu items such as blue sapphire.",
+          "delivery": null,
+          "action": "wear",
+          "item": "gold",
+          "venue": null,
+          "duration": null
+        },
+        {
+          "text": "Donate to a sweeper (not employed at your home); throw 4 coconuts and 4 kg of items in water.",
+          "delivery": null,
+          "action": "donate/float",
+          "item": "coconuts, grain",
+          "venue": "running water",
+          "duration": null
+        },
+        {
+          "text": "Drink water from a silver utensil; avoid a chimney or smoky fire in the kitchen.",
+          "delivery": null,
+          "action": "habit",
+          "item": "silver utensil",
+          "venue": "home",
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 603,
+        "pdf_page": 609,
+        "section": "Rahu in house 11",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Lead item omitted; iron ring used instead of gold if Jupiter conjoins Rahu in 11 (book)."
+    },
+    {
+      "id": "rahu_h12",
+      "planet": "rahu",
+      "house": 12,
+      "status": "done",
+      "theme": "Loose talker making tall claims: results follow Mercury; huge expenses on good things.",
+      "conditions": [
+        {
+          "when": null,
+          "effect": "Results of Rahu mirror Mercury in the chart; benefits for houses and walls; auspicious family expenses; comfortable nights, rich in-laws, protection from enemies.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "mars"
+                ],
+                "houses": [
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Excellent comforts and royal favours.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "saturn"
+                ],
+                "houses": [
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Benefic Saturn: recognition and royal favour.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "venus"
+                ],
+                "houses": [
+                  10,
+                  11
+                ]
+              }
+            }
+          ],
+          "effect": "More daughters and wealth; Mercury decides daughters, Jupiter decides wealth.",
+          "tone": "benefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Inverse sneeze at the start of work marks bad results; conflict, litigation, theft, defalcation, heavy family expenses.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": null,
+          "effect": "Hard work does not pay; discomfort at night, depression; unfulfilled wishes; false allegations.",
+          "tone": "malefic",
+          "needs_review": false
+        },
+        {
+          "when": [
+            {
+              "in": {
+                "planets": [
+                  "sun",
+                  "venus"
+                ],
+                "houses": [
+                  12
+                ]
+              }
+            }
+          ],
+          "effect": "Terrible losses with enemy planets.",
+          "tone": "malefic",
+          "needs_review": false
+        }
+      ],
+      "remedies": [
+        {
+          "text": "Place sugar and aniseed (Mars items) by the bedside.",
+          "delivery": null,
+          "action": "keep",
+          "item": "sugar, aniseed",
+          "venue": "bedside",
+          "duration": null
+        },
+        {
+          "text": "Eat meals in the kitchen.",
+          "delivery": null,
+          "action": "habit",
+          "item": null,
+          "venue": "kitchen",
+          "duration": null
+        },
+        {
+          "text": "Keep a silver elephant (about 60 g) at home.",
+          "delivery": null,
+          "action": "keep",
+          "item": "silver elephant, 60 g",
+          "venue": "home",
+          "duration": null
+        }
+      ],
+      "cite": {
+        "vol": "II",
+        "printed_page": 606,
+        "pdf_page": 612,
+        "section": "Rahu in house 12",
+        "ocr_confidence": "medium",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    }
+  ]
+}

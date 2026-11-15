@@ -1,0 +1,135 @@
+{
+  "description": "Fixed (pakka) houses of each planet. shared_houses are houses the book assigns to two planets.",
+  "rows": [
+    {
+      "planet": "sun",
+      "houses": [1],
+      "shared_houses": [],
+      "cite": {
+        "vol": "I",
+        "printed_page": 69,
+        "pdf_page": 88,
+        "section": "Fixed houses of planets (6a, 6b)",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "planet": "moon",
+      "houses": [4],
+      "shared_houses": [],
+      "cite": {
+        "vol": "I",
+        "printed_page": 69,
+        "pdf_page": 88,
+        "section": "Fixed houses of planets (6a, 6b)",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "planet": "mars",
+      "houses": [3, 8],
+      "shared_houses": [8],
+      "cite": {
+        "vol": "I",
+        "printed_page": 69,
+        "pdf_page": 88,
+        "section": "Fixed houses of planets (6a, 6b)",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "planet": "mercury",
+      "houses": [7],
+      "shared_houses": [7],
+      "cite": {
+        "vol": "I",
+        "printed_page": 69,
+        "pdf_page": 88,
+        "section": "Fixed houses of planets (6a, 6b)",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Book p.69(6a) lists H7 for Venus and Mercury together. The 3 and 6 seen elsewhere are Mercury's debt-placement houses (p.134) and the houses where Mercury gives its effect (p.124), not pakka ghar. In blank H6 the lord is Ketu or Mercury (p.115)."
+    },
+    {
+      "planet": "jupiter",
+      "houses": [2, 5, 9, 11],
+      "shared_houses": [],
+      "cite": {
+        "vol": "I",
+        "printed_page": 69,
+        "pdf_page": 88,
+        "section": "Fixed houses of planets (6a, 6b)",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Book p.69(6b) also seats Jupiter with Rahu in the sky house 12; the 6a list gives Jupiter 2, 5, 9, 11 only. H12 is not counted as Jupiter's own house here (expert question)."
+    },
+    {
+      "planet": "venus",
+      "houses": [7],
+      "shared_houses": [7],
+      "cite": {
+        "vol": "I",
+        "printed_page": 69,
+        "pdf_page": 88,
+        "section": "Fixed houses of planets (6a, 6b)",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "planet": "saturn",
+      "houses": [10, 8],
+      "shared_houses": [8],
+      "cite": {
+        "vol": "I",
+        "printed_page": 69,
+        "pdf_page": 88,
+        "section": "Fixed houses of planets (6a, 6b)",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false
+    },
+    {
+      "planet": "rahu",
+      "houses": [12],
+      "shared_houses": [12],
+      "cite": {
+        "vol": "I",
+        "printed_page": 69,
+        "pdf_page": 88,
+        "section": "Fixed houses of planets (6a, 6b)",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Rahu has no separate house of its own; it sits with Jupiter in H12 (p.69b)."
+    },
+    {
+      "planet": "ketu",
+      "houses": [6],
+      "shared_houses": [6],
+      "cite": {
+        "vol": "I",
+        "printed_page": 69,
+        "pdf_page": 88,
+        "section": "Fixed houses of planets (6a, 6b)",
+        "ocr_confidence": "high",
+        "verified_from_image": true
+      },
+      "needs_review": false,
+      "note": "Ketu has no separate house of its own; it sits with Mercury in H6 (p.69b)."
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+name: Deploy (Azure)
+
+# Manual only. Authenticates with OIDC federated credentials (no stored Azure
+# secret). One-time setup is in docs/deploy.md.
+#
+# Required GitHub *environment* (staging / prod) variables:
+#   AZURE_CLIENT_ID, AZURE_TENANT_ID, AZURE_SUBSCRIPTION_ID
+# Required GitHub *environment* secrets:
+#   PG_ADMIN_PASSWORD   Postgres owner password (migrations only)
+#   PG_APP_PASSWORD     password for the RLS-bound ankana_app role
+# Required GitHub *environment* variable for production: MAIL_FROM_ADDRESS (an Azure
+#   Communication Services verified sender, e.g. no-reply@your.domain)
+# Optional variables: WEB_CUSTOM_DOMAIN, API_CUSTOM_DOMAIN (full https origins; use both,
+#   under one registrable domain, so the SameSite=Lax refresh cookie is sent)
+#
+# Order: infra -> bootstrap Key Vault secrets (create-if-absent) -> images -> stage 2a
+# (jobs) -> PREFLIGHT job (fails with the full list of missing env) -> migrations ->
+# stage 2b (api, worker, web). Nothing receives traffic until preflight passed.
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: Target environment
+        type: choice
+        options: [staging, prod]
+        default: staging
+      run_migrations:
+        description: Run alembic migrations (owner role) before rolling out apps
+        type: boolean
+        default: true
+
+permissions:
+  id-token: write
+  contents: read
+
+concurrency:
+  group: deploy-${{ inputs.environment }}
+  cancel-in-progress: false
+
+env:
+  LOCATION: centralindia
+  SOURCE_URL: https://github.com/mrigankad/Ankana
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: ${{ inputs.environment }}
+    timeout-minutes: 60
+    env:
+      ENVIRONMENT: ${{ inputs.environment }}
+      GIT_SHA: ${{ github.sha }}
+      PG_ADMIN_PASSWORD: ${{ secrets.PG_ADMIN_PASSWORD }}
+      PG_APP_PASSWORD: ${{ secrets.PG_APP_PASSWORD }}
+      MAIL_FROM_ADDRESS: ${{ vars.MAIL_FROM_ADDRESS }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: azure/login@v2
+        with:
+          client-id: ${{ vars.AZURE_CLIENT_ID }}
+          tenant-id: ${{ vars.AZURE_TENANT_ID }}
+          subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
+
+      - name: Validate Bicep
+        run: az bicep build --file infra/azure/main.bicep --stdout > /dev/null
+
+      # Pass 1: infrastructure only (ACR, Key Vault, network, data). Idempotent.
+      - name: Deploy infrastructure
+        id: infra
+        run: |
+          az deployment sub create --name "ankana-${ENVIRONMENT}-infra-${GITHUB_RUN_ID}" \
+            --location "$LOCATION" \
+            --template-file infra/azure/main.bicep \
+            --parameters infra/azure/parameters/${ENVIRONMENT}.bicepparam \
+            --parameters deployApps=false gitSha="$GIT_SHA" sourceUrl="$SOURCE_URL" \
+            --query properties.outputs -o json > infra-outputs.json
+          echo "acr=$(jq -r .acrName.value infra-outputs.json)" >> "$GITHUB_OUTPUT"
+          echo "login=$(jq -r .acrLoginServer.value infra-outputs.json)" >> "$GITHUB_OUTPUT"
+          echo "rg=$(jq -r .resourceGroup.value infra-outputs.json)" >> "$GITHUB_OUTPUT"
+          echo "kv=$(jq -r .keyVaultName.value infra-outputs.json)" >> "$GITHUB_OUTPUT"
+
+      # Generates the signing key, encryption keys and link secret ONCE and seeds
+      # placeholders for the secrets you enter by hand. Never overwrites an existing value.
+      - name: Bootstrap Key Vault secrets
+        run: bash infra/azure/scripts/bootstrap-secrets.sh "${{ steps.infra.outputs.rg }}" "${{ steps.infra.outputs.kv }}"
+
+      # Images are built in ACR (az acr build), so the runner needs no Docker daemon
+      # and no registry password. The API image fetches the Swiss Ephemeris data files
+      # at build time (scripts/fetch_ephe.py); the build fails if they are missing.
+      - name: Build API image
+        run: |
+          az acr build -r "${{ steps.infra.outputs.acr }}" \
+            -t "ankana-api:${GIT_SHA}" \
+            --build-arg GIT_SHA="$GIT_SHA" --build-arg SOURCE_URL="$SOURCE_URL" \
+            -f infra/docker/api.Dockerfile .
+
+      # The api host name is deterministic (app name + environment default domain), so the
+      # web image can be built with the right API URL on the very first run.
+      - name: Work out the public API URL for the web build
+        id: apiurl
+        run: |
+          if [ -n "${{ vars.API_CUSTOM_DOMAIN }}" ]; then
+            url="${{ vars.API_CUSTOM_DOMAIN }}"
+          else
+            domain=$(az containerapp env show -g "${{ steps.infra.outputs.rg }}" -n "cae-ankana-${ENVIRONMENT}-cin" --query properties.defaultDomain -o tsv)
+            url="https://ca-ankana-${ENVIRONMENT}-cin-api.${domain}"
+          fi
+          echo "url=${url}" >> "$GITHUB_OUTPUT"
+
+      - name: Build web image
+        run: |
+          az acr build -r "${{ steps.infra.outputs.acr }}" \
+            -t "ankana-web:${GIT_SHA}" \
+            --build-arg NEXT_PUBLIC_API_BASE_URL="${{ steps.apiurl.outputs.url }}" \
+            --build-arg NEXT_PUBLIC_AUTH_MODE=builtin \
+            --build-arg NEXT_PUBLIC_GIT_SHA="$GIT_SHA" \
+            --build-arg NEXT_PUBLIC_SOURCE_URL="$SOURCE_URL" \
+            -f infra/docker/web.Dockerfile .
+
+      # Stage 2a: the migrate and preflight jobs plus the secret grants, pinned to the
+      # commit sha image. api, worker and web are NOT created or changed yet. Role
+      # assignments need a minute to propagate before Container Apps can read Key Vault,
+      # so retry once.
+      - name: Deploy jobs (stage 2a)
+        id: jobs
+        run: |
+          for attempt in 1 2 3; do
+            if az deployment sub create --name "ankana-${ENVIRONMENT}-jobs-${GITHUB_RUN_ID}-${attempt}" \
+              --location "$LOCATION" \
+              --template-file infra/azure/main.bicep \
+              --parameters infra/azure/parameters/${ENVIRONMENT}.bicepparam \
+              --parameters deployApps=true deployServices=false imageTag="$GIT_SHA" gitSha="$GIT_SHA" \
+              sourceUrl="$SOURCE_URL" webCustomDomain="${{ vars.WEB_CUSTOM_DOMAIN }}" \
+              apiCustomDomain="${{ vars.API_CUSTOM_DOMAIN }}" \
+              --query properties.outputs -o json > jobs-outputs.json; then break; fi
+            [ "$attempt" = 3 ] && { echo "stage 2a failed"; exit 1; }
+            echo "retrying in 90s (role assignment propagation)"; sleep 90
+          done
+          echo "migrate=$(jq -r .migrateJobName.value jobs-outputs.json)" >> "$GITHUB_OUTPUT"
+          echo "preflight=$(jq -r .preflightJobName.value jobs-outputs.json)" >> "$GITHUB_OUTPUT"
+
+      # Preflight: python -m app.preflight for the api and worker roles with the exact env
+      # and Key Vault secrets they will get. Prints EVERY missing or invalid variable
+      # (names only) and fails the release before anything is rolled out.
+      - name: Preflight (required production env)
+        run: bash infra/azure/scripts/run-job.sh "${{ steps.infra.outputs.rg }}" "${{ steps.jobs.outputs.preflight }}" 300
+
+      # Migrations run INSIDE the VNet (Postgres has no public endpoint) as a Container
+      # Apps job using the OWNER connection string. The apps only ever receive the
+      # ankana_app (RLS-bound) connection string.
+      - name: Run migrations (owner role)
+        if: ${{ inputs.run_migrations }}
+        run: bash infra/azure/scripts/run-job.sh "${{ steps.infra.outputs.rg }}" "${{ steps.jobs.outputs.migrate }}" 900
+
+      # Stage 2b: roll out api, worker and web. Each api revision must pass its readiness
+      # probe (GET /health/ready runs the same preflight) before Container Apps shifts
+      # traffic to it, so a bad revision leaves the previous one serving.
+      - name: Deploy apps (stage 2b)
+        id: apps
+        run: |
+          az deployment sub create --name "ankana-${ENVIRONMENT}-apps-${GITHUB_RUN_ID}" \
+            --location "$LOCATION" \
+            --template-file infra/azure/main.bicep \
+            --parameters infra/azure/parameters/${ENVIRONMENT}.bicepparam \
+            --parameters deployApps=true deployServices=true imageTag="$GIT_SHA" gitSha="$GIT_SHA" \
+            sourceUrl="$SOURCE_URL" webCustomDomain="${{ vars.WEB_CUSTOM_DOMAIN }}" \
+            apiCustomDomain="${{ vars.API_CUSTOM_DOMAIN }}" \
+            --query properties.outputs -o json > apps-outputs.json
+          echo "api=$(jq -r .apiUrl.value apps-outputs.json)" >> "$GITHUB_OUTPUT"
+          echo "web=$(jq -r .webUrl.value apps-outputs.json)" >> "$GITHUB_OUTPUT"
+
+      # Migrations run BEFORE the new api revision, while the old one still serves, so
+      # schema changes must be additive (expand/contract). Never ship a breaking
+      # migration in one step.
+      - name: Smoke test
+        run: |
+          for i in $(seq 1 20); do
+            if curl -fsS "${{ steps.apps.outputs.api }}/health"; then echo; break; fi
+            sleep 10
+          done
+          curl -fsS "${{ steps.apps.outputs.api }}/health"
+          echo
+          curl -fsS "${{ steps.apps.outputs.api }}/health/ready"
+          echo
+          echo "web:  ${{ steps.apps.outputs.web }}"
+          echo "api:  ${{ steps.apps.outputs.api }}"
